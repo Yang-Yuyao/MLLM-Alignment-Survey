@@ -1,0 +1,51 @@
+[
+  {
+    "table": "S1",
+    "slug": "architecture-comparison",
+    "rows": 7,
+    "citation_keys": [
+      "ao2022speecht5",
+      "bao2022vlmo",
+      "chen2022meaformer",
+      "dong2024modality",
+      "han2024onellm",
+      "li2023blip2",
+      "li2025tokenpacker",
+      "liang2024mixture",
+      "mahajan2025attention",
+      "wang2024llavasg",
+      "wang2025moiie",
+      "wang2025videotree",
+      "yao2024dense",
+      "zhan2024anygpt"
+    ]
+  },
+  {
+    "table": "S2",
+    "slug": "diagnostic-matrix",
+    "rows": 7,
+    "citation_keys": [
+      "dong2026mirage",
+      "huang2025deciphering",
+      "li2023evaluating",
+      "li2025vlrewardbench",
+      "rohrbach2018object",
+      "yasunaga2025multimodalrewardbench",
+      "zhang2025assessing"
+    ]
+  },
+  {
+    "table": "S3",
+    "slug": "related-survey-coverage",
+    "rows": 7,
+    "citation_keys": [
+      "caffagni2024revolution",
+      "fang2026alignmentsurvey",
+      "ho2026hallucinationunderstanding",
+      "li2024alignmentfusion",
+      "lu2025representationpotentials",
+      "shu2025alignmentexplainability",
+      "yu2025preferencesurvey"
+    ]
+  }
+]

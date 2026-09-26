@@ -1,0 +1,23 @@
+\begin{table*}[t]
+\centering
+\caption{Objective families for multimodal alignment, compared by supervision, penalized discrepancy, and remaining ambiguity. Gap labels indicate intended targets rather than established effects.}
+\label{tab:objective-comparison}
+\footnotesize
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{1.18}
+\rowcolors{2}{surveystripe}{white}
+\begin{tabularx}{\textwidth}{>{\raggedright\arraybackslash}p{0.14\textwidth}>{\raggedright\arraybackslash}p{0.20\textwidth}>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X>{\centering\arraybackslash}p{0.045\textwidth}}
+\toprule
+\rowcolor{surveyheader}
+\textbf{Objective family} & \textbf{Examples discussed} & \textbf{Supervision and learning signal} & \textbf{Limitation discussed} & \textbf{Gap} \\
+\midrule
+\textbf{Fine-grained contrastive} & GLoRIA~\cite{gloria}; GOAL (Choi et al.)~\cite{choi2025goal} & Region--word or object matches are contrasted with competing candidates. & Incorrect correspondences and false negatives corrupt local supervision. & M \\
+\textbf{Distributional and geometric} & A$^3$D$^2$~\cite{sun2025a3d2}; GRAM~\cite{cicchetti2024gram} & Transport matches distributions; Gramian volume constrains joint geometry. & Global agreement leaves instance correspondence unresolved. & M \\
+\textbf{Generative} & 4M~\cite{mizrahi20234m}; BLIP~\cite{li2022blip} & Masked targets or image-conditioned captions supervise generation. & Redundant context can predict targets without the intended evidence. & M \\
+\textbf{Constraint and routing regularization} & SPECTRA~\cite{Yu2023SpeechTextPF}; MoIIE~\cite{wang2025moiie} & Temporal constraints synchronize streams; router penalties balance utilization. & Synchronization and expert utilization require different checks; balance is auxiliary. & M \\
+\textbf{Instruction and preference} & LLaVA~\cite{liu2023llava}; VLM-RLAIF~\cite{ahn2024rlaif_v}; RLHF-V~\cite{yu2024rlhf} & Demonstrations specify responses; judgments compare candidate behavior or unsupported content. & Judge errors, narrow pair coverage, and textual shortcuts can survive preference gains. & M, I \\
+\textbf{Verifiable outcome rewards} & Visual-RFT~\cite{liu2025visualrft} & Task-specific verifiers score sampled outputs for group-relative policy updates. & Outcome correctness does not verify intermediate reasoning or unsupervised safety constraints. & M, I \\
+\bottomrule
+\end{tabularx}
+\par\smallskip\raggedright\footnotesize M: Modality Gap; I: Intent Gap. Joint labels depend on the supervised task and constraints, not the optimizer alone.
+\end{table*}

@@ -1,0 +1,26 @@
+\begin{table*}[t]
+\centering
+\caption{Related Surveys and the Positioning of This Review. The Comparison Distinguishes Organizing Perspectives and Overlapping Scope Rather Than Claiming Novelty From Coverage Alone.}
+\label{tab:survey-positioning}
+\footnotesize
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{1.16}
+\rowcolors{2}{surveystripe}{white}
+\begin{tabularx}{\textwidth}{>{\raggedright\arraybackslash}p{0.13\textwidth}>{\raggedright\arraybackslash}p{0.19\textwidth}>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X}
+\toprule
+\rowcolor{surveyheader}
+\textbf{Survey} & \textbf{Publication / reviewed version} & \textbf{Organizing perspective} & \textbf{Relation to this review} \\
+\midrule
+\textbf{Caffagni et al.}~\cite{caffagni2024revolution} & Findings ACL 2024 / proceedings & MLLM components, training, visual tasks, datasets, and benchmarks & Broad model survey; we foreground alignment interventions and distinguish evidence access from appropriate behavior. \\
+\textbf{Shu et al.}~\cite{shu2025alignmentexplainability} & Findings EMNLP 2025 / proceedings & Representation and behavior; misalignment causes and parameter-tuned or frozen remedies & Overlaps in failure-aware analysis; we separately compare architectural, objective, data, and training decisions. \\
+\textbf{Lu et al.}~\cite{lu2025representationpotentials} & EMNLP 2025 / proceedings & Representation similarity, transfer potential, and factors enabling alignment & Establishes representation-level context; we additionally examine preference learning, response behavior, and stage-wise retention. \\
+\textbf{Fang et al.}~\cite{fang2026alignmentsurvey} & Information Fusion 2026 / publisher PDF & Five technical pillars spanning implicit, encoder, fusion, behavioral, and inference-time alignment & Closest broad overlap, including synthetic data and evaluation; our emphasis is within-family comparisons and application-specific constraints. \\
+\textbf{Li and Tang}~\cite{li2024alignmentfusion} & IJCV 2026 / arXiv v2, 11 Oct. 2025 & Structural and methodological taxonomies of multimodal alignment and fusion & Covers general fusion mechanisms; we focus on their role in MLLM evidence use and subsequent behavioral adaptation. \\
+\textbf{Ho et al.}~\cite{ho2026hallucinationunderstanding} & ACM CSUR 2026 / publisher PDF & Hallucination definitions and causes across data, architecture, optimization, inference, and evaluation & Shares mechanistic diagnostics; our scope also includes preference, safety, and task-constraint alignment beyond hallucination. \\
+\textbf{Yu et al.}~\cite{yu2025preferencesurvey} & Preprint 2025 / arXiv v2, 23 Mar. 2025 & Multimodal preference algorithms, data construction, application scenarios, and evaluation & Direct overlap in post-training; we relate these choices to representation learning, interfaces, and retained grounding. \\
+\textbf{This survey} & Manuscript / current revision & Six intervention and assessment dimensions, interpreted through the Modality and Intent Gaps & Compares mechanisms, supervision assumptions, and unresolved failures within families; separates representation, task, and behavioral evidence. \\
+\bottomrule
+\end{tabularx}
+\par\smallskip
+{\raggedright\footnotesize\itshape Publication identifies the bibliographic record; reviewed version identifies the material compared. Overlapping themes are not exclusive contributions.\par}
+\end{table*}

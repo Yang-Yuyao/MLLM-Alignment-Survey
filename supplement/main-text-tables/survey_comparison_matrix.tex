@@ -1,0 +1,27 @@
+% B. Active comparison table; alternative A is commented out in introduction.tex.
+\begin{table*}[t]
+\centering
+\caption{Organizing dimensions of related surveys. Dedicated and distributed coverage are distinguished; the marks do not measure depth, quality, or exclusive novelty.}
+\label{tab:survey-positioning}
+\footnotesize
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.30}
+\rowcolors{2}{surveystripe}{white}
+\begin{tabularx}{\textwidth}{>{\raggedright\arraybackslash}p{0.125\textwidth}>{\raggedright\arraybackslash}p{0.20\textwidth}*{6}{>{\centering\arraybackslash}p{0.048\textwidth}}>{\raggedright\arraybackslash}X}
+\toprule
+\rowcolor{surveyheader}
+\textbf{Survey} & \textbf{Publication / reviewed version} & \textbf{Arch.} & \textbf{Obj.} & \textbf{Data} & \textbf{Train.} & \textbf{Eval.} & \textbf{Appl.} & \textbf{Primary perspective} \\
+\midrule
+\textbf{Caffagni et al.}~\cite{caffagni2024revolution} & Findings ACL 2024 / proceedings & \ding{51} & $\circ$ & \ding{51} & \ding{51} & \ding{51} & \ding{51} & Model components and visual capabilities \\
+\textbf{Shu et al.}~\cite{shu2025alignmentexplainability} & Findings EMNLP 2025 / proceedings & \ding{51} & \ding{51} & \ding{51} & \ding{51} & \ding{51} & \ding{55} & Misalignment causes and remedies \\
+\textbf{Lu et al.}~\cite{lu2025representationpotentials} & EMNLP 2025 / proceedings & $\circ$ & $\circ$ & $\circ$ & $\circ$ & \ding{51} & $\circ$ & Representation similarity and transfer \\
+\textbf{Fang et al.}~\cite{fang2026alignmentsurvey} & Information Fusion 2026 / publisher PDF & \ding{51} & \ding{51} & \ding{51} & \ding{51} & \ding{51} & \ding{55} & Technical pillars of alignment \\
+\textbf{Li and Tang}~\cite{li2024alignmentfusion} & IJCV 2026 / arXiv v2, 11 Oct. 2025 & \ding{51} & \ding{51} & \ding{51} & $\circ$ & $\circ$ & \ding{51} & Alignment and fusion mechanisms \\
+\textbf{Ho et al.}~\cite{ho2026hallucinationunderstanding} & ACM CSUR 2026 / publisher PDF & \ding{51} & \ding{51} & \ding{51} & \ding{51} & \ding{51} & \ding{55} & Hallucination causes across the lifecycle \\
+\textbf{Yu et al.}~\cite{yu2025preferencesurvey} & Preprint 2025 / arXiv v2, 23 Mar. 2025 & \ding{55} & \ding{51} & \ding{51} & \ding{51} & \ding{51} & \ding{51} & Preference learning and its applications \\
+\textbf{This survey} & Manuscript / current revision & \ding{51} & \ding{51} & \ding{51} & \ding{51} & \ding{51} & \ding{51} & Mechanism comparisons and limits of alignment evidence \\
+\bottomrule
+\end{tabularx}
+\par\smallskip
+{\raggedright\footnotesize\itshape \ding{51}: dedicated section, taxonomy, or comparative treatment, including appendices; $\circ$: partial or distributed discussion; \ding{55}: not an organizing dimension, rather than no mention. Arch.: architectures; Obj.: objectives; Data: supervision; Train.: training procedure; Eval.: metrics or protocols; Appl.: application groups. The independent supplement records coverage locations and version boundaries.\par}
+\end{table*}

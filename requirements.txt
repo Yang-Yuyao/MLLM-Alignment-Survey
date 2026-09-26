@@ -1,0 +1,5 @@
+bibtexparser>=1.4.3,<2
+reportlab>=4.0,<5
+pypdf>=5,<7
+pypdfium2>=4,<6
+Pillow>=10,<13

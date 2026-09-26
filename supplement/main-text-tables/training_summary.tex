@@ -1,0 +1,22 @@
+\begin{table*}[t]
+\centering
+\caption{Training and deployment interventions, compared by updated components, supervision, and validation requirements. Inference-time interventions are separated from parameter training.}
+\label{tab:lifecycle-taxonomy}
+\footnotesize
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{1.18}
+\rowcolors{2}{surveystripe}{white}
+\begin{tabularx}{\textwidth}{>{\raggedright\arraybackslash}p{0.15\textwidth}>{\raggedright\arraybackslash}p{0.22\textwidth}>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X}
+\toprule
+\rowcolor{surveyheader}
+\textbf{Stage or layer} & \textbf{Examples discussed} & \textbf{Key training or deployment choice} & \textbf{Validation priority} \\
+\midrule
+\textbf{Multimodal pretraining} & BLIP-2~\cite{li2023blip2}; MM1~\cite{mckinzie2024mm1}; Qwen2.5-VL~\cite{bai2025qwen25vl} & Select frozen versus updated components; coordinate caption, interleaved, and text-only mixtures. & Check local grounding, image dependence, and language retention before transition to SFT. \\
+\textbf{Instruction SFT} & LLaVA~\cite{liu2023llava}; InstructBLIP~\cite{dai2023instructblip} & Adapt the language policy and connector or an instruction-aware interface; balance tasks and grounded targets. & Report trainable modules and task ratios; test retained grounding rather than response quality alone. \\
+\textbf{Preference optimization} & VLM-RLAIF~\cite{ahn2024rlaif_v}; RLHF-V~\cite{yu2024rlhf}; MM-RLHF~\cite{pmlr-v267-zhang25cs} & Optimize learned rewards with PPO or direct response comparisons; critique scores may weight DPO rather than imply PPO. & Validate judges and pair coverage; control response style and test whether preference gains depend on images. \\
+\textbf{Verifiable reward tuning} & Visual-RFT~\cite{liu2025visualrft} & Sample candidate responses and update the policy using task-verifiable, group-relative rewards. & Audit verifier correctness, held-out tasks, sampling cost, and failures hidden by final-answer rewards. \\
+\textbf{Inference-time intervention} & VCD~\cite{leng2024vcd}; OPERA~\cite{huang2024opera}; Woodpecker~\cite{yin2024woodpecker} & Change decoding scores or verify and revise generated claims without the same parameter-update process. & Compare grounding and task utility at matched generation budgets; report extra model or verifier calls. \\
+\textbf{Cross-cutting safety} & VLGuard~\cite{zong2024vlguard}; MultiTrust~\cite{zhang2024multitrust} & Supply safety supervision and independently test released model behavior. & Recheck harmful outputs, benign utility, false refusals, and distribution shift. \\
+\bottomrule
+\end{tabularx}
+\end{table*}

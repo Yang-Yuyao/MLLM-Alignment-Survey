@@ -1,0 +1,2922 @@
+{
+  "checked_date": "2026-09-26",
+  "paper_count": 163,
+  "basis": "Paper author blocks and explicit equal-contribution statements; author order alone is not a co-first designation.",
+  "shared_institution_rule": "Show a distinct institution once when several co-first authors share it.",
+  "exceptions": {
+    "InternVL": "Internship marker is not an equal-first-author marker.",
+    "LF-VILA": "Internship marker is not an equal-first-author marker.",
+    "CoDet": "Equal-contribution marks on later authors do not include the unmarked first author.",
+    "SayPlan": "Corresponding-author marker on the first author is distinct from equal-contribution markers on later authors.",
+    "MoT": "Internship and later equal-contribution markers are not a common co-first designation.",
+    "LLaVA": "Liu and Li equal-contribution statement also checked against the official haotian-liu/LLaVA README.",
+    "SVLTA": "MIT and IBM represent the named joint MIT-IBM Watson AI Lab.",
+    "SafeVLA": "PKU and PsiBot represent the named joint lab; ZGC is an additional listed institution."
+  },
+  "permission_boundary": "Institutional attribution and a downloadable logo do not establish reuse permission. No permission has been obtained by this revision.",
+  "papers": [
+    {
+      "method": "MMV",
+      "citation_key": "Alayrac2020SelfSupervisedMV",
+      "paper_url": "https://proceedings.neurips.cc/paper_files/paper/2020/file/0060ef47b12160b9198302ebdb144dcf-Paper.pdf",
+      "institution_ids": [
+        "deepmind"
+      ],
+      "expanded_author_mapping": false,
+      "logos": [
+        {
+          "institution_id": "deepmind",
+          "source": "https://storage.googleapis.com/gdm-deepmind-com-prod-public/media/images/0xBk-c8kzB5UTrWs/nav__gdm-lockup__light.height-25.svg",
+          "permission_status": "not_cleared_for_publication"
+        }
+      ]
+    },
+    {
+      "method": "ToB",
+      "citation_key": "Wu2021TowersOB",
+      "paper_url": "https://openaccess.thecvf.com/content/ICCV2021/papers/Wu_Towers_of_Babel_Combining_Images_Language_and_3D_Geometry_for_ICCV_2021_paper.pdf",
+      "institution_ids": [
+        "tsinghua",
+        "cornell"
+      ],
+      "expanded_author_mapping": true,
+      "logos": [
+        {
+          "institution_id": "tsinghua",
+          "source": "https://commons.wikimedia.org/wiki/File:Tsinghua_University_Logo.svg",
+          "permission_status": "not_cleared_for_publication"
+        },
+        {
+          "institution_id": "cornell",
+          "source": "https://commons.wikimedia.org/wiki/File:Cornell_University_logo.svg",
+          "permission_status": "not_cleared_for_publication"
+        }
+      ]
+    },
+    {
+      "method": "AVSA",
+      "citation_key": "Morgado2020LearningRF",
+      "paper_url": "https://proceedings.neurips.cc/paper_files/paper/2020/file/328e5d4c166bb340b314d457a208dc83-Paper.pdf",
+      "institution_ids": [
+        "ucsd"
+      ],
+      "expanded_author_mapping": false,
+      "logos": [
+        {
+          "institution_id": "ucsd",
+          "source": "https://www.ucsd.edu/_resources/img/logo_UCSD.png",
+          "permission_status": "not_cleared_for_publication"
+        }
+      ]
+    },
+    {
+      "method": "Gat et al.",
+      "citation_key": "Gat2020RemovingBI",
+      "paper_url": "https://proceedings.neurips.cc/paper_files/paper/2020/file/20d749bc05f47d2bd3026ce457dcfd8e-Paper.pdf",
+      "institution_ids": [
+        "technion"
+      ],
+      "expanded_author_mapping": false,
+      "logos": [
+        {
+          "institution_id": "technion",
+          "source": "https://commons.wikimedia.org/wiki/File:Technion_logo.svg",
+          "permission_status": "not_cleared_for_publication"
+        }
+      ]
+    },
+    {
+      "method": "CLIP",
+      "citation_key": "radford2021learning",
+      "paper_url": "https://proceedings.mlr.press/v139/radford21a.html",
+      "institution_ids": [
+        "openai"
+      ],
+      "expanded_author_mapping": false,
+      "logos": [
+        {
+          "institution_id": "openai",
+          "source": "https://cdn.worldvectorlogo.com/logos/openai-2.svg",
+          "permission_status": "not_cleared_for_publication"
+        }
+      ]
+    },
+    {
+      "method": "TACo",
+      "citation_key": "Yang2021TACoTC",
+      "paper_url": "https://arxiv.org/abs/2108.09980",
+      "institution_ids": [
+        "microsoft"
+      ],
+      "expanded_author_mapping": false,
+      "logos": [
+        {
+          "institution_id": "microsoft",
+          "source": "https://learn.microsoft.com/en-us/entra/identity-platform/media/howto-add-branding-in-apps/ms-symbollockup_mssymbol_19.svg",
+          "permission_status": "not_cleared_for_publication"
+        }
+      ]
+    },
+    {
+      "method": "TupleInfoNCE",
+      "citation_key": "Liu2021ContrastiveMF",
+      "paper_url": "https://arxiv.org/abs/2107.02575",
+      "institution_ids": [
+        "tsinghua"
+      ],
+      "expanded_author_mapping": false,
+      "logos": [
+        {
+          "institution_id": "tsinghua",
+          "source": "https://commons.wikimedia.org/wiki/File:Tsinghua_University_Logo.svg",
+          "permission_status": "not_cleared_for_publication"
+        }
+      ]
+    },
+    {
+      "method": "ALBEF",
+      "citation_key": "li2021albef",
+      "paper_url": "https://proceedings.neurips.cc/paper/2021/hash/505259756244493872b7709a8a01b536-Abstract.html",
+      "institution_ids": [
+        "salesforce"
+      ],
+      "expanded_author_mapping": false,
+      "logos": [
+        {
+          "institution_id": "salesforce",
+          "source": "https://wp.sfdcdigital.com/en-us/wp-content/uploads/sites/4/2024/11/logo-salesforce.svg?w=1024",
+          "permission_status": "not_cleared_for_publication"
+        }
+      ]
+    },
+    {
+      "method": "Flickr30k Entities",
+      "citation_key": "Plummer2015Flickr30kEC",
+      "paper_url": "https://arxiv.org/pdf/1505.04870",
+      "institution_ids": [
+        "uiuc"
+      ],
+      "expanded_author_mapping": false,
+      "logos": [
+        {
+          "institution_id": "uiuc",
+          "source": "https://illinois.edu/",
+          "permission_status": "not_cleared_for_publication"
+        }
+      ]
+    },
+    {
+      "method": "Visual Genome",
+      "citation_key": "Krishna2016VisualGC",
+      "paper_url": "https://link.springer.com/content/pdf/10.1007/s11263-016-0981-7.pdf",
+      "institution_ids": [
+        "stanford"
+      ],
+      "expanded_author_mapping": false,
+      "logos": [
+        {
+          "institution_id": "stanford",
+          "source": "https://commons.wikimedia.org/wiki/File:Stanford_Cardinal_logo.svg",
+          "permission_status": "not_cleared_for_publication"
+        }
+      ]
+    },
+    {
+      "method": "HowTo100M",
+      "citation_key": "Miech2019HowTo100MLA",
+      "paper_url": "https://www.cs.toronto.edu/~makarand/papers/ICCV2019_HowTo100M.pdf",
+      "institution_ids": [
+        "ens",
+        "inria"
+      ],
+      "expanded_author_mapping": true,
+      "logos": [
+        {
+          "institution_id": "ens",
+          "source": "https://commons.wikimedia.org/wiki/File:Logo_%C3%89cole_normale_sup%C3%A9rieure_-_PSL_(ENS-PSL).svg",
+          "permission_status": "not_cleared_for_publication"
+        },
+        {
+          "institution_id": "inria",
+          "source": "https://www.inria.fr/en",
+          "permission_status": "not_cleared_for_publication"
+        }
+      ]
+    },
+    {
+      "method": "Localized Narratives",
+      "citation_key": "Pont-Tuset2019ConnectingVA",
+      "paper_url": "https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123500630.pdf",
+      "institution_ids": [
+        "google"
+      ],
+      "expanded_author_mapping": false,
+      "logos": [
+        {
+          "institution_id": "google",
+          "source": "https://deepmind.google/",
+          "permission_status": "not_cleared_for_publication"
+        }
+      ]
+    },
+    {
+      "method": "RxR",
+      "citation_key": "Ku2020RoomAcrossRoomMV",
+      "paper_url": "https://aclanthology.org/2020.emnlp-main.356.pdf",
+      "institution_ids": [
+        "google"
+      ],
+      "expanded_author_mapping": false,
+      "logos": [
+        {
+          "institution_id": "google",
+          "source": "https://deepmind.google/",
+          "permission_status": "not_cleared_for_publication"
+        }
+      ]
+    },
+    {
+      "method": "ALIGN",
+      "citation_key": "jia2021scaling",
+      "paper_url": "https://proceedings.mlr.press/v139/jia21b.html",
+      "institution_ids": [
+        "google"
+      ],
+      "expanded_author_mapping": false,
+      "logos": [
+        {
+          "institution_id": "google",
+          "source": "https://deepmind.google/",
+          "permission_status": "not_cleared_for_publication"
+        }
+      ]
+    },
+    {
+      "method": "ReferItGame",
+      "citation_key": "Kazemzadeh2014ReferItGameRT",
+      "paper_url": null,
+      "institution_ids": [
+        "unc"
+      ],
+      "expanded_author_mapping": false,
+      "logos": [
+        {
+          "institution_id": "unc",
+          "source": "https://www.unc.edu/wp-content/uploads/2025/11/University_Signature_White_Navy_rgb_h.svg",
+          "permission_status": "not_cleared_for_publication"
+        }
+      ]
+    },
+    {
+      "method": "RefCOCOg",
+      "citation_key": "Mao2015GenerationAC",
+      "paper_url": null,
+      "institution_ids": [
+        "ucla"
+      ],
+      "expanded_author_mapping": false,
+      "logos": [
+        {
+          "institution_id": "ucla",
+          "source": "https://www.ucla.edu/img/logo-ucla.svg",
+          "permission_status": "not_cleared_for_publication"
+        }
+      ]
+    },
+    {
+      "method": "AVTS",
+      "citation_key": "Korbar2018CooperativeLO",
+      "paper_url": null,
+      "institution_ids": [
+        "dartmouth"
+      ],
+      "expanded_author_mapping": false,
+      "logos": [
+        {
+          "institution_id": "dartmouth",
+          "source": "https://commons.wikimedia.org/wiki/File:Dartmouth_College_wordmark.svg",
+          "permission_status": "not_cleared_for_publication"
+        }
+      ]
+    },
+    {
+      "method": "MIL-NCE",
+      "citation_key": "Miech2019EndtoEndLO",
+      "paper_url": null,
+      "institution_ids": [
+        "ens",
+        "inria",
+        "deepmind"
+      ],
+      "expanded_author_mapping": true,
+      "logos": [
+        {
+          "institution_id": "ens",
+          "source": "https://commons.wikimedia.org/wiki/File:Logo_%C3%89cole_normale_sup%C3%A9rieure_-_PSL_(ENS-PSL).svg",
+          "permission_status": "not_cleared_for_publication"
+        },
+        {
+          "institution_id": "inria",
+          "source": "https://www.inria.fr/en",
+          "permission_status": "not_cleared_for_publication"
+        },
+        {
+          "institution_id": "deepmind",
+          "source": "https://storage.googleapis.com/gdm-deepmind-com-prod-public/media/images/0xBk-c8kzB5UTrWs/nav__gdm-lockup__light.height-25.svg",
+          "permission_status": "not_cleared_for_publication"
+        }
+      ]
+    },
+    {
+      "method": "Grounded Video Description",
+      "citation_key": "Zhou2018GroundedVD",
+      "paper_url": null,
+      "institution_ids": [
+        "meta"
+      ],
+      "expanded_author_mapping": false,
+      "logos": [
+        {
+          "institution_id": "meta",
+          "source": "https://static.xx.fbcdn.net/rsrc.php/yf/r/-7pQO6hUGK_.svg",
+          "permission_status": "not_cleared_for_publication"
+        }
+      ]
+    },
+    {
+      "method": "CoMMA",
+      "citation_key": "Tan2021LookAW",
+      "paper_url": null,
+      "institution_ids": [
+        "bu"
+      ],
+      "expanded_author_mapping": false,
+      "logos": [
+        {
+          "institution_id": "bu",
+          "source": "https://commons.wikimedia.org/wiki/File:Boston_University_wordmark.svg",
+          "permission_status": "not_cleared_for_publication"
+        }
+      ]
+    },
+    {
+      "method": "Landmark-RxR",
+      "citation_key": "He2021LandmarkRxRSV",
+      "paper_url": null,
+      "institution_ids": [
+        "cas"
+      ],
+      "expanded_author_mapping": false,
+      "logos": [
+        {
+          "institution_id": "cas",
+          "source": "https://commons.wikimedia.org/wiki/File:Seal_of_the_Chinese_Academy_of_Sciences.png",
+          "permission_status": "not_cleared_for_publication"
+        }
+      ]
+    },
+    {
+      "method": "SeLaVi",
+      "citation_key": "Asano2020LabellingUV",
+      "paper_url": "https://proceedings.neurips.cc/paper_files/paper/2020/file/31fefc0e570cb3860f2a6d4b38c6490d-Paper.pdf",
+      "institution_ids": [
+        "oxford",
+        "meta"
+      ],
+      "expanded_author_mapping": true,
+      "logos": [
+        {
+          "institution_id": "oxford",
+          "source": "https://makingthedifference.web.ox.ac.uk/sites/default/files/makingthedifference/images/media/oxford2.png",
+          "permission_status": "not_cleared_for_publication"
+        },
+        {
+          "institution_id": "meta",
+          "source": "https://static.xx.fbcdn.net/rsrc.php/yf/r/-7pQO6hUGK_.svg",
+          "permission_status": "not_cleared_for_publication"
+        }
+      ]
+    },
+    {
+      "method": "XDC",
+      "citation_key": "Alwassel2019SelfSupervisedLB",
+      "paper_url": "https://proceedings.neurips.cc/paper_files/paper/2020/file/6f2268bd1d3d3ebaabb04d6b5d099425-Paper.pdf",
+      "institution_ids": [
+        "kaust"
+      ],
+      "expanded_author_mapping": false,
+      "logos": [
+        {
+          "institution_id": "kaust",
+          "source": "https://www.kaust.edu.sa/ResourcePackages/KAUSTMain/assets/dist/images/kaust-logo.svg",
+          "permission_status": "not_cleared_for_publication"
+        }
+      ]
+    },
+    {
+      "method": "MERLOT",
+      "citation_key": "zellers2021merlot",
+      "paper_url": "https://proceedings.neurips.cc/paper_files/paper/2021/file/c6d4eb15f1e84a36eff58eca3627c82e-Paper.pdf",
+      "institution_ids": [
+        "uw",
+        "ai2"
+      ],
+      "expanded_author_mapping": true,
+      "logos": [
+        {
+          "institution_id": "uw",
+          "source": "https://cdn.uw.edu/wp-content/uploads/sites/230/2023/11/02134808/W-Logo_Purple_Hex.png",
+          "permission_status": "not_cleared_for_publication"
+        },
+        {
+          "institution_id": "ai2",
+          "source": "https://allenai.org/",
+          "permission_status": "not_cleared_for_publication"
+        }
+      ]
+    },
+    {
+      "method": "BLEU",
+      "citation_key": "papineni2002bleu",
+      "paper_url": "https://aclanthology.org/P02-1040.pdf",
+      "institution_ids": [
+        "ibm"
+      ],
+      "expanded_author_mapping": false,
+      "logos": [
+        {
+          "institution_id": "ibm",
+          "source": "https://cdn.worldvectorlogo.com/logos/ibm.svg",
+          "permission_status": "not_cleared_for_publication"
+        }
+      ]
+    },
+    {
+      "method": "METEOR",
+      "citation_key": "banerjee2005meteor",
+      "paper_url": "https://aclanthology.org/W05-0909.pdf",
+      "institution_ids": [
+        "cmu"
+      ],
+      "expanded_author_mapping": false,
+      "logos": [
+        {
+          "institution_id": "cmu",
+          "source": "https://commons.wikimedia.org/wiki/File:Carnegie_Mellon_University_wordmark.svg",
+          "permission_status": "not_cleared_for_publication"
+        }
+      ]
+    },
+    {
+      "method": "CIDEr",
+      "citation_key": "vedantam2015cider",
+      "paper_url": "https://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Vedantam_CIDEr_Consensus-Based_Image_2015_CVPR_paper.pdf",
+      "institution_ids": [
+        "vt"
+      ],
+      "expanded_author_mapping": false,
+      "logos": [
+        {
+          "institution_id": "vt",
+          "source": "https://www.assets.cms.vt.edu/images/whiteVTonTransparent.svg",
+          "permission_status": "not_cleared_for_publication"
+        }
+      ]
+    },
+    {
+      "method": "SPICE",
+      "citation_key": "anderson2016spice",
+      "paper_url": "https://link.springer.com/content/pdf/10.1007/978-3-319-46454-1_24",
+      "institution_ids": [
+        "anu"
+      ],
+      "expanded_author_mapping": false,
+      "logos": [
+        {
+          "institution_id": "anu",
+          "source": "https://en.wikipedia.org/wiki/File:Australian_National_University_(emblem).svg",
+          "permission_status": "not_cleared_for_publication"
+        }
+      ]
+    },
+    {
+      "method": "CHAIR",
+      "citation_key": "rohrbach2018object",
+      "paper_url": "https://aclanthology.org/D18-1437.pdf",
+      "institution_ids": [
+        "berkeley"
+      ],
+      "expanded_author_mapping": false,
+      "logos": [
+        {
+          "institution_id": "berkeley",
+          "source": "https://brand.berkeley.edu/wp-content/themes/gallantry/dist/imgs/logo-uc-berkeley.svg",
+          "permission_status": "not_cleared_for_publication"
+        }
+      ]
+    },
+    {
+      "method": "Action Genome",
+      "citation_key": "ji2020actiongenome",
+      "paper_url": "https://openaccess.thecvf.com/content_CVPR_2020/papers/Ji_Action_Genome_Actions_As_Compositions_of_Spatio-Temporal_Scene_Graphs_CVPR_2020_paper.pdf",
+      "institution_ids": [
+        "stanford"
+      ],
+      "expanded_author_mapping": false,
+      "logos": [
+        {
+          "institution_id": "stanford",
+          "source": "https://commons.wikimedia.org/wiki/File:Stanford_Cardinal_logo.svg",
+          "permission_status": "not_cleared_for_publication"
+        }
+      ]
+    },
+    {
+      "method": "CoMIR",
+      "citation_key": "pielawski2020comir",
+      "paper_url": "https://proceedings.neurips.cc/paper_files/paper/2020/file/d6428eecbe0f7dff83fc607c5044b2b9-Paper.pdf",
+      "institution_ids": [
+        "uppsala"
+      ],
+      "expanded_author_mapping": false,
+      "logos": [
+        {
+          "institution_id": "uppsala",
+          "source": "https://www.uu.se/images/18.17dda5f1791cdbd287d9b55/1622452923523/uu-logo-red.svg",
+          "permission_status": "not_cleared_for_publication"
+        }
+      ]
+    },
+    {
+      "method": "GLoRIA",
+      "citation_key": "gloria",
+      "paper_url": "https://openaccess.thecvf.com/content/ICCV2021/papers/Huang_GLoRIA_A_Multimodal_Global-Local_Representation_Learning_Framework_for_Label-Efficient_Medical_ICCV_2021_paper.pdf",
+      "institution_ids": [
+        "stanford"
+      ],
+      "expanded_author_mapping": false,
+      "logos": [
+        {
+          "institution_id": "stanford",
+          "source": "https://commons.wikimedia.org/wiki/File:Stanford_Cardinal_logo.svg",
+          "permission_status": "not_cleared_for_publication"
+        }
+      ]
+    },
+    {
+      "method": "VTASC",
+      "citation_key": "zhou2021visual",
+      "paper_url": "https://openaccess.thecvf.com/content/ICCV2021/papers/Zhou_Visual-Textual_Attentive_Semantic_Consistency_for_Medical_Report_Generation_ICCV_2021_paper.pdf",
+      "institution_ids": [
+        "seu"
+      ],
+      "expanded_author_mapping": false,
+      "logos": [
+        {
+          "institution_id": "seu",
+          "source": "https://www.urongda.com/logos/4132010286",
+          "permission_status": "not_cleared_for_publication"
+        }
+      ]
+    },
+    {
+      "method": "CMCM",
+      "citation_key": "liu2022cross",
+      "paper_url": "https://aclanthology.org/2022.acl-long.215.pdf",
+      "institution_ids": [
+        "mit"
+      ],
+      "expanded_author_mapping": false,
+      "logos": [
+        {
+          "institution_id": "mit",
+          "source": "https://www.mit.edu/",
+          "permission_status": "not_cleared_for_publication"
+        }
+      ]
+    },
+    {
+      "method": "Hypergraph Transformer",
+      "citation_key": "heo2022hypergraph",
+      "paper_url": "https://aclanthology.org/2022.acl-long.29.pdf",
+      "institution_ids": [
+        "snu"
+      ],
+      "expanded_author_mapping": false,
+      "logos": [
+        {
+          "institution_id": "snu",
+          "source": "https://commons.wikimedia.org/wiki/File:Seoul_national_university_logotype.svg",
+          "permission_status": "not_cleared_for_publication"
+        }
+      ]
+    },
+    {
+      "method": "SpeechT5",
+      "citation_key": "ao2022speecht5",
+      "paper_url": "https://arxiv.org/abs/2110.07205",
+      "institution_ids": [
+        "sustech",
+        "polyu",
+        "tongji",
+        "microsoft"
+      ],
+      "expanded_author_mapping": true,
+      "logos": [
+        {
+          "institution_id": "sustech",
+          "source": "https://www.urongda.com/logos/4144014325",
+          "permission_status": "not_cleared_for_publication"
+        },
+        {
+          "institution_id": "polyu",
+          "source": "https://af.polyu.edu.hk/icim2023/resouces/school2.png",
+          "permission_status": "not_cleared_for_publication"
+        },
+        {
+          "institution_id": "tongji",
+          "source": "https://www.tongji.edu.cn/",
+          "permission_status": "not_cleared_for_publication"
+        },
+        {
+          "institution_id": "microsoft",
+          "source": "https://learn.microsoft.com/en-us/entra/identity-platform/media/howto-add-branding-in-apps/ms-symbollockup_mssymbol_19.svg",
+          "permission_status": "not_cleared_for_publication"
+        }
+      ]
+    },
+    {
+      "method": "Flamingo",
+      "citation_key": "alayrac2022flamingo",
+      "paper_url": "https://proceedings.neurips.cc/paper_files/paper/2022/hash/960a172bc7fbf0177ccccbb411a7d800-Abstract-Conference.html",
+      "institution_ids": [
+        "deepmind"
+      ],
+      "expanded_author_mapping": false,
+      "logos": [
+        {
+          "institution_id": "deepmind",
+          "source": "https://storage.googleapis.com/gdm-deepmind-com-prod-public/media/images/0xBk-c8kzB5UTrWs/nav__gdm-lockup__light.height-25.svg",
+          "permission_status": "not_cleared_for_publication"
+        }
+      ]
+    },
+    {
+      "method": "VLMo",
+      "citation_key": "bao2022vlmo",
+      "paper_url": "https://proceedings.neurips.cc/paper_files/paper/2022/hash/d46662aa53e78a62afd980a29e0c37ed-Abstract-Conference.html",
+      "institution_ids": [
+        "hit"
+      ],
+      "expanded_author_mapping": false,
+      "logos": [
+        {
+          "institution_id": "hit",
+          "source": "https://en.hit.edu.cn/_upload/site/01/00/256/logo.png",
+          "permission_status": "not_cleared_for_publication"
+        }
+      ]
+    },
+    {
+      "method": "BLIP",
+      "citation_key": "li2022blip",
+      "paper_url": "https://proceedings.mlr.press/v162/li22n.html",
+      "institution_ids": [
+        "salesforce"
+      ],
+      "expanded_author_mapping": false,
+      "logos": [
+        {
+          "institution_id": "salesforce",
+          "source": "https://wp.sfdcdigital.com/en-us/wp-content/uploads/sites/4/2024/11/logo-salesforce.svg?w=1024",
+          "permission_status": "not_cleared_for_publication"
+        }
+      ]
+    },
+    {
+      "method": "InstructGPT",
+      "citation_key": "ouyang2022instructgpt",
+      "paper_url": "https://proceedings.neurips.cc/paper_files/paper/2022/file/b1efde53be364a73914f58805a001731-Paper-Conference.pdf",
+      "institution_ids": [
+        "openai"
+      ],
+      "expanded_author_mapping": false,
+      "logos": [
+        {
+          "institution_id": "openai",
+          "source": "https://cdn.worldvectorlogo.com/logos/openai-2.svg",
+          "permission_status": "not_cleared_for_publication"
+        }
+      ]
+    },
+    {
+      "method": "PyramidCLIP",
+      "citation_key": "Gao2022PyramidCLIPHF",
+      "paper_url": "https://doi.org/10.52202/068431-2606",
+      "institution_ids": [
+        "tencent",
+        "sjtu"
+      ],
+      "expanded_author_mapping": true,
+      "logos": [
+        {
+          "institution_id": "tencent",
+          "source": "https://commons.wikimedia.org/wiki/File:Tencent_logo_2017.svg",
+          "permission_status": "not_cleared_for_publication"
+        },
+        {
+          "institution_id": "sjtu",
+          "source": "https://raw.githubusercontent.com/weijianwen/SJTU-logo-banner/master/SJTU_LOGO/PNG/sjtulogored.png",
+          "permission_status": "not_cleared_for_publication"
+        }
+      ]
+    },
+    {
+      "method": "GLIP",
+      "citation_key": "Li2021GroundedLP",
+      "paper_url": "https://arxiv.org/abs/2112.03857",
+      "institution_ids": [
+        "ucla",
+        "microsoft",
+        "uw"
+      ],
+      "expanded_author_mapping": true,
+      "logos": [
+        {
+          "institution_id": "ucla",
+          "source": "https://www.ucla.edu/img/logo-ucla.svg",
+          "permission_status": "not_cleared_for_publication"
+        },
+        {
+          "institution_id": "microsoft",
+          "source": "https://learn.microsoft.com/en-us/entra/identity-platform/media/howto-add-branding-in-apps/ms-symbollockup_mssymbol_19.svg",
+          "permission_status": "not_cleared_for_publication"
+        },
+        {
+          "institution_id": "uw",
+          "source": "https://cdn.uw.edu/wp-content/uploads/sites/230/2023/11/02134808/W-Logo_Purple_Hex.png",
+          "permission_status": "not_cleared_for_publication"
+        }
+      ]
+    },
+    {
+      "method": "LF-VILA",
+      "citation_key": "Sun2022LongFormVP",
+      "paper_url": "https://www.proceedings.com/content/068/068431-2756open.pdf",
+      "institution_ids": [
+        "renmin"
+      ],
+      "expanded_author_mapping": false,
+      "logos": [
+        {
+          "institution_id": "renmin",
+          "source": "https://www.urongda.com/logos/4111010002",
+          "permission_status": "not_cleared_for_publication"
+        }
+      ]
+    },
+    {
+      "method": "CoCa",
+      "citation_key": "yu2022coca",
+      "paper_url": "https://arxiv.org/abs/2205.01917",
+      "institution_ids": [
+        "google"
+      ],
+      "expanded_author_mapping": false,
+      "logos": [
+        {
+          "institution_id": "google",
+          "source": "https://deepmind.google/",
+          "permission_status": "not_cleared_for_publication"
+        }
+      ]
+    },
+    {
+      "method": "VALSE",
+      "citation_key": "parcalabescu2022valse",
+      "paper_url": "https://arxiv.org/abs/2112.07566",
+      "institution_ids": [
+        "heidelberg"
+      ],
+      "expanded_author_mapping": false,
+      "logos": [
+        {
+          "institution_id": "heidelberg",
+          "source": "https://backend.uni-heidelberg.de/sites/default/files/site_logo/icon-symbol-uh-logo-black_1_0.svg",
+          "permission_status": "not_cleared_for_publication"
+        }
+      ]
+    },
+    {
+      "method": "Winoground",
+      "citation_key": "thrush2022winoground",
+      "paper_url": "https://openaccess.thecvf.com/content/CVPR2022/html/Thrush_Winoground_Probing_Vision_and_Language_Models_for_Visio-Linguistic_Compositionality_CVPR_2022_paper.html",
+      "institution_ids": [
+        "huggingface",
+        "meta"
+      ],
+      "expanded_author_mapping": true,
+      "logos": [
+        {
+          "institution_id": "huggingface",
+          "source": "https://huggingface.co/front/assets/huggingface_logo-noborder.svg",
+          "permission_status": "not_cleared_for_publication"
+        },
+        {
+          "institution_id": "meta",
+          "source": "https://static.xx.fbcdn.net/rsrc.php/yf/r/-7pQO6hUGK_.svg",
+          "permission_status": "not_cleared_for_publication"
+        }
+      ]
+    },
+    {
+      "method": "VLP-MABSA",
+      "citation_key": "Ling2022VisionLanguagePF",
+      "paper_url": "https://aclanthology.org/2022.acl-long.152.pdf",
+      "institution_ids": [
+        "njust"
+      ],
+      "expanded_author_mapping": false,
+      "logos": [
+        {
+          "institution_id": "njust",
+          "source": "https://www.3wen.com/userfiles/files/logo/3NANJINGNIVEI.jpg",
+          "permission_status": "not_cleared_for_publication"
+        }
+      ]
+    },
+    {
+      "method": "MGCA",
+      "citation_key": "mgca",
+      "paper_url": "https://proceedings.neurips.cc/paper_files/paper/2022/hash/d925bda407ada0df3190df323a212661-Abstract-Conference.html",
+      "institution_ids": [
+        "hku"
+      ],
+      "expanded_author_mapping": false,
+      "logos": [
+        {
+          "institution_id": "hku",
+          "source": "https://www.hku.hk/adobe/dynamicmedia/deliver/dm-aid--afc8d43c-587a-43f0-b93c-26f8bd397e0e/logo-hku.svg.webp?preferwebp=true&width=208",
+          "permission_status": "not_cleared_for_publication"
+        }
+      ]
+    },
+    {
+      "method": "FDT",
+      "citation_key": "chen2023revisiting",
+      "paper_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Chen_Revisiting_Multimodal_Representation_in_Contrastive_Learning_From_Patch_and_Token_CVPR_2023_paper.pdf",
+      "institution_ids": [
+        "rutgers"
+      ],
+      "expanded_author_mapping": false,
+      "logos": [
+        {
+          "institution_id": "rutgers",
+          "source": "https://www.rutgers.edu/",
+          "permission_status": "not_cleared_for_publication"
+        }
+      ]
+    },
+    {
+      "method": "BLIP-2",
+      "citation_key": "li2023blip2",
+      "paper_url": "https://proceedings.mlr.press/v202/li23q.html",
+      "institution_ids": [
+        "salesforce"
+      ],
+      "expanded_author_mapping": false,
+      "logos": [
+        {
+          "institution_id": "salesforce",
+          "source": "https://wp.sfdcdigital.com/en-us/wp-content/uploads/sites/4/2024/11/logo-salesforce.svg?w=1024",
+          "permission_status": "not_cleared_for_publication"
+        }
+      ]
+    },
+    {
+      "method": "CLIPTrans",
+      "citation_key": "gupta2023cliptrans",
+      "paper_url": "https://openaccess.thecvf.com/content/ICCV2023/papers/Gupta_CLIPTrans_Transferring_Visual_Knowledge_with_Pre-trained_Models_for_Multimodal_Machine_ICCV_2023_paper.pdf",
+      "institution_ids": [
+        "boston"
+      ],
+      "expanded_author_mapping": false,
+      "logos": [
+        {
+          "institution_id": "boston",
+          "source": "https://seeklogo.com/images/B/boston-college-logo-8D8277FEC1-seeklogo.com.png",
+          "permission_status": "not_cleared_for_publication"
+        }
+      ]
+    },
+    {
+      "method": "4M",
+      "citation_key": "mizrahi20234m",
+      "paper_url": "https://arxiv.org/abs/2312.06647",
+      "institution_ids": [
+        "epfl",
+        "apple"
+      ],
+      "expanded_author_mapping": true,
+      "logos": [
+        {
+          "institution_id": "epfl",
+          "source": "https://www.epfl.ch/wp-content/themes/wp-theme-2018/assets/svg/epfl-logo.svg",
+          "permission_status": "not_cleared_for_publication"
+        },
+        {
+          "institution_id": "apple",
+          "source": "https://cdn.simpleicons.org/apple",
+          "permission_status": "not_cleared_for_publication"
+        }
+      ]
+    },
+    {
+      "method": "LQAE",
+      "citation_key": "liu2023language",
+      "paper_url": "https://proceedings.neurips.cc/paper_files/paper/2023/file/0df1738319f8c6e15b58cb16ea3cfa57-Paper-Conference.pdf",
+      "institution_ids": [
+        "berkeley"
+      ],
+      "expanded_author_mapping": false,
+      "logos": [
+        {
+          "institution_id": "berkeley",
+          "source": "https://brand.berkeley.edu/wp-content/themes/gallantry/dist/imgs/logo-uc-berkeley.svg",
+          "permission_status": "not_cleared_for_publication"
+        }
+      ]
+    },
+    {
+      "method": "Uni-Code",
+      "citation_key": "xia2023achieving",
+      "paper_url": "https://proceedings.neurips.cc/paper_files/paper/2023/file/c89f09849eb5af489abb122394ff0f0b-Paper-Conference.pdf",
+      "institution_ids": [
+        "zju"
+      ],
+      "expanded_author_mapping": false,
+      "logos": [
+        {
+          "institution_id": "zju",
+          "source": "https://www.urongda.com/logos/4133010335",
+          "permission_status": "not_cleared_for_publication"
+        }
+      ]
+    },
+    {
+      "method": "MEAformer",
+      "citation_key": "chen2022meaformer",
+      "paper_url": "https://doi.org/10.1145/3581783.3611786",
+      "institution_ids": [
+        "zju"
+      ],
+      "expanded_author_mapping": false,
+      "logos": [
+        {
+          "institution_id": "zju",
+          "source": "https://www.urongda.com/logos/4133010335",
+          "permission_status": "not_cleared_for_publication"
+        }
+      ]
+    },
+    {
+      "method": "FormNetV2",
+      "citation_key": "lee2023formnetv2",
+      "paper_url": "https://aclanthology.org/2023.acl-long.501.pdf",
+      "institution_ids": [
+        "google"
+      ],
+      "expanded_author_mapping": false,
+      "logos": [
+        {
+          "institution_id": "google",
+          "source": "https://deepmind.google/",
+          "permission_status": "not_cleared_for_publication"
+        }
+      ]
+    },
+    {
+      "method": "SPECTRA",
+      "citation_key": "Yu2023SpeechTextPF",
+      "paper_url": "https://aclanthology.org/2023.acl-long.438.pdf",
+      "institution_ids": [
+        "siat",
+        "ucas",
+        "alibaba",
+        "ustc"
+      ],
+      "expanded_author_mapping": true,
+      "logos": [
+        {
+          "institution_id": "siat",
+          "source": "https://portal-oss.zhiye.com/101289/image/e9ec292b-9239-444b-8f1b-c72d0f13fe06.png",
+          "permission_status": "not_cleared_for_publication"
+        },
+        {
+          "institution_id": "ucas",
+          "source": "https://www.urongda.com/logos/4111014430",
+          "permission_status": "not_cleared_for_publication"
+        },
+        {
+          "institution_id": "alibaba",
+          "source": "https://cdn.worldvectorlogo.com/logos/alibaba.svg",
+          "permission_status": "not_cleared_for_publication"
+        },
+        {
+          "institution_id": "ustc",
+          "source": "https://sz.ustc.edu.cn/upload/202106/24/202106241717255413.zip",
+          "permission_status": "not_cleared_for_publication"
+        }
+      ]
+    },
+    {
+      "method": "SRCL",
+      "citation_key": "Jiang2023VisionLP",
+      "paper_url": "https://doi.org/10.18653/v1/2023.acl-long.819",
+      "institution_ids": [
+        "peking"
+      ],
+      "expanded_author_mapping": false,
+      "logos": [
+        {
+          "institution_id": "peking",
+          "source": "https://commons.wikimedia.org/wiki/File:Peking_University_seal.svg",
+          "permission_status": "not_cleared_for_publication"
+        }
+      ]
+    },
+    {
+      "method": "SigLIP",
+      "citation_key": "zhai2023siglip",
+      "paper_url": "https://doi.org/10.1109/iccv51070.2023.01100",
+      "institution_ids": [
+        "deepmind"
+      ],
+      "expanded_author_mapping": false,
+      "logos": [
+        {
+          "institution_id": "deepmind",
+          "source": "https://storage.googleapis.com/gdm-deepmind-com-prod-public/media/images/0xBk-c8kzB5UTrWs/nav__gdm-lockup__light.height-25.svg",
+          "permission_status": "not_cleared_for_publication"
+        }
+      ]
+    },
+    {
+      "method": "UCoFiA",
+      "citation_key": "wang2023ucofia",
+      "paper_url": "https://arxiv.org/abs/2309.10091",
+      "institution_ids": [
+        "unc"
+      ],
+      "expanded_author_mapping": false,
+      "logos": [
+        {
+          "institution_id": "unc",
+          "source": "https://www.unc.edu/wp-content/uploads/2025/11/University_Signature_White_Navy_rgb_h.svg",
+          "permission_status": "not_cleared_for_publication"
+        }
+      ]
+    },
+    {
+      "method": "DPO",
+      "citation_key": "rafailov2024dpo",
+      "paper_url": "https://proceedings.neurips.cc/paper_files/paper/2023/file/a85b405ed65c6477a4fe8302b5e06ce7-Paper-Conference.pdf",
+      "institution_ids": [
+        "stanford"
+      ],
+      "expanded_author_mapping": false,
+      "logos": [
+        {
+          "institution_id": "stanford",
+          "source": "https://commons.wikimedia.org/wiki/File:Stanford_Cardinal_logo.svg",
+          "permission_status": "not_cleared_for_publication"
+        }
+      ]
+    },
+    {
+      "method": "CoDet",
+      "citation_key": "Ma2023CoDetCG",
+      "paper_url": "https://www.proceedings.com/content/075/075280-3113open.pdf",
+      "institution_ids": [
+        "hku"
+      ],
+      "expanded_author_mapping": false,
+      "logos": [
+        {
+          "institution_id": "hku",
+          "source": "https://www.hku.hk/adobe/dynamicmedia/deliver/dm-aid--afc8d43c-587a-43f0-b93c-26f8bd397e0e/logo-hku.svg.webp?preferwebp=true&width=208",
+          "permission_status": "not_cleared_for_publication"
+        }
+      ]
+    },
+    {
+      "method": "DataComp",
+      "citation_key": "gadre2023datacomp",
+      "paper_url": "https://proceedings.neurips.cc/paper_files/paper/2023/hash/56332d41d55ad7ad8024aac625881be7-Abstract-Datasets_and_Benchmarks.html",
+      "institution_ids": [
+        "columbia",
+        "uw"
+      ],
+      "expanded_author_mapping": true,
+      "logos": [
+        {
+          "institution_id": "columbia",
+          "source": "https://www.cs.columbia.edu/wp-content/themes/columbia-cs/assets/img/cu-engineering-logo.png",
+          "permission_status": "not_cleared_for_publication"
+        },
+        {
+          "institution_id": "uw",
+          "source": "https://cdn.uw.edu/wp-content/uploads/sites/230/2023/11/02134808/W-Logo_Purple_Hex.png",
+          "permission_status": "not_cleared_for_publication"
+        }
+      ]
+    },
+    {
+      "method": "EVA-CLIP",
+      "citation_key": "sun2023eva_clip",
+      "paper_url": "https://arxiv.org/pdf/2303.15389",
+      "institution_ids": [
+        "baai"
+      ],
+      "expanded_author_mapping": false,
+      "logos": [
+        {
+          "institution_id": "baai",
+          "source": "https://2023-assets.baai.ac.cn/2026assets-ac/assets/images/baai-black.png",
+          "permission_status": "not_cleared_for_publication"
+        }
+      ]
+    },
+    {
+      "method": "PaLI",
+      "citation_key": "chen2022pali",
+      "paper_url": "https://arxiv.org/abs/2209.06794",
+      "institution_ids": [
+        "google"
+      ],
+      "expanded_author_mapping": false,
+      "logos": [
+        {
+          "institution_id": "google",
+          "source": "https://deepmind.google/",
+          "permission_status": "not_cleared_for_publication"
+        }
+      ]
+    },
+    {
+      "method": "InstructBLIP",
+      "citation_key": "dai2023instructblip",
+      "paper_url": "https://proceedings.neurips.cc/paper_files/paper/2023/hash/9a6a435e75419a836fe47ab6793623e6-Abstract-Conference.html",
+      "institution_ids": [
+        "salesforce",
+        "hkust"
+      ],
+      "expanded_author_mapping": true,
+      "logos": [
+        {
+          "institution_id": "salesforce",
+          "source": "https://wp.sfdcdigital.com/en-us/wp-content/uploads/sites/4/2024/11/logo-salesforce.svg?w=1024",
+          "permission_status": "not_cleared_for_publication"
+        },
+        {
+          "institution_id": "hkust",
+          "source": "https://hkust.edu.hk/",
+          "permission_status": "not_cleared_for_publication"
+        }
+      ]
+    },
+    {
+      "method": "LLaVA",
+      "citation_key": "liu2023llava",
+      "paper_url": "https://proceedings.neurips.cc/paper_files/paper/2023/hash/6dcf277ea32ce3288914faf369fe6de0-Abstract-Conference.html",
+      "institution_ids": [
+        "wisconsin",
+        "microsoft"
+      ],
+      "expanded_author_mapping": true,
+      "logos": [
+        {
+          "institution_id": "wisconsin",
+          "source": "https://brand.wisc.edu/content/uploads/2025/10/institutional-logo.png",
+          "permission_status": "not_cleared_for_publication"
+        },
+        {
+          "institution_id": "microsoft",
+          "source": "https://learn.microsoft.com/en-us/entra/identity-platform/media/howto-add-branding-in-apps/ms-symbollockup_mssymbol_19.svg",
+          "permission_status": "not_cleared_for_publication"
+        }
+      ]
+    },
+    {
+      "method": "ARO",
+      "citation_key": "yuksekgonul2022and",
+      "paper_url": "https://openreview.net/forum?id=KRLU9Cqqe7",
+      "institution_ids": [
+        "stanford"
+      ],
+      "expanded_author_mapping": false,
+      "logos": [
+        {
+          "institution_id": "stanford",
+          "source": "https://commons.wikimedia.org/wiki/File:Stanford_Cardinal_logo.svg",
+          "permission_status": "not_cleared_for_publication"
+        }
+      ]
+    },
+    {
+      "method": "VSR",
+      "citation_key": "liu2023visual",
+      "paper_url": "https://aclanthology.org/2023.tacl-1.37/",
+      "institution_ids": [
+        "University of Cambridge"
+      ],
+      "expanded_author_mapping": false,
+      "logos": [
+        {
+          "institution_id": "University of Cambridge",
+          "source": "https://www.cam.ac.uk/themes/custom/fresh/images/interface/cambridge_university2.svg",
+          "permission_status": "not_cleared_for_publication"
+        }
+      ]
+    },
+    {
+      "method": "POPE",
+      "citation_key": "li2023evaluating",
+      "paper_url": "https://aclanthology.org/2023.emnlp-main.20/",
+      "institution_ids": [
+        "renmin"
+      ],
+      "expanded_author_mapping": false,
+      "logos": [
+        {
+          "institution_id": "renmin",
+          "source": "https://www.urongda.com/logos/4111010002",
+          "permission_status": "not_cleared_for_publication"
+        }
+      ]
+    },
+    {
+      "method": "SeeTRUE",
+      "citation_key": "Yarom2023WhatYS",
+      "paper_url": "https://doi.org/10.52202/075280-0079",
+      "institution_ids": [
+        "google",
+        "huji"
+      ],
+      "expanded_author_mapping": true,
+      "logos": [
+        {
+          "institution_id": "google",
+          "source": "https://deepmind.google/",
+          "permission_status": "not_cleared_for_publication"
+        },
+        {
+          "institution_id": "huji",
+          "source": "https://commons.wikimedia.org/wiki/File:Hebrew_University_Logo.svg",
+          "permission_status": "not_cleared_for_publication"
+        }
+      ]
+    },
+    {
+      "method": "SugarCrepe",
+      "citation_key": "hsieh2023sugarcrepe",
+      "paper_url": "https://arxiv.org/abs/2306.14610",
+      "institution_ids": [
+        "uw"
+      ],
+      "expanded_author_mapping": false,
+      "logos": [
+        {
+          "institution_id": "uw",
+          "source": "https://cdn.uw.edu/wp-content/uploads/sites/230/2023/11/02134808/W-Logo_Purple_Hex.png",
+          "permission_status": "not_cleared_for_publication"
+        }
+      ]
+    },
+    {
+      "method": "FREEDOM",
+      "citation_key": "zhou2022freedom",
+      "paper_url": "https://doi.org/10.1145/3581783.3611943",
+      "institution_ids": [
+        "ntu"
+      ],
+      "expanded_author_mapping": false,
+      "logos": [
+        {
+          "institution_id": "ntu",
+          "source": "https://www.ntu.edu.sg/ResourcePackages/NTU/assets/images/NTU_Logo.png",
+          "permission_status": "not_cleared_for_publication"
+        }
+      ]
+    },
+    {
+      "method": "RT-2",
+      "citation_key": "zitkovich2023rt2",
+      "paper_url": "https://proceedings.mlr.press/v229/zitkovich23a.html",
+      "institution_ids": [
+        "deepmind"
+      ],
+      "expanded_author_mapping": false,
+      "logos": [
+        {
+          "institution_id": "deepmind",
+          "source": "https://storage.googleapis.com/gdm-deepmind-com-prod-public/media/images/0xBk-c8kzB5UTrWs/nav__gdm-lockup__light.height-25.svg",
+          "permission_status": "not_cleared_for_publication"
+        }
+      ]
+    },
+    {
+      "method": "SayPlan",
+      "citation_key": "rana2023sayplan",
+      "paper_url": "https://proceedings.mlr.press/v229/rana23a.html",
+      "institution_ids": [
+        "qut"
+      ],
+      "expanded_author_mapping": false,
+      "logos": [
+        {
+          "institution_id": "qut",
+          "source": "https://cie.ptit.edu.vn/uploads/default/files/QUT-Logo%20png.png",
+          "permission_status": "not_cleared_for_publication"
+        }
+      ]
+    },
+    {
+      "method": "VoxPoser",
+      "citation_key": "huang2023voxposer",
+      "paper_url": "https://arxiv.org/abs/2307.05973",
+      "institution_ids": [
+        "stanford"
+      ],
+      "expanded_author_mapping": false,
+      "logos": [
+        {
+          "institution_id": "stanford",
+          "source": "https://commons.wikimedia.org/wiki/File:Stanford_Cardinal_logo.svg",
+          "permission_status": "not_cleared_for_publication"
+        }
+      ]
+    },
+    {
+      "method": "MoleculeSTM",
+      "citation_key": "liu2022moleculestm",
+      "paper_url": "https://doi.org/10.1038/s42256-023-00759-6",
+      "institution_ids": [
+        "mila"
+      ],
+      "expanded_author_mapping": false,
+      "logos": [
+        {
+          "institution_id": "mila",
+          "source": "https://mila.quebec/sites/default/themes/mila_v1/logo.svg",
+          "permission_status": "not_cleared_for_publication"
+        }
+      ]
+    },
+    {
+      "method": "OneLLM",
+      "citation_key": "han2024onellm",
+      "paper_url": "https://openaccess.thecvf.com/content/CVPR2024/html/Han_OneLLM_One_Framework_to_Align_All_Modalities_with_Language_CVPR_2024_paper.html",
+      "institution_ids": [
+        "cuhk"
+      ],
+      "expanded_author_mapping": false,
+      "logos": [
+        {
+          "institution_id": "cuhk",
+          "source": "https://cdnlogo.com/logo/the-chinese-university-of-hong-kong_41636.html",
+          "permission_status": "not_cleared_for_publication"
+        }
+      ]
+    },
+    {
+      "method": "AnyGPT",
+      "citation_key": "zhan2024anygpt",
+      "paper_url": "https://arxiv.org/abs/2402.12226",
+      "institution_ids": [
+        "fudan",
+        "shanghai_ai"
+      ],
+      "expanded_author_mapping": true,
+      "logos": [
+        {
+          "institution_id": "fudan",
+          "source": "https://commons.wikimedia.org/wiki/File:Fudan_University_Logo.svg",
+          "permission_status": "not_cleared_for_publication"
+        },
+        {
+          "institution_id": "shanghai_ai",
+          "source": "http://www.shlab.org.cn/static/asset/img/share-logo.png",
+          "permission_status": "not_cleared_for_publication"
+        }
+      ]
+    },
+    {
+      "method": "LLaMA-VID",
+      "citation_key": "li2024llama",
+      "paper_url": "https://arxiv.org/abs/2311.17043",
+      "institution_ids": [
+        "cuhk"
+      ],
+      "expanded_author_mapping": false,
+      "logos": [
+        {
+          "institution_id": "cuhk",
+          "source": "https://cdnlogo.com/logo/the-chinese-university-of-hong-kong_41636.html",
+          "permission_status": "not_cleared_for_publication"
+        }
+      ]
+    },
+    {
+      "method": "LLaVA-UHD",
+      "citation_key": "guo2024llava",
+      "paper_url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/11080_ECCV_2024_paper.php",
+      "institution_ids": [
+        "ucas"
+      ],
+      "expanded_author_mapping": false,
+      "logos": [
+        {
+          "institution_id": "ucas",
+          "source": "https://www.urongda.com/logos/4111014430",
+          "permission_status": "not_cleared_for_publication"
+        }
+      ]
+    },
+    {
+      "method": "4M-21",
+      "citation_key": "bachmann24064m",
+      "paper_url": "https://arxiv.org/abs/2406.09406",
+      "institution_ids": [
+        "epfl",
+        "apple"
+      ],
+      "expanded_author_mapping": true,
+      "logos": [
+        {
+          "institution_id": "epfl",
+          "source": "https://www.epfl.ch/wp-content/themes/wp-theme-2018/assets/svg/epfl-logo.svg",
+          "permission_status": "not_cleared_for_publication"
+        },
+        {
+          "institution_id": "apple",
+          "source": "https://cdn.simpleicons.org/apple",
+          "permission_status": "not_cleared_for_publication"
+        }
+      ]
+    },
+    {
+      "method": "Dense Connector",
+      "citation_key": "yao2024dense",
+      "paper_url": "https://arxiv.org/abs/2405.13800",
+      "institution_ids": [
+        "tsinghua",
+        "baidu",
+        "sydney"
+      ],
+      "expanded_author_mapping": true,
+      "logos": [
+        {
+          "institution_id": "tsinghua",
+          "source": "https://commons.wikimedia.org/wiki/File:Tsinghua_University_Logo.svg",
+          "permission_status": "not_cleared_for_publication"
+        },
+        {
+          "institution_id": "baidu",
+          "source": "https://www.baidu.com/img/PCtm_d9c8750bed0b3c7d089fa7d55720d6cf.png",
+          "permission_status": "not_cleared_for_publication"
+        },
+        {
+          "institution_id": "sydney",
+          "source": "https://www.sydney.edu.au/",
+          "permission_status": "not_cleared_for_publication"
+        }
+      ]
+    },
+    {
+      "method": "POVID",
+      "citation_key": "Zhou2024AligningMI",
+      "paper_url": "https://arxiv.org/pdf/2402.11411",
+      "institution_ids": [
+        "unc"
+      ],
+      "expanded_author_mapping": false,
+      "logos": [
+        {
+          "institution_id": "unc",
+          "source": "https://www.unc.edu/wp-content/uploads/2025/11/University_Signature_White_Navy_rgb_h.svg",
+          "permission_status": "not_cleared_for_publication"
+        }
+      ]
+    },
+    {
+      "method": "VideoCon",
+      "citation_key": "Bansal2023VideoConRV",
+      "paper_url": "https://openaccess.thecvf.com/content/CVPR2024/html/Bansal_VideoCon_Robust_Video-Language_Alignment_via_Contrast_Captions_CVPR_2024_paper.html",
+      "institution_ids": [
+        "ucla"
+      ],
+      "expanded_author_mapping": false,
+      "logos": [
+        {
+          "institution_id": "ucla",
+          "source": "https://www.ucla.edu/img/logo-ucla.svg",
+          "permission_status": "not_cleared_for_publication"
+        }
+      ]
+    },
+    {
+      "method": "CLIP-DPO",
+      "citation_key": "Ouali2024CLIPDPOVM",
+      "paper_url": "https://doi.org/10.1007/978-3-031-73116-7_23",
+      "institution_ids": [
+        "samsung"
+      ],
+      "expanded_author_mapping": false,
+      "logos": [
+        {
+          "institution_id": "samsung",
+          "source": "https://commons.wikimedia.org/wiki/File:Samsung_wordmark.svg",
+          "permission_status": "not_cleared_for_publication"
+        }
+      ]
+    },
+    {
+      "method": "mDPO",
+      "citation_key": "wang2024mdpo",
+      "paper_url": "https://doi.org/10.18653/v1/2024.emnlp-main.460",
+      "institution_ids": [
+        "usc"
+      ],
+      "expanded_author_mapping": false,
+      "logos": [
+        {
+          "institution_id": "usc",
+          "source": "https://www.usc.edu/wp-content/themes/usc-communications-2023/favicon/safari-pinned-tab.svg",
+          "permission_status": "not_cleared_for_publication"
+        }
+      ]
+    },
+    {
+      "method": "DFN",
+      "citation_key": "Fang2023DataFN",
+      "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2024/file/9bf0810a4a1597a36d27ceea58667d92-Paper-Conference.pdf",
+      "institution_ids": [
+        "apple"
+      ],
+      "expanded_author_mapping": false,
+      "logos": [
+        {
+          "institution_id": "apple",
+          "source": "https://cdn.simpleicons.org/apple",
+          "permission_status": "not_cleared_for_publication"
+        }
+      ]
+    },
+    {
+      "method": "Kosmos-2",
+      "citation_key": "peng2023kosmos2",
+      "paper_url": "https://arxiv.org/abs/2306.14824",
+      "institution_ids": [
+        "ucas",
+        "microsoft"
+      ],
+      "expanded_author_mapping": true,
+      "logos": [
+        {
+          "institution_id": "ucas",
+          "source": "https://www.urongda.com/logos/4111014430",
+          "permission_status": "not_cleared_for_publication"
+        },
+        {
+          "institution_id": "microsoft",
+          "source": "https://learn.microsoft.com/en-us/entra/identity-platform/media/howto-add-branding-in-apps/ms-symbollockup_mssymbol_19.svg",
+          "permission_status": "not_cleared_for_publication"
+        }
+      ]
+    },
+    {
+      "method": "MetaCLIP",
+      "citation_key": "xu2023metaclip",
+      "paper_url": "https://arxiv.org/abs/2309.16671",
+      "institution_ids": [
+        "meta"
+      ],
+      "expanded_author_mapping": false,
+      "logos": [
+        {
+          "institution_id": "meta",
+          "source": "https://static.xx.fbcdn.net/rsrc.php/yf/r/-7pQO6hUGK_.svg",
+          "permission_status": "not_cleared_for_publication"
+        }
+      ]
+    },
+    {
+      "method": "ULIP-2",
+      "citation_key": "Xue2023ULIP2TS",
+      "paper_url": "https://arxiv.org/abs/2305.08275",
+      "institution_ids": [
+        "salesforce"
+      ],
+      "expanded_author_mapping": false,
+      "logos": [
+        {
+          "institution_id": "salesforce",
+          "source": "https://wp.sfdcdigital.com/en-us/wp-content/uploads/sites/4/2024/11/logo-salesforce.svg?w=1024",
+          "permission_status": "not_cleared_for_publication"
+        }
+      ]
+    },
+    {
+      "method": "VeCLIP",
+      "citation_key": "Lai2023VeCLIPIC",
+      "paper_url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/05836.pdf",
+      "institution_ids": [
+        "ucdavis",
+        "apple"
+      ],
+      "expanded_author_mapping": true,
+      "logos": [
+        {
+          "institution_id": "ucdavis",
+          "source": "https://cdn.freebiesupply.com/logos/large/2x/uc-davis-logo-png-transparent.png",
+          "permission_status": "not_cleared_for_publication"
+        },
+        {
+          "institution_id": "apple",
+          "source": "https://cdn.simpleicons.org/apple",
+          "permission_status": "not_cleared_for_publication"
+        }
+      ]
+    },
+    {
+      "method": "JEST",
+      "citation_key": "evans2024jest",
+      "paper_url": "https://doi.org/10.52202/079017-4485",
+      "institution_ids": [
+        "deepmind"
+      ],
+      "expanded_author_mapping": false,
+      "logos": [
+        {
+          "institution_id": "deepmind",
+          "source": "https://storage.googleapis.com/gdm-deepmind-com-prod-public/media/images/0xBk-c8kzB5UTrWs/nav__gdm-lockup__light.height-25.svg",
+          "permission_status": "not_cleared_for_publication"
+        }
+      ]
+    },
+    {
+      "method": "InternVL",
+      "citation_key": "chen2024internvl",
+      "paper_url": "https://arxiv.org/abs/2312.14238",
+      "institution_ids": [
+        "nanjing"
+      ],
+      "expanded_author_mapping": false,
+      "logos": [
+        {
+          "institution_id": "nanjing",
+          "source": "https://www.nju.edu.cn/images/footer_logo.svg",
+          "permission_status": "not_cleared_for_publication"
+        }
+      ]
+    },
+    {
+      "method": "RLHF-V",
+      "citation_key": "yu2024rlhf",
+      "paper_url": "https://openaccess.thecvf.com/content/CVPR2024/papers/Yu_RLHF-V_Towards_Trustworthy_MLLMs_via_Behavior_Alignment_from_Fine-grained_Correctional_CVPR_2024_paper.pdf",
+      "institution_ids": [
+        "tsinghua"
+      ],
+      "expanded_author_mapping": false,
+      "logos": [
+        {
+          "institution_id": "tsinghua",
+          "source": "https://commons.wikimedia.org/wiki/File:Tsinghua_University_Logo.svg",
+          "permission_status": "not_cleared_for_publication"
+        }
+      ]
+    },
+    {
+      "method": "VLGuard",
+      "citation_key": "zong2024vlguard",
+      "paper_url": "https://proceedings.mlr.press/v235/zong24a.html",
+      "institution_ids": [
+        "edinburgh"
+      ],
+      "expanded_author_mapping": false,
+      "logos": [
+        {
+          "institution_id": "edinburgh",
+          "source": "https://www.ed.ac.uk/themes/upstream/wpp_theme/images/logo.png",
+          "permission_status": "not_cleared_for_publication"
+        }
+      ]
+    },
+    {
+      "method": "VLM-RLAIF",
+      "citation_key": "ahn2024rlaif_v",
+      "paper_url": "https://aclanthology.org/2024.acl-long.52.pdf",
+      "institution_ids": [
+        "yonsei"
+      ],
+      "expanded_author_mapping": false,
+      "logos": [
+        {
+          "institution_id": "yonsei",
+          "source": "https://bonwookoo.github.io/bonwookoo/images/yonsei_logo.jpg",
+          "permission_status": "not_cleared_for_publication"
+        }
+      ]
+    },
+    {
+      "method": "MM1",
+      "citation_key": "mckinzie2024mm1",
+      "paper_url": "https://arxiv.org/pdf/2403.09611",
+      "institution_ids": [
+        "apple"
+      ],
+      "expanded_author_mapping": false,
+      "logos": [
+        {
+          "institution_id": "apple",
+          "source": "https://cdn.simpleicons.org/apple",
+          "permission_status": "not_cleared_for_publication"
+        }
+      ]
+    },
+    {
+      "method": "Cambrian-1",
+      "citation_key": "tong2024cambrian",
+      "paper_url": "https://arxiv.org/abs/2406.16860",
+      "institution_ids": [
+        "nyu"
+      ],
+      "expanded_author_mapping": false,
+      "logos": [
+        {
+          "institution_id": "nyu",
+          "source": "https://physics.nyu.edu/experimentalparticle/images/nyu-logo.png",
+          "permission_status": "not_cleared_for_publication"
+        }
+      ]
+    },
+    {
+      "method": "HallusionBench",
+      "citation_key": "guan2024hallusionbench",
+      "paper_url": "https://openaccess.thecvf.com/content/CVPR2024/html/Guan_HallusionBench_An_Advanced_Diagnostic_Suite_for_Entangled_Language_Hallucination_and_CVPR_2024_paper.html",
+      "institution_ids": [
+        "maryland"
+      ],
+      "expanded_author_mapping": false,
+      "logos": [
+        {
+          "institution_id": "maryland",
+          "source": "https://umd-main.files.svdcdn.com/production/umd/logos/default/primary-logo-dark.svg?dm=1722455539",
+          "permission_status": "not_cleared_for_publication"
+        }
+      ]
+    },
+    {
+      "method": "MMHalBench",
+      "citation_key": "sun2024aligning",
+      "paper_url": "https://aclanthology.org/2024.findings-acl.775.pdf",
+      "institution_ids": [
+        "cmu",
+        "berkeley",
+        "uiuc"
+      ],
+      "expanded_author_mapping": true,
+      "logos": [
+        {
+          "institution_id": "cmu",
+          "source": "https://commons.wikimedia.org/wiki/File:Carnegie_Mellon_University_wordmark.svg",
+          "permission_status": "not_cleared_for_publication"
+        },
+        {
+          "institution_id": "berkeley",
+          "source": "https://brand.berkeley.edu/wp-content/themes/gallantry/dist/imgs/logo-uc-berkeley.svg",
+          "permission_status": "not_cleared_for_publication"
+        },
+        {
+          "institution_id": "uiuc",
+          "source": "https://illinois.edu/",
+          "permission_status": "not_cleared_for_publication"
+        }
+      ]
+    },
+    {
+      "method": "MultiTrust",
+      "citation_key": "zhang2024multitrust",
+      "paper_url": "https://arxiv.org/abs/2406.07057",
+      "institution_ids": [
+        "tsinghua",
+        "realai",
+        "beihang"
+      ],
+      "expanded_author_mapping": true,
+      "logos": [
+        {
+          "institution_id": "tsinghua",
+          "source": "https://commons.wikimedia.org/wiki/File:Tsinghua_University_Logo.svg",
+          "permission_status": "not_cleared_for_publication"
+        },
+        {
+          "institution_id": "realai",
+          "source": "https://www.realai.ai/",
+          "permission_status": "not_cleared_for_publication"
+        },
+        {
+          "institution_id": "beihang",
+          "source": "https://www.urongda.com/logos/4111010006",
+          "permission_status": "not_cleared_for_publication"
+        }
+      ]
+    },
+    {
+      "method": "Qi et al.",
+      "citation_key": "qi2024visual",
+      "paper_url": "https://ojs.aaai.org/index.php/AAAI/article/view/30150",
+      "institution_ids": [
+        "princeton"
+      ],
+      "expanded_author_mapping": false,
+      "logos": [
+        {
+          "institution_id": "princeton",
+          "source": "https://www.princeton.edu/themes/custom/hobbes/images/logo-white.svg",
+          "permission_status": "not_cleared_for_publication"
+        }
+      ]
+    },
+    {
+      "method": "LLM-CXR",
+      "citation_key": "leellm",
+      "paper_url": "https://openreview.net/pdf/495e4c5290e90fa4b234772ff8cd9a1d493a60a5.pdf",
+      "institution_ids": [
+        "kaist"
+      ],
+      "expanded_author_mapping": false,
+      "logos": [
+        {
+          "institution_id": "kaist",
+          "source": "https://commons.wikimedia.org/wiki/File:KAIST_logo.svg",
+          "permission_status": "not_cleared_for_publication"
+        }
+      ]
+    },
+    {
+      "method": "CARZero",
+      "citation_key": "lai2024carzero",
+      "paper_url": "https://openaccess.thecvf.com/content/CVPR2024/html/Lai_CARZero_Cross-Attention_Alignment_for_Radiology_Zero-Shot_Classification_CVPR_2024_paper.html",
+      "institution_ids": [
+        "ustc",
+        "cas"
+      ],
+      "expanded_author_mapping": true,
+      "logos": [
+        {
+          "institution_id": "ustc",
+          "source": "https://sz.ustc.edu.cn/upload/202106/24/202106241717255413.zip",
+          "permission_status": "not_cleared_for_publication"
+        },
+        {
+          "institution_id": "cas",
+          "source": "https://commons.wikimedia.org/wiki/File:Seal_of_the_Chinese_Academy_of_Sciences.png",
+          "permission_status": "not_cleared_for_publication"
+        }
+      ]
+    },
+    {
+      "method": "FETTLE",
+      "citation_key": "li2024align",
+      "paper_url": "https://xmudm.github.io/files/Li24Who.pdf",
+      "institution_ids": [
+        "xiamen"
+      ],
+      "expanded_author_mapping": false,
+      "logos": [
+        {
+          "institution_id": "xiamen",
+          "source": "https://www.urongda.com/logos/4135010384",
+          "permission_status": "not_cleared_for_publication"
+        }
+      ]
+    },
+    {
+      "method": "MoT",
+      "citation_key": "liang2024mixture",
+      "paper_url": "https://openreview.net/forum?id=Nu6N69i8SB",
+      "institution_ids": [
+        "stanford"
+      ],
+      "expanded_author_mapping": false,
+      "logos": [
+        {
+          "institution_id": "stanford",
+          "source": "https://commons.wikimedia.org/wiki/File:Stanford_Cardinal_logo.svg",
+          "permission_status": "not_cleared_for_publication"
+        }
+      ]
+    },
+    {
+      "method": "LLaVA-ST",
+      "citation_key": "li2025llavast",
+      "paper_url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Li_LLaVA-ST_A_Multimodal_Large_Language_Model_for_Fine-Grained_Spatial-Temporal_Understanding_CVPR_2025_paper.pdf",
+      "institution_ids": [
+        "beihang"
+      ],
+      "expanded_author_mapping": false,
+      "logos": [
+        {
+          "institution_id": "beihang",
+          "source": "https://www.urongda.com/logos/4111010006",
+          "permission_status": "not_cleared_for_publication"
+        }
+      ]
+    },
+    {
+      "method": "UNIALIGN",
+      "citation_key": "zhou2025unialign",
+      "paper_url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Zhou_UNIALIGN_Scaling_Multimodal_Alignment_within_One_Unified_Model_CVPR_2025_paper.pdf",
+      "institution_ids": [
+        "njust",
+        "zju"
+      ],
+      "expanded_author_mapping": true,
+      "logos": [
+        {
+          "institution_id": "njust",
+          "source": "https://www.3wen.com/userfiles/files/logo/3NANJINGNIVEI.jpg",
+          "permission_status": "not_cleared_for_publication"
+        },
+        {
+          "institution_id": "zju",
+          "source": "https://www.urongda.com/logos/4133010335",
+          "permission_status": "not_cleared_for_publication"
+        }
+      ]
+    },
+    {
+      "method": "M3-JEPA",
+      "citation_key": "lei2024m3",
+      "paper_url": "https://proceedings.mlr.press/v267/lei25b.html",
+      "institution_ids": [
+        "geely",
+        "peking"
+      ],
+      "expanded_author_mapping": true,
+      "logos": [
+        {
+          "institution_id": "geely",
+          "source": "https://commons.wikimedia.org/wiki/File:Geely_Auto_2023.svg",
+          "permission_status": "not_cleared_for_publication"
+        },
+        {
+          "institution_id": "peking",
+          "source": "https://commons.wikimedia.org/wiki/File:Peking_University_seal.svg",
+          "permission_status": "not_cleared_for_publication"
+        }
+      ]
+    },
+    {
+      "method": "TokenPacker",
+      "citation_key": "li2025tokenpacker",
+      "paper_url": "https://arxiv.org/abs/2407.02392",
+      "institution_ids": [
+        "zju"
+      ],
+      "expanded_author_mapping": false,
+      "logos": [
+        {
+          "institution_id": "zju",
+          "source": "https://www.urongda.com/logos/4133010335",
+          "permission_status": "not_cleared_for_publication"
+        }
+      ]
+    },
+    {
+      "method": "AlignVLM",
+      "citation_key": "masry2025alignvlm",
+      "paper_url": "https://doi.org/10.52202/085713-4875",
+      "institution_ids": [
+        "servicenow"
+      ],
+      "expanded_author_mapping": false,
+      "logos": [
+        {
+          "institution_id": "servicenow",
+          "source": "https://commons.wikimedia.org/wiki/File:ServiceNow_logo.svg",
+          "permission_status": "not_cleared_for_publication"
+        }
+      ]
+    },
+    {
+      "method": "CHiP",
+      "citation_key": "fu2025chip",
+      "paper_url": "https://arxiv.org/abs/2501.16629",
+      "institution_ids": [
+        "nus"
+      ],
+      "expanded_author_mapping": false,
+      "logos": [
+        {
+          "institution_id": "nus",
+          "source": "https://raw.githubusercontent.com/theflyingwolves/NUS-Slides-Latex-Template/master/nus-logo.png",
+          "permission_status": "not_cleared_for_publication"
+        }
+      ]
+    },
+    {
+      "method": "GRAM",
+      "citation_key": "cicchetti2024gram",
+      "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2025/hash/67b24014e2eb342332d9c8f32fdaa9d1-Abstract-Conference.html",
+      "institution_ids": [
+        "sapienza"
+      ],
+      "expanded_author_mapping": false,
+      "logos": [
+        {
+          "institution_id": "sapienza",
+          "source": "https://www.uniroma1.it/en/",
+          "permission_status": "not_cleared_for_publication"
+        }
+      ]
+    },
+    {
+      "method": "MIA-DPO",
+      "citation_key": "Liu2024MIADPOMA",
+      "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2025/hash/557a20663907ed637c2807f608d5bec2-Abstract-Conference.html",
+      "institution_ids": [
+        "sjtu"
+      ],
+      "expanded_author_mapping": false,
+      "logos": [
+        {
+          "institution_id": "sjtu",
+          "source": "https://raw.githubusercontent.com/weijianwen/SJTU-logo-banner/master/SJTU_LOGO/PNG/sjtulogored.png",
+          "permission_status": "not_cleared_for_publication"
+        }
+      ]
+    },
+    {
+      "method": "GOAL",
+      "citation_key": "choi2025goal",
+      "paper_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Choi_GOAL_Global-local_Object_Alignment_Learning_CVPR_2025_paper.html",
+      "institution_ids": [
+        "cau",
+        "meta"
+      ],
+      "expanded_author_mapping": true,
+      "logos": [
+        {
+          "institution_id": "cau",
+          "source": "https://commons.wikimedia.org/wiki/File:Logo_of_Chung-Ang_University.svg",
+          "permission_status": "not_cleared_for_publication"
+        },
+        {
+          "institution_id": "meta",
+          "source": "https://static.xx.fbcdn.net/rsrc.php/yf/r/-7pQO6hUGK_.svg",
+          "permission_status": "not_cleared_for_publication"
+        }
+      ]
+    },
+    {
+      "method": "HA-DPO",
+      "citation_key": "zhao2023hadpo",
+      "paper_url": "https://doi.org/10.1109/icme59968.2025.11209377",
+      "institution_ids": [
+        "shanghai_ai"
+      ],
+      "expanded_author_mapping": false,
+      "logos": [
+        {
+          "institution_id": "shanghai_ai",
+          "source": "http://www.shlab.org.cn/static/asset/img/share-logo.png",
+          "permission_status": "not_cleared_for_publication"
+        }
+      ]
+    },
+    {
+      "method": "OC-CLIP",
+      "citation_key": "Assouel2025ObjectcentricBI",
+      "paper_url": "https://www.proceedings.com/content/085/085713-4375open.pdf",
+      "institution_ids": [
+        "meta"
+      ],
+      "expanded_author_mapping": false,
+      "logos": [
+        {
+          "institution_id": "meta",
+          "source": "https://static.xx.fbcdn.net/rsrc.php/yf/r/-7pQO6hUGK_.svg",
+          "permission_status": "not_cleared_for_publication"
+        }
+      ]
+    },
+    {
+      "method": "HarmonySet",
+      "citation_key": "Zhou2025HarmonySetAC",
+      "paper_url": "https://arxiv.org/abs/2503.01725",
+      "institution_ids": [
+        "tencent",
+        "bupt"
+      ],
+      "expanded_author_mapping": true,
+      "logos": [
+        {
+          "institution_id": "tencent",
+          "source": "https://commons.wikimedia.org/wiki/File:Tencent_logo_2017.svg",
+          "permission_status": "not_cleared_for_publication"
+        },
+        {
+          "institution_id": "bupt",
+          "source": "https://vi.bupt.edu.cn/",
+          "permission_status": "not_cleared_for_publication"
+        }
+      ]
+    },
+    {
+      "method": "SPARCL",
+      "citation_key": "Li2025EnhancingVC",
+      "paper_url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Li_Enhancing_Vision-Language_Compositional_Understanding_with_Multimodal_Synthetic_Data_CVPR_2025_paper.pdf",
+      "institution_ids": [
+        "ntu"
+      ],
+      "expanded_author_mapping": false,
+      "logos": [
+        {
+          "institution_id": "ntu",
+          "source": "https://www.ntu.edu.sg/ResourcePackages/NTU/assets/images/NTU_Logo.png",
+          "permission_status": "not_cleared_for_publication"
+        }
+      ]
+    },
+    {
+      "method": "VideoComp",
+      "citation_key": "Kim2025VideoCompAF",
+      "paper_url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Kim_VideoComp_Advancing_Fine-Grained_Compositional_and_Temporal_Alignment_in_Video-Text_Models_CVPR_2025_paper.pdf",
+      "institution_ids": [
+        "deepmind"
+      ],
+      "expanded_author_mapping": false,
+      "logos": [
+        {
+          "institution_id": "deepmind",
+          "source": "https://storage.googleapis.com/gdm-deepmind-com-prod-public/media/images/0xBk-c8kzB5UTrWs/nav__gdm-lockup__light.height-25.svg",
+          "permission_status": "not_cleared_for_publication"
+        }
+      ]
+    },
+    {
+      "method": "VisCon-100K",
+      "citation_key": "Kumar2025VisCon100KLC",
+      "paper_url": "https://arxiv.org/pdf/2502.10250",
+      "institution_ids": [
+        "tii"
+      ],
+      "expanded_author_mapping": false,
+      "logos": [
+        {
+          "institution_id": "tii",
+          "source": "https://webfiles.tii.ae/static/tii-logo-dark.svg",
+          "permission_status": "not_cleared_for_publication"
+        }
+      ]
+    },
+    {
+      "method": "Align2LLaVA",
+      "citation_key": "huang2025align2llava",
+      "paper_url": "https://doi.org/10.18653/v1/2025.findings-acl.458",
+      "institution_ids": [
+        "zju"
+      ],
+      "expanded_author_mapping": false,
+      "logos": [
+        {
+          "institution_id": "zju",
+          "source": "https://www.urongda.com/logos/4133010335",
+          "permission_status": "not_cleared_for_publication"
+        }
+      ]
+    },
+    {
+      "method": "OmniAlign-V",
+      "citation_key": "zhao2025omnialignv",
+      "paper_url": "https://doi.org/10.18653/v1/2025.acl-long.906",
+      "institution_ids": [
+        "sjtu",
+        "shanghai_ai",
+        "nanjing"
+      ],
+      "expanded_author_mapping": true,
+      "logos": [
+        {
+          "institution_id": "sjtu",
+          "source": "https://raw.githubusercontent.com/weijianwen/SJTU-logo-banner/master/SJTU_LOGO/PNG/sjtulogored.png",
+          "permission_status": "not_cleared_for_publication"
+        },
+        {
+          "institution_id": "shanghai_ai",
+          "source": "http://www.shlab.org.cn/static/asset/img/share-logo.png",
+          "permission_status": "not_cleared_for_publication"
+        },
+        {
+          "institution_id": "nanjing",
+          "source": "https://www.nju.edu.cn/images/footer_logo.svg",
+          "permission_status": "not_cleared_for_publication"
+        }
+      ]
+    },
+    {
+      "method": "CogCoM",
+      "citation_key": "qi2024cogcom",
+      "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2025/hash/1dcee1cd6890ab7fcdf173ec10526da9-Abstract-Conference.html",
+      "institution_ids": [
+        "tsinghua"
+      ],
+      "expanded_author_mapping": false,
+      "logos": [
+        {
+          "institution_id": "tsinghua",
+          "source": "https://commons.wikimedia.org/wiki/File:Tsinghua_University_Logo.svg",
+          "permission_status": "not_cleared_for_publication"
+        }
+      ]
+    },
+    {
+      "method": "Molmo",
+      "citation_key": "deitke2025molmo",
+      "paper_url": "https://arxiv.org/abs/2409.17146",
+      "institution_ids": [
+        "ai2",
+        "uw"
+      ],
+      "expanded_author_mapping": true,
+      "logos": [
+        {
+          "institution_id": "ai2",
+          "source": "https://allenai.org/",
+          "permission_status": "not_cleared_for_publication"
+        },
+        {
+          "institution_id": "uw",
+          "source": "https://cdn.uw.edu/wp-content/uploads/sites/230/2023/11/02134808/W-Logo_Purple_Hex.png",
+          "permission_status": "not_cleared_for_publication"
+        }
+      ]
+    },
+    {
+      "method": "RLAIF-V",
+      "citation_key": "Yu2024RLAIFVOA",
+      "paper_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Yu_RLAIF-V_Open-Source_AI_Feedback_Leads_to_Super_GPT-4V_Trustworthiness_CVPR_2025_paper.html",
+      "institution_ids": [
+        "tsinghua"
+      ],
+      "expanded_author_mapping": false,
+      "logos": [
+        {
+          "institution_id": "tsinghua",
+          "source": "https://commons.wikimedia.org/wiki/File:Tsinghua_University_Logo.svg",
+          "permission_status": "not_cleared_for_publication"
+        }
+      ]
+    },
+    {
+      "method": "MM-RLHF",
+      "citation_key": "pmlr-v267-zhang25cs",
+      "paper_url": "https://proceedings.mlr.press/v267/zhang25cs.html",
+      "institution_ids": [
+        "ucas"
+      ],
+      "expanded_author_mapping": false,
+      "logos": [
+        {
+          "institution_id": "ucas",
+          "source": "https://www.urongda.com/logos/4111014430",
+          "permission_status": "not_cleared_for_publication"
+        }
+      ]
+    },
+    {
+      "method": "Parrot",
+      "citation_key": "sun2024parrot",
+      "paper_url": "https://proceedings.mlr.press/v267/sun25ad.html",
+      "institution_ids": [
+        "nanjing"
+      ],
+      "expanded_author_mapping": false,
+      "logos": [
+        {
+          "institution_id": "nanjing",
+          "source": "https://www.nju.edu.cn/images/footer_logo.svg",
+          "permission_status": "not_cleared_for_publication"
+        }
+      ]
+    },
+    {
+      "method": "LATTE",
+      "citation_key": "ma2025latte",
+      "paper_url": "https://aclanthology.org/2025.emnlp-main.564.pdf",
+      "institution_ids": [
+        "uw"
+      ],
+      "expanded_author_mapping": false,
+      "logos": [
+        {
+          "institution_id": "uw",
+          "source": "https://cdn.uw.edu/wp-content/uploads/sites/230/2023/11/02134808/W-Logo_Purple_Hex.png",
+          "permission_status": "not_cleared_for_publication"
+        }
+      ]
+    },
+    {
+      "method": "SIUO",
+      "citation_key": "wang2024crossmodality",
+      "paper_url": "https://aclanthology.org/2025.findings-naacl.198/",
+      "institution_ids": [
+        "fudan"
+      ],
+      "expanded_author_mapping": false,
+      "logos": [
+        {
+          "institution_id": "fudan",
+          "source": "https://commons.wikimedia.org/wiki/File:Fudan_University_Logo.svg",
+          "permission_status": "not_cleared_for_publication"
+        }
+      ]
+    },
+    {
+      "method": "SAIL",
+      "citation_key": "zhang2025assessing",
+      "paper_url": "https://arxiv.org/abs/2412.04616",
+      "institution_ids": [
+        "mila"
+      ],
+      "expanded_author_mapping": false,
+      "logos": [
+        {
+          "institution_id": "mila",
+          "source": "https://mila.quebec/sites/default/themes/mila_v1/logo.svg",
+          "permission_status": "not_cleared_for_publication"
+        }
+      ]
+    },
+    {
+      "method": "SVLTA",
+      "citation_key": "Du2025SVLTABV",
+      "paper_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Du_SVLTA_Benchmarking_Vision-Language_Temporal_Alignment_via_Synthetic_Video_Situation_CVPR_2025_paper.html",
+      "institution_ids": [
+        "ustc",
+        "mit",
+        "ibm"
+      ],
+      "expanded_author_mapping": true,
+      "logos": [
+        {
+          "institution_id": "ustc",
+          "source": "https://sz.ustc.edu.cn/upload/202106/24/202106241717255413.zip",
+          "permission_status": "not_cleared_for_publication"
+        },
+        {
+          "institution_id": "mit",
+          "source": "https://www.mit.edu/",
+          "permission_status": "not_cleared_for_publication"
+        },
+        {
+          "institution_id": "ibm",
+          "source": "https://cdn.worldvectorlogo.com/logos/ibm.svg",
+          "permission_status": "not_cleared_for_publication"
+        }
+      ]
+    },
+    {
+      "method": "VidHalluc",
+      "citation_key": "li2025vidhalluc",
+      "paper_url": "https://arxiv.org/abs/2412.03735",
+      "institution_ids": [
+        "asu"
+      ],
+      "expanded_author_mapping": false,
+      "logos": [
+        {
+          "institution_id": "asu",
+          "source": "https://www.asu.edu/profiles/contrib/webspark/modules/asu_footer/img/ASU-EndorsedLogo.png",
+          "permission_status": "not_cleared_for_publication"
+        }
+      ]
+    },
+    {
+      "method": "MIRAGE",
+      "citation_key": "dong2026mirage",
+      "paper_url": "https://arxiv.org/abs/2505.24238",
+      "institution_ids": [
+        "hit"
+      ],
+      "expanded_author_mapping": false,
+      "logos": [
+        {
+          "institution_id": "hit",
+          "source": "https://en.hit.edu.cn/_upload/site/01/00/256/logo.png",
+          "permission_status": "not_cleared_for_publication"
+        }
+      ]
+    },
+    {
+      "method": "MME",
+      "citation_key": "fu2023mme",
+      "paper_url": "https://doi.org/10.52202/085713-4899",
+      "institution_ids": [
+        "nanjing"
+      ],
+      "expanded_author_mapping": false,
+      "logos": [
+        {
+          "institution_id": "nanjing",
+          "source": "https://www.nju.edu.cn/images/footer_logo.svg",
+          "permission_status": "not_cleared_for_publication"
+        }
+      ]
+    },
+    {
+      "method": "FigStep",
+      "citation_key": "gong2025figstep",
+      "paper_url": "https://ojs.aaai.org/index.php/AAAI/article/view/34568",
+      "institution_ids": [
+        "tsinghua"
+      ],
+      "expanded_author_mapping": false,
+      "logos": [
+        {
+          "institution_id": "tsinghua",
+          "source": "https://commons.wikimedia.org/wiki/File:Tsinghua_University_Logo.svg",
+          "permission_status": "not_cleared_for_publication"
+        }
+      ]
+    },
+    {
+      "method": "Malenia",
+      "citation_key": "jiang2025unleashing",
+      "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2025/file/6111371a868af8dcfba0f96ad9e25ae3-Paper-Conference.pdf",
+      "institution_ids": [
+        "shanghai_ai"
+      ],
+      "expanded_author_mapping": false,
+      "logos": [
+        {
+          "institution_id": "shanghai_ai",
+          "source": "http://www.shlab.org.cn/static/asset/img/share-logo.png",
+          "permission_status": "not_cleared_for_publication"
+        }
+      ]
+    },
+    {
+      "method": "EarthDial",
+      "citation_key": "soni2025earthdial",
+      "paper_url": "https://arxiv.org/abs/2412.15190",
+      "institution_ids": [
+        "ibm",
+        "mbzuai"
+      ],
+      "expanded_author_mapping": true,
+      "logos": [
+        {
+          "institution_id": "ibm",
+          "source": "https://cdn.worldvectorlogo.com/logos/ibm.svg",
+          "permission_status": "not_cleared_for_publication"
+        },
+        {
+          "institution_id": "mbzuai",
+          "source": "https://mbzuai.ac.ae/news-events/media-center",
+          "permission_status": "not_cleared_for_publication"
+        }
+      ]
+    },
+    {
+      "method": "MMedPO",
+      "citation_key": "Zhu2024MMedPOAM",
+      "paper_url": "https://proceedings.mlr.press/v267/zhu25v.html",
+      "institution_ids": [
+        "unc",
+        "brown"
+      ],
+      "expanded_author_mapping": true,
+      "logos": [
+        {
+          "institution_id": "unc",
+          "source": "https://www.unc.edu/wp-content/uploads/2025/11/University_Signature_White_Navy_rgb_h.svg",
+          "permission_status": "not_cleared_for_publication"
+        },
+        {
+          "institution_id": "brown",
+          "source": "https://commons.wikimedia.org/wiki/File:Brown_University_logo.svg",
+          "permission_status": "not_cleared_for_publication"
+        }
+      ]
+    },
+    {
+      "method": "SafeVLA",
+      "citation_key": "zhang2025safevla",
+      "paper_url": "https://doi.org/10.52202/085713-5128",
+      "institution_ids": [
+        "peking",
+        "psibot",
+        "zgc"
+      ],
+      "expanded_author_mapping": true,
+      "logos": [
+        {
+          "institution_id": "peking",
+          "source": "https://commons.wikimedia.org/wiki/File:Peking_University_seal.svg",
+          "permission_status": "not_cleared_for_publication"
+        },
+        {
+          "institution_id": "psibot",
+          "source": "https://www.psibot.ai/",
+          "permission_status": "not_cleared_for_publication"
+        },
+        {
+          "institution_id": "zgc",
+          "source": "https://www.bza.edu.cn/en",
+          "permission_status": "not_cleared_for_publication"
+        }
+      ]
+    },
+    {
+      "method": "ThinkAct",
+      "citation_key": "huang2025thinkact",
+      "paper_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/7749f9c0d5ff109231be21e910a3ced2-Paper-Conference.pdf",
+      "institution_ids": [
+        "nvidia"
+      ],
+      "expanded_author_mapping": false,
+      "logos": [
+        {
+          "institution_id": "nvidia",
+          "source": "https://www.nvidia.com/en-us/",
+          "permission_status": "not_cleared_for_publication"
+        }
+      ]
+    },
+    {
+      "method": "GraphThinker",
+      "citation_key": "cheng2026graphthinker",
+      "paper_url": "https://arxiv.org/pdf/2602.17555v3",
+      "institution_ids": [
+        "qmul"
+      ],
+      "expanded_author_mapping": false,
+      "logos": [
+        {
+          "institution_id": "qmul",
+          "source": "https://braintumourresearch.org/cdn/shop/files/Queen_Mary_logo_for_website_3.jpg?v=1714733736&width=1500",
+          "permission_status": "not_cleared_for_publication"
+        }
+      ]
+    },
+    {
+      "method": "SpatialThinker",
+      "citation_key": "batra2025spatialthinker",
+      "paper_url": "https://arxiv.org/pdf/2511.07403v2",
+      "institution_ids": [
+        "oxford"
+      ],
+      "expanded_author_mapping": false,
+      "logos": [
+        {
+          "institution_id": "oxford",
+          "source": "https://makingthedifference.web.ox.ac.uk/sites/default/files/makingthedifference/images/media/oxford2.png",
+          "permission_status": "not_cleared_for_publication"
+        }
+      ]
+    },
+    {
+      "method": "IGVA",
+      "citation_key": "li2026instruction",
+      "paper_url": "https://doi.org/10.1016/j.patcog.2025.111932",
+      "institution_ids": [
+        "fudan"
+      ],
+      "expanded_author_mapping": false,
+      "logos": [
+        {
+          "institution_id": "fudan",
+          "source": "https://commons.wikimedia.org/wiki/File:Fudan_University_Logo.svg",
+          "permission_status": "not_cleared_for_publication"
+        }
+      ]
+    },
+    {
+      "method": "SparseCut",
+      "citation_key": "zhang2026sparse",
+      "paper_url": "https://arxiv.org/pdf/2602.00505",
+      "institution_ids": [
+        "msubit"
+      ],
+      "expanded_author_mapping": false,
+      "logos": [
+        {
+          "institution_id": "msubit",
+          "source": "https://www.urongda.com/logos/4144016409",
+          "permission_status": "not_cleared_for_publication"
+        }
+      ]
+    },
+    {
+      "method": "mKG-RAG",
+      "citation_key": "yuan2025mkg",
+      "paper_url": "https://arxiv.org/pdf/2508.05318",
+      "institution_ids": [
+        "polyu"
+      ],
+      "expanded_author_mapping": false,
+      "logos": [
+        {
+          "institution_id": "polyu",
+          "source": "https://af.polyu.edu.hk/icim2023/resouces/school2.png",
+          "permission_status": "not_cleared_for_publication"
+        }
+      ]
+    },
+    {
+      "method": "AdViP",
+      "citation_key": "Lu2025AdaViPAM",
+      "paper_url": "https://doi.org/10.1007/s11263-026-02840-0",
+      "institution_ids": [
+        "ustc"
+      ],
+      "expanded_author_mapping": false,
+      "logos": [
+        {
+          "institution_id": "ustc",
+          "source": "https://sz.ustc.edu.cn/upload/202106/24/202106241717255413.zip",
+          "permission_status": "not_cleared_for_publication"
+        }
+      ]
+    },
+    {
+      "method": "PowerCLIP",
+      "citation_key": "kawamura2026powerclip",
+      "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Kawamura_PowerCLIP_Powerset_Alignment_for_Contrastive_Pre-Training_CVPR_2026_paper.pdf",
+      "institution_ids": [
+        "science_tokyo"
+      ],
+      "expanded_author_mapping": false,
+      "logos": [
+        {
+          "institution_id": "science_tokyo",
+          "source": "https://www.isct.ac.jp/icon.svg",
+          "permission_status": "not_cleared_for_publication"
+        }
+      ]
+    },
+    {
+      "method": "IRIS",
+      "citation_key": "Li2026IRISIR",
+      "paper_url": "https://arxiv.org/pdf/2602.01769",
+      "institution_ids": [
+        "westlake"
+      ],
+      "expanded_author_mapping": false,
+      "logos": [
+        {
+          "institution_id": "westlake",
+          "source": "https://xinhenglyu.github.io/assets/images/badges/Westlake_logo.png",
+          "permission_status": "not_cleared_for_publication"
+        }
+      ]
+    },
+    {
+      "method": "ARM-Thinker",
+      "citation_key": "Ding2025ARMThinkerRM",
+      "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Ding_ARM-Thinker_Reinforcing_Multimodal_Generative_Reward_Models_with_Agentic_Tool_Use_CVPR_2026_paper.pdf",
+      "institution_ids": [
+        "fudan"
+      ],
+      "expanded_author_mapping": false,
+      "logos": [
+        {
+          "institution_id": "fudan",
+          "source": "https://commons.wikimedia.org/wiki/File:Fudan_University_Logo.svg",
+          "permission_status": "not_cleared_for_publication"
+        }
+      ]
+    },
+    {
+      "method": "ZINA",
+      "citation_key": "Wada2025ZINAMF",
+      "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Wada_ZINA_Multimodal_Fine-grained_Hallucination_Detection_and_Editing_CVPR_2026_paper.pdf",
+      "institution_ids": [
+        "keio"
+      ],
+      "expanded_author_mapping": false,
+      "logos": [
+        {
+          "institution_id": "keio",
+          "source": "https://www.keio.ac.jp/logos/keio-en.svg",
+          "permission_status": "not_cleared_for_publication"
+        }
+      ]
+    },
+    {
+      "method": "AdPO",
+      "citation_key": "Liu2025AdPOET",
+      "paper_url": "https://openreview.net/forum?id=FEMv4lHJ2C",
+      "institution_ids": [
+        "ustc"
+      ],
+      "expanded_author_mapping": false,
+      "logos": [
+        {
+          "institution_id": "ustc",
+          "source": "https://sz.ustc.edu.cn/upload/202106/24/202106241717255413.zip",
+          "permission_status": "not_cleared_for_publication"
+        }
+      ]
+    },
+    {
+      "method": "Molmo2",
+      "citation_key": "clark2026molmo2",
+      "paper_url": "https://arxiv.org/abs/2601.10611",
+      "institution_ids": [
+        "ai2",
+        "uw"
+      ],
+      "expanded_author_mapping": true,
+      "logos": [
+        {
+          "institution_id": "ai2",
+          "source": "https://allenai.org/",
+          "permission_status": "not_cleared_for_publication"
+        },
+        {
+          "institution_id": "uw",
+          "source": "https://cdn.uw.edu/wp-content/uploads/sites/230/2023/11/02134808/W-Logo_Purple_Hex.png",
+          "permission_status": "not_cleared_for_publication"
+        }
+      ]
+    },
+    {
+      "method": "BLEnD-Vis",
+      "citation_key": "Tan2025BLEnDVisBM",
+      "paper_url": "https://doi.org/10.18653/v1/2026.eacl-long.215",
+      "institution_ids": [
+        "sutd",
+        "astar"
+      ],
+      "expanded_author_mapping": true,
+      "logos": [
+        {
+          "institution_id": "sutd",
+          "source": "https://www.sutd.edu.sg/wp-content/uploads/2024/10/SUTDLogo_Dark@2x.png",
+          "permission_status": "not_cleared_for_publication"
+        },
+        {
+          "institution_id": "astar",
+          "source": "https://www.a-star.edu.sg/",
+          "permission_status": "not_cleared_for_publication"
+        }
+      ]
+    },
+    {
+      "method": "VLMBias",
+      "citation_key": "Vo2025VisionLM",
+      "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/07956d40074d6523bad11112b3225c6e-Paper-Conference.pdf",
+      "institution_ids": [
+        "kaist",
+        "wm"
+      ],
+      "expanded_author_mapping": true,
+      "logos": [
+        {
+          "institution_id": "kaist",
+          "source": "https://commons.wikimedia.org/wiki/File:KAIST_logo.svg",
+          "permission_status": "not_cleared_for_publication"
+        },
+        {
+          "institution_id": "wm",
+          "source": "https://www.wm.edu/",
+          "permission_status": "not_cleared_for_publication"
+        }
+      ]
+    },
+    {
+      "method": "Chart2Code",
+      "citation_key": "Tang2025FromCT",
+      "paper_url": "https://doi.org/10.18653/v1/2026.acl-long.616",
+      "institution_ids": [
+        "csu",
+        "nus"
+      ],
+      "expanded_author_mapping": true,
+      "logos": [
+        {
+          "institution_id": "csu",
+          "source": "https://www.urongda.com/logos/4143010533",
+          "permission_status": "not_cleared_for_publication"
+        },
+        {
+          "institution_id": "nus",
+          "source": "https://raw.githubusercontent.com/theflyingwolves/NUS-Slides-Latex-Template/master/nus-logo.png",
+          "permission_status": "not_cleared_for_publication"
+        }
+      ]
+    },
+    {
+      "method": "LIP",
+      "citation_key": "JIAN2026103881",
+      "paper_url": "https://doi.org/10.1016/j.inffus.2025.103881",
+      "institution_ids": [
+        "bjut"
+      ],
+      "expanded_author_mapping": false,
+      "logos": [
+        {
+          "institution_id": "bjut",
+          "source": "https://www.urongda.com/logos/4111010005",
+          "permission_status": "not_cleared_for_publication"
+        }
+      ]
+    },
+    {
+      "method": "ACoT-VLA",
+      "citation_key": "zhong2026acotvla",
+      "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Zhong_ACoT-VLA_Action_Chain-of-Thought_for_Vision-Language-Action_Models_CVPR_2026_paper.html",
+      "institution_ids": [
+        "beihang"
+      ],
+      "expanded_author_mapping": false,
+      "logos": [
+        {
+          "institution_id": "beihang",
+          "source": "https://www.urongda.com/logos/4111010006",
+          "permission_status": "not_cleared_for_publication"
+        }
+      ]
+    },
+    {
+      "method": "Counterfactual VLA",
+      "citation_key": "peng2026counterfactualvla",
+      "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Peng_Counterfactual_VLA_Self-Reflective_Vision-Language-Action_Model_with_Adaptive_Reasoning_CVPR_2026_paper.html",
+      "institution_ids": [
+        "nvidia"
+      ],
+      "expanded_author_mapping": false,
+      "logos": [
+        {
+          "institution_id": "nvidia",
+          "source": "https://www.nvidia.com/en-us/",
+          "permission_status": "not_cleared_for_publication"
+        }
+      ]
+    },
+    {
+      "method": "HaNoRec",
+      "citation_key": "wang2026multimodal",
+      "paper_url": "https://doi.org/10.1145/3805712.3809590",
+      "institution_ids": [
+        "hfut"
+      ],
+      "expanded_author_mapping": false,
+      "logos": [
+        {
+          "institution_id": "hfut",
+          "source": "https://www.urongda.com/logos/4134010359",
+          "permission_status": "not_cleared_for_publication"
+        }
+      ]
+    },
+    {
+      "method": "MLLMRec",
+      "citation_key": "10.1145/3805712.3809749",
+      "paper_url": "https://doi.org/10.1145/3805712.3809749",
+      "institution_ids": [
+        "nudt"
+      ],
+      "expanded_author_mapping": false,
+      "logos": [
+        {
+          "institution_id": "nudt",
+          "source": "https://english.nudt.edu.cn/images/logo2.png",
+          "permission_status": "not_cleared_for_publication"
+        }
+      ]
+    },
+    {
+      "method": "CrisiSense-RAG",
+      "citation_key": "xiao2026crisisense",
+      "paper_url": "https://doi.org/10.1016/j.cacaie.2026.100096",
+      "institution_ids": [
+        "tamu"
+      ],
+      "expanded_author_mapping": false,
+      "logos": [
+        {
+          "institution_id": "tamu",
+          "source": "https://www.tamu.edu/_files/images/logos/primaryTAM.png",
+          "permission_status": "not_cleared_for_publication"
+        }
+      ]
+    }
+  ],
+  "provenance": "Recovered from manuscript commit d369089; the later housekeeping removal of submission records does not change the figure."
+}

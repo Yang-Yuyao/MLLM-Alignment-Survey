@@ -1,0 +1,21 @@
+\begin{table*}[t]
+\centering
+\caption{Supervision strategies for multimodal alignment data. The overlapping categories distinguish the evidence and behavioral contrasts exposed by training examples and the confounders that remain.}
+\label{tab:data-summary}
+\footnotesize
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{1.18}
+\rowcolors{2}{surveystripe}{white}
+\begin{tabularx}{\textwidth}{>{\raggedright\arraybackslash}p{0.15\textwidth}>{\raggedright\arraybackslash}p{0.22\textwidth}>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X}
+\toprule
+\rowcolor{surveyheader}
+\textbf{Data strategy} & \textbf{Examples discussed} & \textbf{Signal exposed} & \textbf{Limitation discussed} \\
+\midrule
+\textbf{Pairing and annotation} & Flickr30k Entities~\cite{Plummer2015Flickr30kEC}; RxR~\cite{Ku2020RoomAcrossRoomMV} & Phrase--region annotations identify local evidence; word--pose traces connect instructions to movement. & Validity depends on correspondence granularity; paired observations alone do not establish model reliance on them. \\
+\textbf{Synthetic and self-supervised data} & BLIP~\cite{li2022blip}; DataComp~\cite{gadre2023datacomp} & Generated and filtered captions refine content; standardized selection isolates curation choices. & Cleaner selected pairs may omit rare concepts; selection and caption changes require separate controls. \\
+\textbf{Preference construction} & MM-RLHF~\cite{pmlr-v267-zhang25cs}; RLHF-V~\cite{yu2024rlhf} & Multidimensional ratings specify desirable behavior; segment corrections identify unsupported content. & Overall rankings can hide trade-offs; correction style or provenance may reveal preference labels. \\
+\textbf{Hard negatives} & POVID~\cite{Zhou2024AligningMI}; VideoCon~\cite{Bansal2023VideoConRV} & Injected hallucinations and controlled caption edits expose unsupported answers or compositional errors. & A difficult negative must remain unambiguously wrong; synthetic artifacts can replace the intended contrast. \\
+\textbf{Bias and coverage controls} & NaPO~\cite{Zhang2025DebiasingML}; VLGuard~\cite{zong2024vlguard} & Modality-biased preference pairs target shortcuts; safety examples specify acceptable responses. & Reducing a shortcut is not general debiasing; safety gains require separate benign-utility and subgroup checks. \\
+\bottomrule
+\end{tabularx}
+\end{table*}

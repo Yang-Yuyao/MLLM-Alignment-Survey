@@ -1,0 +1,26 @@
+\begin{table*}[t]
+\centering
+\caption{Alignment evidence at representation, task, and behavior levels. Reference signals and controls determine what each evaluation can establish; diagnostic protocols complement benchmark scores.}
+\label{tab:evaluation-summary}
+\footnotesize
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{1.14}
+\rowcolors{2}{surveystripe}{white}
+\begin{tabularx}{\textwidth}{>{\raggedright\arraybackslash}p{0.13\textwidth}>{\raggedright\arraybackslash}p{0.22\textwidth}*{3}{>{\raggedright\arraybackslash}X}>{\centering\arraybackslash}p{0.06\textwidth}}
+\toprule
+\rowcolor{surveyheader}
+\textbf{Level / role} & \textbf{Examples} & \textbf{Reference or contrast} & \textbf{Measured property} & \textbf{Unresolved attribution} & \textbf{Gap} \\
+\midrule
+Representation & SAIL~\cite{zhang2025assessing}; MIR~\cite{huang2025deciphering} & Mapped representations; layer distributions & Compatibility or integration & Whether the decoder uses the information & M \\
+Task grounding & Winoground~\cite{thrush2022winoground}; VSR~\cite{liu2023visual}; SVLTA~\cite{Du2025SVLTABV} & Compositional, spatial, or temporal contrasts & Sensitivity to relevant distinctions & Shortcuts outside the tested contrasts & M \\
+Response grounding & POPE~\cite{li2023evaluating}; CHAIR~\cite{rohrbach2018object} & Object-presence annotations & Unsupported object claims & Error location and causal mechanism & M \\
+Behavior & MultiTrust~\cite{zhang2024multitrust}; VLGuard~\cite{zong2024vlguard} & Trustworthiness tests; harmful and benign requests & Constraint compliance and retained utility & Coverage of unseen settings and attacks & M/I \\
+Reasoning diagnosis & MIRAGE~\cite{dong2026mirage} & Verified perception followed by reasoning & Inference failures given evidence & Reasoning errors do not alone identify a gap & -- \\
+Reward judge & VL-RewardBench~\cite{li2025vlrewardbench}; Multimodal RewardBench~\cite{yasunaga2025multimodalrewardbench} & Human-validated preferences & Judge agreement by failure category & New policy-generated candidates & M/I \\
+Supporting metric & CIDEr~\cite{vedantam2015cider} & Reference captions & Descriptive consensus & Evidence use and constraint compliance & Indirect \\
+Controlled protocol & mDPO~\cite{wang2024mdpo}; matched evidence/constraint edits & Fixed model and settings; valid altered references & Sensitivity to the claimed intervention & Distribution-shift artifacts and component interactions & M/I \\
+\bottomrule
+\end{tabularx}
+\par\smallskip
+{\raggedright\footnotesize M: Modality Gap; I: Intent Gap. M/I denotes complementary tests, not that each benchmark independently diagnoses both. Controls are not a fourth evaluation level.\par}
+\end{table*}

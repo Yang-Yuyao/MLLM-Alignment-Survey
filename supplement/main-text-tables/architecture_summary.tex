@@ -1,0 +1,24 @@
+\begin{table*}[t]
+\centering
+\caption{Architectural choices for evidence access. Interface, selection, and resource trade-offs describe comparable design attributes, not a matched performance ranking.}
+\label{tab:architecture-synthesis}
+\footnotesize
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{1.14}
+\rowcolors{2}{surveystripe}{white}
+\begin{tabularx}{\textwidth}{>{\raggedright\arraybackslash}p{0.15\textwidth}>{\raggedright\arraybackslash}p{0.19\textwidth}*{3}{>{\raggedright\arraybackslash}X}>{\centering\arraybackslash}p{0.045\textwidth}}
+\toprule
+\rowcolor{surveyheader}
+\textbf{Family} & \textbf{Examples} & \textbf{Evidence unit} & \textbf{Access or selection} & \textbf{Principal trade-off} & \textbf{Gap} \\
+\midrule
+Lightweight bridges & BLIP-2~\cite{li2023blip2}; TokenPacker~\cite{li2025tokenpacker} & Continuous visual features & Learned queries; regional detail injection & Token budget versus recoverable local detail & M \\
+Discrete interfaces & SpeechT5~\cite{ao2022speecht5}; AnyGPT~\cite{zhan2024anygpt} & Shared or modality-specific codes & Codebook mixing; common token sequence & Compact codes versus quantization and sequence length & M \\
+Structured representations & MAIL~\cite{dong2024modality}; VideoTree~\cite{wang2025videotree} & Entities/relations; temporal hierarchy & Entity-mediated exchange; query-adaptive selection & Inspectable structure versus extraction error and omitted evidence & M \\
+Attention and layer fusion & AGE-VLM~\cite{mahajan2025attention}; Dense Connector~\cite{yao2024dense} & Regions; encoder-layer features & Spatial anchoring; multi-layer aggregation & Fine detail versus feature-processing and memory cost & M \\
+Modality-indexed experts & VLMo~\cite{bao2022vlmo}; MoT~\cite{liang2024mixture} & Modality-labelled tokens & Fixed parameter selection with cross-modal interaction & Specialization versus parameter storage and shared transfer & M \\
+Adaptive experts & OneLLM~\cite{han2024onellm}; MoIIE~\cite{wang2025moiie} & Features or modality tokens & Dynamic projection routing; intra-/inter-modal experts & Conditional capacity versus routing and utilization overhead & M \\
+\bottomrule
+\end{tabularx}
+\par\smallskip
+{\raggedright\footnotesize M: Modality Gap, the primary architectural target. Behavioral requirements need additional supervision and evaluation; a gap tag is not a measured success claim. Extended distinctions appear in the independent supplement.\par}
+\end{table*}
