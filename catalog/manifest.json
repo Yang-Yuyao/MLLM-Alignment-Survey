@@ -224,11 +224,11 @@
     "supplement.tex": "48935fea0c60104d3921d22868c51ef51fe90795fa4566d0917397af916b150d"
   },
   "figure_hashes": {
-    "figures/figure-3-timeline-16000.png": "af4f2f38039cd4c8754fe46d0489fb319e59c845a14f473e8f2a0ad5b25514e6",
+    "figures/figure-3-timeline-16000.png": "2b6d58eeb574f5fb7e96bc14a616abe76abed26f0dd943e526791c6233ea770f",
     "figures/figure-2-two-gaps.png": "24c9d11d842d0a5755eecec564a663c5515cb396e0d347429fa32610a6a157df",
     "figures/figure-1-overview.png": "47c87ca6f7dfc62b8da1805ea542cc5824e0579f6c51014ba1ef28733a168872",
-    "figures/figure-3-timeline.pdf": "f881bbe2b2136eb6f334378d3a3f0400bf819e3d815b0965413828e083ff6241",
-    "figures/figure-3-timeline-preview.png": "40972d7e960535981e106dceef07fd4d33b7a4a52fa9e032ba6f1876ee0c5a1b"
+    "figures/figure-3-timeline.pdf": "cbfc85ab42870ad30af7e20d2b1bab9a2b0009e70e13ce42fc3f910d0d4abae3",
+    "figures/figure-3-timeline-preview.png": "3161e62767266274258e729b79acdbc77b30d29d7448dcb3bb8a89f42373a611"
   },
   "coverage_boundary": "This export checks citation membership and asset provenance; it is not a new full-text scientific or logo-permission audit."
 }

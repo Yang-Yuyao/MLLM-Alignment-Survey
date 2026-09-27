@@ -4,15 +4,6 @@
   "background": "assets/background.png",
   "items": [
     {
-      "type": "region",
-      "x": 1235,
-      "y": 94,
-      "w": 143,
-      "h": 160,
-      "r": 25,
-      "fill": "#D8ECF9"
-    },
-    {
       "type": "text",
       "text": "From Foundations to Applications",
       "x": 368,

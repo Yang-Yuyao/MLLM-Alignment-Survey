@@ -2,7 +2,7 @@
 
 ## Files
 
-- `timeline.pptx`: one-slide editable source. Text and logo placements are native objects; the river background is a bitmap. Only workstation-local paths in speaker notes were removed during packaging.
+- `timeline.pptx`: one-slide editable source. Text and logo placements are native objects; the river background is a bitmap. Workstation-local paths in speaker notes were removed during packaging. The 2026 Architecture field received a background-only style correction on 26 September 2026.
 - `layout.json`: canvas dimensions and positioned text, image, and region objects. All asset paths are relative to this directory.
 - `content.json`: 163 displayed studies, citation keys, categories, year buckets, and grouped logo identifiers.
 - `assets/background.png`: the original river and colored-region artwork.
@@ -14,7 +14,7 @@
 
 ## Editing and Rebuilding
 
-For manual layout editing, open `timeline.pptx` in PowerPoint. Its design is the existing manuscript figure, not a newly generated approximation. The packaged slide's visual XML and image assets are unchanged.
+For manual layout editing, open `timeline.pptx` in PowerPoint. The 2026 Architecture field uses a soft blue background instead of the former flat rounded-rectangle cover. All text, logo assets, and foreground positions are unchanged; the rest of the figure is preserved.
 
 For scripted export, edit `layout.json` and rebuild from the repository root:
 
