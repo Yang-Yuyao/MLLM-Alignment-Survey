@@ -10,6 +10,7 @@ from urllib.parse import unquote, urlsplit
 import bibtexparser
 from PIL import Image
 from pypdf import PdfReader
+from render_catalog import DOMAINS, generated_pages
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -21,6 +22,20 @@ def main():
     manifest = load('catalog/manifest.json')
     ids = {p['citation_key'] for p in papers}
     assert len(ids) == len(papers) == manifest['current_paper_count'] == 275
+    for path, expected in generated_pages(papers).items():
+        assert path.read_text() == expected, f'Regenerate {path.name} with scripts/render_catalog.py'
+    readme = (ROOT / 'README.md').read_text()
+    for domain, (slug, _) in DOMAINS.items():
+        page = (ROOT / f'catalog/domains/{slug}.md').read_text()
+        displayed = re.findall(r'\| `([^`]+)` \|$', page, re.MULTILINE)
+        selected = {p['citation_key'] for p in papers if domain in p['domains']}
+        assert len(displayed) == len(selected) and set(displayed) == selected, domain
+        chapter = sum(domain in p['body_domains'] for p in papers)
+        timeline = sum(p['timeline_domain'] == domain for p in papers)
+        row = next(line for line in readme.splitlines() if line.startswith(f'| [{domain}]'))
+        assert row.endswith(f'| {chapter} | {timeline} |'), domain
+        anchors = set(re.findall(r'<a id="([^"]+)"', page)) | {slug}
+        assert set(re.findall(r'\]\(#([^)]+)\)', page)) <= anchors, domain
     with (ROOT / 'catalog/papers.csv').open(newline='') as f:
         rows = list(csv.DictReader(f))
     assert {r['citation_key'] for r in rows} == ids

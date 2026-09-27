@@ -1,98 +1,124 @@
 # Alignment in Multimodal Large Language Models
 
-### A survey companion: mechanisms, supervision, and evidence
+**A survey companion on mechanisms, supervision, and evidence.**
 
-**275 cited papers · 6 research domains · 3 manuscript figures · reproducible timeline sources**
+[Paper catalog](catalog/README.md) · [Supplement PDF](supplement/supplement.pdf) · [Figures](figures/README.md) · [Timeline sources](figures/timeline/README.md) · [Citation history](catalog/history/README.md)
 
-This repository accompanies *Alignment in Multimodal Large Language Models: A Survey*, a manuscript being prepared for TPAMI submission. It is a research resource, not a claim of acceptance or IEEE endorsement. The initial snapshot follows the manuscript revision of **26 September 2026**.
+This repository accompanies *Alignment in Multimodal Large Language Models: A Survey*, being prepared for TPAMI submission. It connects what methods optimize, where their supervision comes from, how they are trained, and what evidence supports their alignment claims.
 
-[Browse papers](catalog/README.md) · [Supplement](supplement/README.md) · [Figures](figures/README.md) · [Timeline sources](figures/timeline/README.md) · [Citation history](catalog/history/README.md)
+**275 body-cited papers | 6 research domains | 3 manuscript figures | 163 timeline entries**
 
-## What Is Multimodal Alignment?
+Manuscript snapshot: **26 September 2026**. This is a private working companion, not an accepted publication or an IEEE-endorsed resource.
 
-Multimodal alignment is the consistency of a model's representations and observable behavior with **input evidence, task requirements, and human expectations**. An image, a spoken instruction, and a sequence of actions should not merely share similar embeddings: the model must connect the right evidence to the right claim or decision.
+## Contents
 
-We distinguish two diagnostic perspectives:
+- [Overview](#overview)
+- [Alignment: What, Why, and How](#alignment-what-why-and-how)
+- [Browse by Domain](#browse-by-domain)
+- [Timeline and Editable Sources](#timeline-and-editable-sources)
+- [Supplementary Comparisons](#supplementary-comparisons)
+- [Downloads and Citation History](#downloads-and-citation-history)
+- [Scope and Inclusion](#scope-and-inclusion)
+- [Contribute and Reproduce](#contribute-and-reproduce)
 
-- **Modality Gap:** failure to establish or use task-relevant correspondence across modalities. Our operational definition includes object binding, temporal correspondence, and evidence-dependent responses. It is broader than geometric separation between modality-specific embeddings.
-- **Intent Gap:** behavior that conflicts with a specified goal or constraint, such as moving an object that must remain in place, violating a safety requirement, or expressing unjustified certainty.
-
-These perspectives are complementary, not an exhaustive partition of errors. A model can perceive a scene correctly but act inappropriately, or behave cautiously while using incorrect evidence. A reasoning error after correct perception requires further diagnosis; it should not automatically be assigned to either gap.
-
-<p align="center"><img src="figures/figure-2-two-gaps.png" width="620" alt="Four cases separate perception of a blue mug from compliance with the instruction not to move it"></p>
-
-*Figure 2. Perceptual correctness and action compliance are assessed separately for the same scene and instruction. Passing these two checks does not establish general model reliability.*
-
-## Why Does Alignment Matter?
-
-A fluent answer can still be unsupported by an image, inconsistent with a video, or unsuitable for the user's task. Misalignment can produce object hallucinations, incorrect event ordering, failures under modality shifts, unsafe responses, and actions that violate constraints. In medical, robotic, and climate-support settings, an unsupported output can also undermine traceability and downstream decision quality.
-
-Consequently, good benchmark accuracy, similar embeddings, or polished language is not sufficient evidence of alignment. Evaluation must distinguish **what information is available**, **whether the model uses it**, and **whether its behavior meets the stated requirements**.
-
-## How Is Alignment Studied?
-
-The survey connects architectural information access, training signals, update procedures, and evaluation. The domains below are organizational perspectives, not six mutually exclusive method types.
-
-| Domain | Central question | What the catalog covers |
-| --- | --- | --- |
-| [Architecture](catalog/domains/architecture.md) | What evidence can reach the language model? | Interfaces, discrete representations, structured and graph-based representations, attention, and expert routing. |
-| [Objective Functions](catalog/domains/objective-functions.md) | What is optimized? | Contrastive and distributional objectives, reconstruction, grounding constraints, instruction losses, preferences, and verifiable rewards. |
-| [Data Construction](catalog/domains/data-construction.md) | Where does supervision come from? | Paired evidence, local and temporal annotations, synthetic targets, preferences, negatives, and bias controls. |
-| [Training](catalog/domains/training.md) | Which components are updated, and when? | Pretraining, instruction tuning, preference and reward optimization, and inference-time interventions. |
-| [Evaluation](catalog/domains/evaluation.md) | What evidence supports an alignment claim? | Representation-, task-, and behavior-level evaluation; grounding, robustness, calibration, reward judges, and controlled protocols. |
-| [Applications](catalog/domains/applications.md) | Which constraints change across domains? | Embodied systems, safety, healthcare, recommendation, and climate decision support. |
-
-The organizing principle is: **two gaps diagnose problems; six domains organize interventions and assessment; three evaluation levels test the resulting claims**. A preference-learning study may appear in Objectives for its loss, Data for its supervision, and Training for its update procedure. Such overlap is recorded rather than removed.
+## Overview
 
 ![Overview of multimodal alignment](figures/figure-1-overview.png)
 
 *Figure 1. Data provides supervision, objectives specify optimization targets, and training controls updates. Architecture enables multimodal information flow; evaluation tests evidence use and behavior and informs refinement.*
 
-## Included Work and Scope
+## Alignment: What, Why, and How
 
-The catalog contains **all 275 references cited in the current manuscript body**, including related surveys, foundational methods, methodological background, and adjacent applications. These supporting references are not all claimed to be core MLLM alignment methods. Domain pages distinguish chapter discussion, timeline placement, and background mappings.
+**What is alignment?** Multimodal alignment is the consistency of a model's representations and observable behavior with **input evidence, task requirements, and human expectations**. Connecting images, language, audio, and actions requires more than similar embeddings: the model must use the right evidence to support the right claim or decision.
 
-The review is a **structured narrative survey**, not an exhaustive systematic review. Its manuscript reports searches through August 2026, selective updates on 9 September 2026, and targeted verification during revision. GUI agents and generation-side alignment are not comprehensively surveyed. The repository export verifies citation membership and packaging; it does not constitute a new full-text review of every source.
+**Why is it needed?** Fluent output can still hallucinate objects, misorder events, ignore a modality, or violate a task constraint. In medical, robotic, and climate-support settings, these failures also undermine traceability and downstream decisions. Benchmark accuracy and polished language alone do not establish reliable evidence use.
 
-- [Complete readable catalog](catalog/all-papers.md): one record per current citation key.
-- [CSV](catalog/papers.csv), [JSON](catalog/papers.json), and [BibTeX](bibliography/current.bib): bibliographic metadata, links, domain memberships, and manuscript locations.
-- [Classification policy](catalog/classification-policy.md): how chapter membership and timeline categories are kept distinct.
-- [Citation history](catalog/history/README.md): preserved historical and inactive entries, with explicit status rather than silently deleting records.
+**How is it pursued?** Architectural interfaces control information access; data and objectives define learning signals; training determines the update process. Evaluation then tests representations, task grounding, and behavior, including responses to controlled changes in the evidence.
 
-## Historical Timeline
+The survey uses two complementary diagnostic perspectives:
+
+| Perspective | Diagnostic question | Scope |
+| --- | --- | --- |
+| **Modality Gap** | Does the model establish and use the correspondence needed across modalities? | Object binding, temporal correspondence, and evidence-dependent responses; broader than geometric separation between modality embeddings. |
+| **Intent Gap** | Does behavior satisfy the stated goal and constraints? | Task compliance, safety requirements, and justified certainty. |
+
+These perspectives are not an exhaustive partition of errors. Correct perception followed by faulty reasoning requires further diagnosis; it should not automatically be assigned to either gap.
+
+<p align="center"><img src="figures/figure-2-two-gaps.png" width="620" alt="Four cases separate perception of a blue mug from compliance with the instruction not to move it"></p>
+
+*Figure 2. Perceptual correctness and action compliance are assessed separately for the same scene and instruction. Passing these checks does not establish general model reliability.*
+
+## Browse by Domain
+
+**Two gaps diagnose problems; six domains organize interventions and assessment; three evaluation levels test the resulting claims.**
+
+Domain pages group papers by publication year, newest first, and retain method names, source links, citation keys, and placement information. Foundational studies and related surveys are not relabeled as core MLLM methods.
+
+| Domain | Central question | Cited in chapter | In timeline |
+| --- | --- | ---: | ---: |
+| [Architecture](catalog/domains/architecture.md) | What evidence can reach the language model? | 66 | 31 |
+| [Objective Functions](catalog/domains/objective-functions.md) | What is optimized? | 35 | 27 |
+| [Data Construction](catalog/domains/data-construction.md) | Where does supervision come from? | 110 | 32 |
+| [Training](catalog/domains/training.md) | Which components are updated, and when? | 37 | 22 |
+| [Evaluation](catalog/domains/evaluation.md) | What evidence supports an alignment claim? | 41 | 24 |
+| [Applications](catalog/domains/applications.md) | Which constraints change across application settings? | 27 | 27 |
+
+Chapter counts overlap. A work can be discussed for its loss in Objectives, its supervision in Data, and its update procedure in Training. Timeline membership is a separate visual assignment, not proof of discussion in that chapter. [Classification policy](catalog/classification-policy.md).
+
+## Timeline and Editable Sources
 
 ![From Foundations to Applications: timeline of representative work](figures/figure-3-timeline-preview.png)
 
-*Figure 3. A timeline of 163 representative works across six research domains. Colors indicate the organizing category; placement depicts historical development, not a hierarchy or performance ranking. The earliest bucket includes work published before 2021.*
+*Figure 3. A timeline of 163 representative works across six domains. Colors identify organizing categories; placement depicts historical development, not a hierarchy or performance ranking. The earliest bucket includes work published before 2021.*
 
-[Vector-text PDF](figures/figure-3-timeline.pdf) · [16,000-pixel PNG](figures/figure-3-timeline-16000.png) · [Editable PPTX](figures/timeline/timeline.pptx) · [Layout, assets, and renderer](figures/timeline/README.md)
+[PDF](figures/figure-3-timeline.pdf) · [16,000-pixel PNG](figures/figure-3-timeline-16000.png) · [Editable PPTX](figures/timeline/timeline.pptx) · [Layout, assets, and renderer](figures/timeline/README.md)
 
-The river and colored background are raster artwork; text and foreground elements remain individually editable in the PPTX. Institutional attribution and logo reuse permission are separate issues. See [rights and attribution](RIGHTS.md) before public release.
+The river background is raster artwork; text and foreground elements remain individually editable in the PPTX. Institutional attribution and logo reuse permission are separate issues. See [rights and attribution](RIGHTS.md) before public release.
 
 ## Supplementary Comparisons
 
-The supplement provides analytical comparisons, not new experiments or a matched model leaderboard:
+These tables compare assumptions and evidence, not leaderboard scores or new experimental results.
 
-1. [Architectural interventions](supplement/tables/architecture-comparison.md): selection mechanisms, supervision assumptions, and appropriate controls.
-2. [Operational diagnostic matrix](supplement/tables/diagnostic-matrix.md): evidence failures, constraint violations, and reasoning-capability errors.
-3. [Related-survey coverage](supplement/tables/related-survey-coverage.md): version-specific source locations supporting fair comparison with earlier reviews.
+| Comparison | What it clarifies | Files |
+| --- | --- | --- |
+| Architectural interventions | Selection mechanisms, supervision assumptions, and appropriate controls | [Read](supplement/tables/architecture-comparison.md) · [CSV](supplement/tables/architecture-comparison.csv) |
+| Operational diagnostic matrix | Evidence failures, constraint violations, and reasoning-capability errors | [Read](supplement/tables/diagnostic-matrix.md) · [CSV](supplement/tables/diagnostic-matrix.csv) |
+| Related-survey coverage | Version-specific source locations supporting comparison with earlier reviews | [Read](supplement/tables/related-survey-coverage.md) · [CSV](supplement/tables/related-survey-coverage.csv) |
 
-The [supplement PDF and LaTeX sources](supplement/README.md) and the six active main-text table sources are included.
+The [supplement directory](supplement/README.md) also contains the compiled PDF, LaTeX sources, and six active main-text table sources.
 
-## Validate or Rebuild
+## Downloads and Citation History
+
+| Resource | Contents | Access |
+| --- | --- | --- |
+| Current reading list | All 275 body-cited records, once per citation key | [Readable catalog](catalog/all-papers.md) |
+| Structured catalog | Authors, venues, links, domain memberships, and exact manuscript locations | [CSV](catalog/papers.csv) · [JSON](catalog/papers.json) |
+| Current bibliography | Citation records for the current manuscript | [BibTeX](bibliography/current.bib) |
+| Historical ledger | Earlier citations and inactive bibliography entries, with explicit status | [History](catalog/history/README.md) · [Archive BibTeX](bibliography/archive.bib) |
+| Source provenance | Snapshot commit, counts, checksums, and validation boundaries | [Provenance](PROVENANCE.md) · [Manifest](catalog/manifest.json) |
+
+**Where did removed references go?** They are retained in the historical ledger, separately from the current 275. Historical keys with unresolved metadata and library-only candidates are labeled; they are not counted as additional verified papers.
+
+## Scope and Inclusion
+
+The catalog covers **all references cited in the current manuscript body**, including related surveys, foundational methods, methodological background, and adjacent applications. Inclusion is not a claim that every record is a core MLLM alignment method or that every source received a new full-text review during this export.
+
+This is a **structured narrative survey**, not an exhaustive systematic review. The manuscript reports searches through August 2026, selective updates on 9 September 2026, and targeted verification during revision. GUI agents and generation-side alignment are not comprehensively surveyed. The catalog preserves cited publication years, which can differ from preprint dates and the nominal conference year.
+
+## Contribute and Reproduce
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for evidence requirements, citation-preserving corrections, and the distinction between current citations and proposed additions. Author details and a final manuscript citation will be added after confirmation; no publication license or institutional endorsement is implied.
 
 ```bash
 python3 -m pip install -r requirements.txt
 python3 scripts/validate_catalog.py
 
-# Inspect counts and status without installing rendering dependencies.
-python3 scripts/catalog_stats.py
+# Refresh the six domain pages from the structured catalog.
+python3 scripts/render_catalog.py
+python3 scripts/render_catalog.py --check
 
-# Rebuild the timeline with locally licensed font files.
-python3 scripts/render_timeline.py \
-  --font-regular /path/to/Times-New-Roman.ttf \
-  --font-bold /path/to/Times-New-Roman-Bold.ttf \
-  --output build/timeline.pdf
+# Inspect counts without rendering dependencies.
+python3 scripts/catalog_stats.py
 ```
 
-See [provenance](PROVENANCE.md) for the source snapshot, validation boundaries, and known display-label differences. Author details and a final manuscript citation will be added after author confirmation. No publication license or institutional endorsement is implied.
+Timeline rendering instructions, font requirements, and asset boundaries are in the [timeline source guide](figures/timeline/README.md).
