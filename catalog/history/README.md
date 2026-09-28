@@ -6,7 +6,7 @@ This directory answers a narrower, verifiable question: **which citation keys oc
 
 - **275** distinct current body-cited records.
 - **417** entries in the current source bibliography library, of which **142** are not currently body-cited.
-- **76** tracked Git snapshots inspected in ancestry order, ending at manuscript commit `06f9038` on 26 September 2026.
+- **77** tracked Git snapshots inspected in ancestry order, ending at manuscript commit `506a852` on 2026-09-28. This revision preserves the current citation set; intermediate layout-only commits are not reconstructed as additional snapshots.
 - **297** historical or library-only records outside the current 275: **279** citation keys observed in an earlier active manuscript and **18** library entries with no active citation observed in the inspected history.
 - **115** of those historical keys have no bibliographic metadata recoverable from the tracked bibliography files. They are preserved as unresolved records, not identified papers.
 

@@ -9,7 +9,7 @@ The six domains are Architecture, Objective Functions, Data Construction, Traini
 ## Membership Evidence
 
 - **Chapter:** the active source contains a citation in that domain's section. `body_locations` preserves the file, line, subsection, and subsubsection without distributing the manuscript prose.
-- **Timeline:** the work is assigned to that domain in the existing Figure 3 source. The category identifies its visual grouping, not its only possible use.
+- **Timeline:** the work is assigned to that domain in the complete 163-entry timeline source. The 70-entry printed figure is a subset of that source. The category identifies its visual grouping, not its only possible use.
 - **Context mapping:** a related survey, definition paper, or future-direction example cited outside the six chapters is linked to relevant domains. These entries are explicitly labeled; the mapping is not a claim that the domain chapter itself cites that work.
 
 The union of these memberships is `domains`. `body_domains` and `timeline_domain` remain separate so that readers can inspect cross-category use. Membership counts must not be summed as a unique-paper count.
@@ -18,7 +18,7 @@ The union of these memberships is `domains`. `body_domains` and `timeline_domain
 
 `catalog_role` distinguishes cross-cutting background, future-direction examples, and chapter-discussed work. The last category can include foundational vision-language learning, text-only optimization or evaluation, and adjacent applications. It does not certify that every listed work is a core MLLM alignment method.
 
-Method names are retained from the timeline where available; full titles and stable citation keys disambiguate otherwise unnamed studies. The two GOAL papers have distinct keys and descriptive labels. AdaViP is normalized in the catalog while the manuscript figure's inherited display alias is preserved and documented.
+Method names are retained from the timeline where available; full titles and stable citation keys disambiguate otherwise unnamed studies. The two GOAL papers have distinct keys and descriptive labels. AdViP is the formal IJCV name; AdaViP is retained as the earlier-preprint alias for the same citation key, not as an additional paper.
 
 ## Years and Source Links
 

@@ -1,6 +1,6 @@
 {
-  "snapshot_date": "2026-09-26",
-  "manuscript_commit": "06f9038598e3b916bf5067819db8057541936a7f",
+  "snapshot_date": "2026-09-28",
+  "manuscript_commit": "506a852a1d46ba13dfd8e982bcbf10963aad1851",
   "current_paper_count": 275,
   "timeline_paper_count": 163,
   "domain_counts": {
@@ -25,8 +25,8 @@
       "timeline": 22
     },
     "Evaluation": {
-      "total": 59,
-      "cited_in_chapter": 41,
+      "total": 56,
+      "cited_in_chapter": 38,
       "timeline": 24
     },
     "Applications": {
@@ -35,7 +35,7 @@
       "timeline": 27
     }
   },
-  "supplement_reference_count": 28,
+  "supplement_reference_count": 31,
   "supplement_tables": [
     {
       "table": "S1",
@@ -84,6 +84,16 @@
         "lu2025representationpotentials",
         "shu2025alignmentexplainability",
         "yu2025preferencesurvey"
+      ]
+    },
+    {
+      "table": "S4",
+      "slug": "reported-evidence",
+      "rows": 5,
+      "citation_keys": [
+        "mckinzie2024mm1",
+        "wang2024mdpo",
+        "zong2024vlguard"
       ]
     }
   ],
@@ -207,28 +217,34 @@
     "wu2024selp",
     "nie2024privagent"
   ],
-  "history_snapshots": 76,
+  "history_snapshots": 77,
   "urls_missing": [],
   "source_hashes": {
-    "introduction.tex": "3b7f615f12c50406a5ea689f8b95d56846054c723c11dbbac1b962a957a199b1",
-    "RQ2.tex": "9bff45a2d63343a6d87b53193a8701b06a9d2083f6a3318d4c758efad09af34c",
-    "data.tex": "b1b922b134f82984287d193ef7f35dc2fdbcd89914c18aa5b83e424e649900fd",
-    "RQ3.tex": "e00550ec49618e67519b7c2ef270380c2b7fe4c9f413669afdcbdef5c2604fbb",
-    "evaluation.tex": "9d9c2224d67374ad67ddc31201164d98d720a9ac8340dcffe77e9e156093f49f",
-    "Applications.tex": "4778af7666cf1716a0dc44be19f6f7bb08312d0aaa3a4b28569a5a8dc5a1e444",
-    "future.tex": "07e709f2036b858b78c7dd52f45226238fb39c40fe4919df2fc3e9af82e2f45c",
+    "introduction.tex": "2290041390ae61f6bb1e359a3b66860af12b116fee89264d83697eb240a97ba4",
+    "RQ2.tex": "73b93896806eb362867d33c9cacdf3d19dead27186bf3c120216a23b53a20677",
+    "data.tex": "560d3bbab5c7b75f4ec86070c0ee21280a95ca607a51a347e6d047565fdd5807",
+    "RQ3.tex": "29829fd845b95386b8f6d95a7954be50428f7a35517451d2eccca85c7bfe8e5e",
+    "evaluation.tex": "ebddad291a46249cfd86db78713443a26c7191f2c0d2c7743f4692a692f6bf98",
+    "Applications.tex": "eb92e5816a3e280a39c002dfbdf2aa1f16a5e672993c7f55b835eaa31050dca8",
+    "future.tex": "961f5757ef5035ef995237885d8b9910e940625237d653d95b7a6e011c8784db",
     "Conclusion.tex": "aa69ab67b5b97bcc16895a53da604ea2950e9ebc4b71c5884c5e2a0255a6033e",
-    "main.tex": "900f9cabb884d61df141702c5c8e95df08cf2a3ab1bf0838fc720a87575e4581",
-    "references.bib": "0cf8e4ed13a9790b87fae136ae5a778fef965a305943c3632906db4426dede3e",
-    "data.bib": "a82fcb737ac31d74bf36b03ee2d2557f4e5db71e6477bed4766679cac6247641",
-    "supplement.tex": "48935fea0c60104d3921d22868c51ef51fe90795fa4566d0917397af916b150d"
+    "main.tex": "4bed1d2ce0c92f5b756108b98441602a008fcf8bddfd2e12e919a9f96039c3f2",
+    "references.bib": "69291e9e86feed1183b4496ff451679806ee0677c4daed4a55b115d04a3a68a5",
+    "data.bib": "1542aef422948cd115f7beb9a3b7db26f1c1ae20ba50d4889c336cfd39d2c9ee",
+    "supplement.tex": "4540fe47068e087c5fdb1b9b07a60bc1fe4df8c78b8a06f94598c20a289a50d7",
+    "bibliography-control.bib": "249bcf4f83def0b2b802898a15c759dca2fd0db8cacaccfb2a9d9b0f09628129"
   },
   "figure_hashes": {
     "figures/figure-3-timeline-16000.png": "2b6d58eeb574f5fb7e96bc14a616abe76abed26f0dd943e526791c6233ea770f",
     "figures/figure-2-two-gaps.png": "24c9d11d842d0a5755eecec564a663c5515cb396e0d347429fa32610a6a157df",
     "figures/figure-1-overview.png": "47c87ca6f7dfc62b8da1805ea542cc5824e0579f6c51014ba1ef28733a168872",
     "figures/figure-3-timeline.pdf": "cbfc85ab42870ad30af7e20d2b1bab9a2b0009e70e13ce42fc3f910d0d4abae3",
-    "figures/figure-3-timeline-preview.png": "3161e62767266274258e729b79acdbc77b30d29d7448dcb3bb8a89f42373a611"
+    "figures/figure-3-timeline-preview.png": "3161e62767266274258e729b79acdbc77b30d29d7448dcb3bb8a89f42373a611",
+    "figures/figure-3-milestones.pdf": "8e6027ef48c1702d365821b56311f98db294b9616939dd54fc9e6e52d4e917aa",
+    "figures/figure-3-milestones-16000.png": "f9474b75df25c379626d6eb6d5029786b0d7e571cae18a82e37b8e46744fc13f",
+    "figures/figure-3-milestones-preview.png": "d8c1adc8e694b11b0bf458fa468a4ac6472e6caac13805075e53f9a2743df8b5"
   },
-  "coverage_boundary": "This export checks citation membership and asset provenance; it is not a new full-text scientific or logo-permission audit."
+  "coverage_boundary": "This export checks citation membership and asset provenance; it is not a new full-text scientific or logo-permission audit.",
+  "supplement_page_count": 5,
+  "manuscript_timeline_paper_count": 70
 }

@@ -12,5 +12,6 @@ build/
 *.out
 *.synctex.gz
 *.tmp
+~$*.pptx
 .env
 .env.*

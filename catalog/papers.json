@@ -13,7 +13,7 @@
       "Chen, Honghui"
     ],
     "year": "2026",
-    "venue": "Proceedings of the 49th International ACM SIGIR Conference on Research and Development in Information Retrieval",
+    "venue": "Proc. Int. ACM SIGIR Conf. Res. Develop. Inf. Retr.",
     "entry_type": "inproceedings",
     "doi": "10.1145/3805712.3809749",
     "url": "https://doi.org/10.1145/3805712.3809749",
@@ -50,7 +50,7 @@
       "Andreas, Jacob"
     ],
     "year": "2023",
-    "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    "venue": "Proc. Annu. Meet. Assoc. Comput. Linguist. (ACL)",
     "entry_type": "inproceedings",
     "doi": "10.18653/v1/2023.acl-long.38",
     "url": "https://doi.org/10.18653/v1/2023.acl-long.38",
@@ -69,7 +69,7 @@
     "body_locations": [
       {
         "source_file": "data.tex",
-        "line": 216,
+        "line": 212,
         "section": "Data Construction: Building Alignment Signals",
         "subsection": "Dataset Bias and Debiasing",
         "subsubsection": "Breaking Language Priors and Shortcut Learning",
@@ -84,9 +84,9 @@
     "title": "Self-Supervised MultiModal Versatile Networks",
     "authors": [
       "Alayrac, Jean-Baptiste",
-      "Recasens, Adrià",
+      "Recasens, Adri\u00e0",
       "Schneider, Rosalia",
-      "Arandjelović, Relja",
+      "Arandjelovi\u0107, Relja",
       "Ramapuram, Jason",
       "De Fauw, Jeffrey",
       "Smaira, Lucas",
@@ -94,7 +94,7 @@
       "Zisserman, Andrew"
     ],
     "year": "2020",
-    "venue": "Advances in Neural Information Processing Systems",
+    "venue": "Adv. Neural Inf. Process. Syst.",
     "entry_type": "inproceedings",
     "doi": "",
     "url": "https://proceedings.neurips.cc/paper/2020/hash/0060ef47b12160b9198302ebdb144dcf-Abstract.html",
@@ -114,7 +114,7 @@
     "body_locations": [
       {
         "source_file": "data.tex",
-        "line": 175,
+        "line": 173,
         "section": "Data Construction: Building Alignment Signals",
         "subsection": "Synthetic and Self-Supervised Alignment Data",
         "subsubsection": "Structure-Derived Self-Supervision",
@@ -136,7 +136,7 @@
       "Tran, Du"
     ],
     "year": "2020",
-    "venue": "Advances in Neural Information Processing Systems",
+    "venue": "Adv. Neural Inf. Process. Syst.",
     "entry_type": "inproceedings",
     "doi": "",
     "url": "https://proceedings.neurips.cc/paper_files/paper/2020/hash/6f2268bd1d3d3ebaabb04d6b5d099425-Abstract.html",
@@ -158,7 +158,7 @@
     "body_locations": [
       {
         "source_file": "RQ2.tex",
-        "line": 213,
+        "line": 196,
         "section": "Objective Functions: Optimizing Multimodal Alignment",
         "subsection": "Generative Implicit Alignment Loss",
         "subsubsection": "Self-Guided Proxy Supervision",
@@ -166,15 +166,15 @@
       },
       {
         "source_file": "data.tex",
-        "line": 169,
+        "line": 167,
         "section": "Data Construction: Building Alignment Signals",
         "subsection": "Synthetic and Self-Supervised Alignment Data",
-        "subsubsection": "Naturally-Occurring Weak Supervision",
+        "subsubsection": "Naturally Occurring Weak Supervision",
         "domain": "Data Construction"
       },
       {
         "source_file": "data.tex",
-        "line": 219,
+        "line": 215,
         "section": "Data Construction: Building Alignment Signals",
         "subsection": "Dataset Bias and Debiasing",
         "subsubsection": "Optimization and Gradient-Level Debiasing",
@@ -194,7 +194,7 @@
       "Vedaldi, A."
     ],
     "year": "2020",
-    "venue": "Advances in Neural Information Processing Systems",
+    "venue": "Adv. Neural Inf. Process. Syst.",
     "entry_type": "inproceedings",
     "doi": "",
     "url": "https://proceedings.neurips.cc/paper/2020/hash/31fefc0e570cb3860f2a6d4b38c6490d-Abstract.html",
@@ -214,15 +214,15 @@
     "body_locations": [
       {
         "source_file": "data.tex",
-        "line": 169,
+        "line": 167,
         "section": "Data Construction: Building Alignment Signals",
         "subsection": "Synthetic and Self-Supervised Alignment Data",
-        "subsubsection": "Naturally-Occurring Weak Supervision",
+        "subsubsection": "Naturally Occurring Weak Supervision",
         "domain": "Data Construction"
       },
       {
         "source_file": "data.tex",
-        "line": 219,
+        "line": 215,
         "section": "Data Construction: Building Alignment Signals",
         "subsection": "Dataset Bias and Debiasing",
         "subsubsection": "Optimization and Gradient-Level Debiasing",
@@ -243,7 +243,7 @@
       "Adriana Romero-Soriano"
     ],
     "year": "2025",
-    "venue": "Advances in Neural Information Processing Systems",
+    "venue": "Adv. Neural Inf. Process. Syst.",
     "entry_type": "inproceedings",
     "doi": "10.52202/085713-4375",
     "url": "https://doi.org/10.52202/085713-4375",
@@ -264,7 +264,7 @@
     "body_locations": [
       {
         "source_file": "RQ2.tex",
-        "line": 228,
+        "line": 211,
         "section": "Objective Functions: Optimizing Multimodal Alignment",
         "subsection": "Constraint and Routing Regularization",
         "subsubsection": "Spatial and Topological Grounding",
@@ -272,7 +272,7 @@
       },
       {
         "source_file": "data.tex",
-        "line": 208,
+        "line": 204,
         "section": "Data Construction: Building Alignment Signals",
         "subsection": "Negative Sampling and Hard Negatives",
         "subsubsection": "Representation-Level Constraints",
@@ -295,7 +295,7 @@
       "Ji-Rong Wen"
     ],
     "year": "2025",
-    "venue": "2025 IEEE/CVF International Conference on Computer Vision (ICCV)",
+    "venue": "Proc. IEEE/CVF Int. Conf. Comput. Vis. (ICCV)",
     "entry_type": "inproceedings",
     "doi": "10.1109/iccv51701.2025.01768",
     "url": "https://doi.org/10.1109/iccv51701.2025.01768",
@@ -314,7 +314,7 @@
     "body_locations": [
       {
         "source_file": "data.tex",
-        "line": 188,
+        "line": 184,
         "section": "Data Construction: Building Alignment Signals",
         "subsection": "Multimodal Preference Data Construction",
         "subsubsection": "Multi-Dimensional Rubrics",
@@ -330,11 +330,11 @@
     "authors": [
       "Hyojin Bahng",
       "Caroline Chan",
-      "Frédo Durand",
+      "Fr\u00e9do Durand",
       "Phillip Isola"
     ],
     "year": "2025",
-    "venue": "2025 IEEE/CVF International Conference on Computer Vision (ICCV)",
+    "venue": "Proc. IEEE/CVF Int. Conf. Comput. Vis. (ICCV)",
     "entry_type": "inproceedings",
     "doi": "10.1109/iccv51701.2025.02129",
     "url": "https://doi.org/10.1109/iccv51701.2025.02129",
@@ -353,7 +353,7 @@
     "body_locations": [
       {
         "source_file": "data.tex",
-        "line": 194,
+        "line": 190,
         "section": "Data Construction: Building Alignment Signals",
         "subsection": "Multimodal Preference Data Construction",
         "subsubsection": "Annotation Sources and Judge Reliability",
@@ -374,8 +374,8 @@
       "Aditya Grover"
     ],
     "year": "2024",
-    "venue": "2024 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
-    "entry_type": "article",
+    "venue": "Proc. IEEE/CVF Conf. Comput. Vis. Pattern Recognit. (CVPR)",
+    "entry_type": "inproceedings",
     "doi": "",
     "url": "https://openaccess.thecvf.com/content/CVPR2024/html/Bansal_VideoCon_Robust_Video-Language_Alignment_via_Contrast_Captions_CVPR_2024_paper.html",
     "url_basis": "timeline source metadata",
@@ -395,7 +395,7 @@
     "body_locations": [
       {
         "source_file": "RQ2.tex",
-        "line": 170,
+        "line": 156,
         "section": "Objective Functions: Optimizing Multimodal Alignment",
         "subsection": "Fine-Grained Structured Contrastive Loss",
         "subsubsection": "Structured Compositional Logic Constraint",
@@ -403,7 +403,7 @@
       },
       {
         "source_file": "data.tex",
-        "line": 205,
+        "line": 201,
         "section": "Data Construction: Building Alignment Signals",
         "subsection": "Negative Sampling and Hard Negatives",
         "subsubsection": "Compositional and Temporal Negatives",
@@ -425,7 +425,7 @@
       "Liang Lin"
     ],
     "year": "2025",
-    "venue": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+    "venue": "Proc. IEEE/CVF Conf. Comput. Vis. Pattern Recognit. (CVPR)",
     "entry_type": "inproceedings",
     "doi": "",
     "url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Chen_Cross-modal_Causal_Relation_Alignment_for_Video_Question_Grounding_CVPR_2025_paper.pdf",
@@ -444,7 +444,7 @@
     "body_locations": [
       {
         "source_file": "data.tex",
-        "line": 216,
+        "line": 212,
         "section": "Data Construction: Building Alignment Signals",
         "subsection": "Dataset Bias and Debiasing",
         "subsubsection": "Breaking Language Priors and Shortcut Learning",
@@ -466,7 +466,7 @@
       "Rita Cucchiara"
     ],
     "year": "2025",
-    "venue": "Proceedings of the British Machine Vision Conference",
+    "venue": "Proc. Brit. Mach. Vis. Conf. (BMVC)",
     "entry_type": "inproceedings",
     "doi": "",
     "url": "https://bmvc2025.bmva.org/proceedings/666/",
@@ -485,7 +485,7 @@
     "body_locations": [
       {
         "source_file": "data.tex",
-        "line": 191,
+        "line": 187,
         "section": "Data Construction: Building Alignment Signals",
         "subsection": "Multimodal Preference Data Construction",
         "subsubsection": "Hallucination and Faithfulness Correction",
@@ -514,7 +514,7 @@
       "Wang, Jiaqi"
     ],
     "year": "2026",
-    "venue": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+    "venue": "Proc. IEEE/CVF Conf. Comput. Vis. Pattern Recognit. (CVPR)",
     "entry_type": "inproceedings",
     "doi": "",
     "url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Ding_ARM-Thinker_Reinforcing_Multimodal_Generative_Reward_Models_with_Agentic_Tool_Use_CVPR_2026_paper.pdf",
@@ -533,7 +533,7 @@
     "body_locations": [
       {
         "source_file": "data.tex",
-        "line": 194,
+        "line": 190,
         "section": "Data Construction: Building Alignment Signals",
         "subsection": "Multimodal Preference Data Construction",
         "subsubsection": "Annotation Sources and Judge Reliability",
@@ -553,7 +553,7 @@
       "Zhendong Mao"
     ],
     "year": "2025",
-    "venue": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+    "venue": "Proc. IEEE/CVF Conf. Comput. Vis. Pattern Recognit. (CVPR)",
     "entry_type": "inproceedings",
     "doi": "",
     "url": "https://openaccess.thecvf.com/content/CVPR2025/html/Du_SVLTA_Benchmarking_Vision-Language_Temporal_Alignment_via_Synthetic_Video_Situation_CVPR_2025_paper.html",
@@ -574,7 +574,7 @@
     "body_locations": [
       {
         "source_file": "data.tex",
-        "line": 180,
+        "line": 176,
         "section": "Data Construction: Building Alignment Signals",
         "subsection": "Synthetic and Self-Supervised Alignment Data",
         "subsubsection": "Model-Generated Targeted Data",
@@ -604,7 +604,7 @@
       "Vaishaal Shankar"
     ],
     "year": "2024",
-    "venue": "International Conference on Learning Representations",
+    "venue": "Int. Conf. Learn. Represent. (ICLR)",
     "entry_type": "inproceedings",
     "doi": "",
     "url": "https://proceedings.iclr.cc/paper_files/paper/2024/file/9bf0810a4a1597a36d27ceea58667d92-Paper-Conference.pdf",
@@ -623,7 +623,7 @@
     "body_locations": [
       {
         "source_file": "data.tex",
-        "line": 172,
+        "line": 170,
         "section": "Data Construction: Building Alignment Signals",
         "subsection": "Synthetic and Self-Supervised Alignment Data",
         "subsubsection": "Model-Refined Pseudo-Labels",
@@ -646,7 +646,7 @@
       "Shen, Chunhua"
     ],
     "year": "2022",
-    "venue": "Advances in Neural Information Processing Systems 35",
+    "venue": "Adv. Neural Inf. Process. Syst.",
     "entry_type": "inproceedings",
     "doi": "10.52202/068431-2606",
     "url": "https://doi.org/10.52202/068431-2606",
@@ -666,7 +666,7 @@
     "body_locations": [
       {
         "source_file": "data.tex",
-        "line": 219,
+        "line": 215,
         "section": "Data Construction: Building Alignment Signals",
         "subsection": "Dataset Bias and Debiasing",
         "subsubsection": "Optimization and Gradient-Level Debiasing",
@@ -686,7 +686,7 @@
       "Hazan, Tamir"
     ],
     "year": "2020",
-    "venue": "Advances in Neural Information Processing Systems",
+    "venue": "Adv. Neural Inf. Process. Syst.",
     "entry_type": "inproceedings",
     "doi": "",
     "url": "https://proceedings.neurips.cc/paper/2020/hash/20d749bc05f47d2bd3026ce457dcfd8e-Abstract.html",
@@ -707,7 +707,7 @@
     "body_locations": [
       {
         "source_file": "RQ2.tex",
-        "line": 231,
+        "line": 214,
         "section": "Objective Functions: Optimizing Multimodal Alignment",
         "subsection": "Constraint and Routing Regularization",
         "subsubsection": "Information-Flow and Routing Balance",
@@ -715,7 +715,7 @@
       },
       {
         "source_file": "data.tex",
-        "line": 219,
+        "line": 215,
         "section": "Data Construction: Building Alignment Signals",
         "subsection": "Dataset Bias and Debiasing",
         "subsubsection": "Optimization and Gradient-Level Debiasing",
@@ -738,7 +738,7 @@
       "Liang Wang"
     ],
     "year": "2021",
-    "venue": "Advances in Neural Information Processing Systems",
+    "venue": "Adv. Neural Inf. Process. Syst.",
     "entry_type": "inproceedings",
     "doi": "",
     "url": "https://proceedings.neurips.cc/paper_files/paper/2021/file/0602940f23884f782058efac46f64b0f-Paper.pdf",
@@ -757,7 +757,7 @@
     "body_locations": [
       {
         "source_file": "data.tex",
-        "line": 158,
+        "line": 156,
         "section": "Data Construction: Building Alignment Signals",
         "subsection": "High-Quality Pairing and Annotation",
         "subsubsection": "Spatiotemporal and Embodied Grounding",
@@ -782,7 +782,7 @@
       "Nan Duan"
     ],
     "year": "2023",
-    "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    "venue": "Proc. Annu. Meet. Assoc. Comput. Linguist. (ACL)",
     "entry_type": "inproceedings",
     "doi": "10.18653/v1/2023.acl-long.445",
     "url": "https://doi.org/10.18653/v1/2023.acl-long.445",
@@ -801,7 +801,7 @@
     "body_locations": [
       {
         "source_file": "data.tex",
-        "line": 205,
+        "line": 201,
         "section": "Data Construction: Building Alignment Signals",
         "subsection": "Negative Sampling and Hard Negatives",
         "subsubsection": "Compositional and Temporal Negatives",
@@ -821,7 +821,7 @@
       "Svetlana Kiritchenko"
     ],
     "year": "2025",
-    "venue": "Proceedings of the 2025 Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers)",
+    "venue": "Proc. Conf. Nations Americas Chapter Assoc. Comput. Linguist.: Hum. Lang. Technol. (NAACL-HLT)",
     "entry_type": "inproceedings",
     "doi": "10.18653/v1/2025.naacl-long.305",
     "url": "https://doi.org/10.18653/v1/2025.naacl-long.305",
@@ -840,7 +840,7 @@
     "body_locations": [
       {
         "source_file": "data.tex",
-        "line": 222,
+        "line": 218,
         "section": "Data Construction: Building Alignment Signals",
         "subsection": "Dataset Bias and Debiasing",
         "subsubsection": "Addressing Long-Tail, Safety, and Social Biases",
@@ -861,7 +861,7 @@
       "Lifang Wu"
     ],
     "year": "2026",
-    "venue": "Information Fusion",
+    "venue": "Inf. Fusion",
     "entry_type": "article",
     "doi": "10.1016/j.inffus.2025.103881",
     "url": "https://doi.org/10.1016/j.inffus.2025.103881",
@@ -902,7 +902,7 @@
       "Zhang, Shikun"
     ],
     "year": "2023",
-    "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    "venue": "Proc. Annu. Meet. Assoc. Comput. Linguist. (ACL)",
     "entry_type": "inproceedings",
     "doi": "10.18653/v1/2023.acl-long.819",
     "url": "https://doi.org/10.18653/v1/2023.acl-long.819",
@@ -922,7 +922,7 @@
     "body_locations": [
       {
         "source_file": "data.tex",
-        "line": 202,
+        "line": 198,
         "section": "Data Construction: Building Alignment Signals",
         "subsection": "Negative Sampling and Hard Negatives",
         "subsubsection": "Lexical and Visual Perturbation",
@@ -942,7 +942,7 @@
       "Tamara L. Berg"
     ],
     "year": "2014",
-    "venue": "Proceedings of the 2014 Conference on Empirical Methods in Natural Language Processing",
+    "venue": "Proc. Conf. Empirical Methods Nat. Lang. Process. (EMNLP)",
     "entry_type": "inproceedings",
     "doi": "",
     "url": "https://aclanthology.org/D14-1086.pdf",
@@ -961,7 +961,7 @@
     "body_locations": [
       {
         "source_file": "data.tex",
-        "line": 152,
+        "line": 150,
         "section": "Data Construction: Building Alignment Signals",
         "subsection": "High-Quality Pairing and Annotation",
         "subsubsection": "Region-Level Grounding",
@@ -982,7 +982,7 @@
       "Sangdoo Yun"
     ],
     "year": "2024",
-    "venue": "European Conference on Computer Vision",
+    "venue": "Proc. Eur. Conf. Comput. Vis. (ECCV)",
     "entry_type": "inproceedings",
     "doi": "",
     "url": "https://sanghyukchun.github.io/home/media/papers/kim2024hype.pdf",
@@ -1001,7 +1001,7 @@
     "body_locations": [
       {
         "source_file": "data.tex",
-        "line": 172,
+        "line": 170,
         "section": "Data Construction: Building Alignment Signals",
         "subsection": "Synthetic and Self-Supervised Alignment Data",
         "subsubsection": "Model-Refined Pseudo-Labels",
@@ -1021,7 +1021,7 @@
       "A. Angelova"
     ],
     "year": "2025",
-    "venue": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+    "venue": "Proc. IEEE/CVF Conf. Comput. Vis. Pattern Recognit. (CVPR)",
     "entry_type": "inproceedings",
     "doi": "",
     "url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Kim_VideoComp_Advancing_Fine-Grained_Compositional_and_Temporal_Alignment_in_Video-Text_Models_CVPR_2025_paper.pdf",
@@ -1040,7 +1040,7 @@
     "body_locations": [
       {
         "source_file": "data.tex",
-        "line": 205,
+        "line": 201,
         "section": "Data Construction: Building Alignment Signals",
         "subsection": "Negative Sampling and Hard Negatives",
         "subsubsection": "Compositional and Temporal Negatives",
@@ -1059,7 +1059,7 @@
       "L. Torresani"
     ],
     "year": "2018",
-    "venue": "Advances in Neural Information Processing Systems",
+    "venue": "Adv. Neural Inf. Process. Syst.",
     "entry_type": "inproceedings",
     "doi": "",
     "url": "https://proceedings.neurips.cc/paper_files/paper/2018/file/c4616f5a24a66668f11ca4fa80525dc4-Paper.pdf",
@@ -1078,10 +1078,10 @@
     "body_locations": [
       {
         "source_file": "data.tex",
-        "line": 169,
+        "line": 167,
         "section": "Data Construction: Building Alignment Signals",
         "subsection": "Synthetic and Self-Supervised Alignment Data",
-        "subsubsection": "Naturally-Occurring Weak Supervision",
+        "subsubsection": "Naturally Occurring Weak Supervision",
         "domain": "Data Construction"
       }
     ],
@@ -1106,7 +1106,7 @@
       "Li Fei-Fei"
     ],
     "year": "2017",
-    "venue": "International Journal of Computer Vision",
+    "venue": "Int. J. Comput. Vis.",
     "entry_type": "article",
     "doi": "",
     "url": "https://link.springer.com/content/pdf/10.1007/s11263-016-0981-7.pdf",
@@ -1125,7 +1125,7 @@
     "body_locations": [
       {
         "source_file": "data.tex",
-        "line": 152,
+        "line": 150,
         "section": "Data Construction: Building Alignment Signals",
         "subsection": "High-Quality Pairing and Annotation",
         "subsubsection": "Region-Level Grounding",
@@ -1146,7 +1146,7 @@
       "Jason Baldridge"
     ],
     "year": "2020",
-    "venue": "Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing",
+    "venue": "Proc. Conf. Empirical Methods Nat. Lang. Process. (EMNLP)",
     "entry_type": "inproceedings",
     "doi": "10.18653/v1/2020.emnlp-main.356",
     "url": "https://doi.org/10.18653/v1/2020.emnlp-main.356",
@@ -1165,7 +1165,7 @@
     "body_locations": [
       {
         "source_file": "data.tex",
-        "line": 158,
+        "line": 156,
         "section": "Data Construction: Building Alignment Signals",
         "subsection": "High-Quality Pairing and Annotation",
         "subsubsection": "Spatiotemporal and Embodied Grounding",
@@ -1184,7 +1184,7 @@
       "Kebin Wu"
     ],
     "year": "2025",
-    "venue": "Pacific-Asia Conference on Knowledge Discovery and Data Mining",
+    "venue": "Proc. Pacific-Asia Conf. Knowl. Discov. Data Min. (PAKDD)",
     "entry_type": "inproceedings",
     "doi": "",
     "url": "https://arxiv.org/pdf/2502.10250",
@@ -1203,7 +1203,7 @@
     "body_locations": [
       {
         "source_file": "data.tex",
-        "line": 222,
+        "line": 218,
         "section": "Data Construction: Building Alignment Signals",
         "subsection": "Dataset Bias and Debiasing",
         "subsubsection": "Addressing Long-Tail, Safety, and Social Biases",
@@ -1222,7 +1222,7 @@
       "Sohn, Jy-yong"
     ],
     "year": "2025",
-    "venue": "Advances in Neural Information Processing Systems",
+    "venue": "Adv. Neural Inf. Process. Syst.",
     "entry_type": "inproceedings",
     "doi": "10.52202/085713-0468",
     "url": "https://doi.org/10.52202/085713-0468",
@@ -1241,7 +1241,7 @@
     "body_locations": [
       {
         "source_file": "data.tex",
-        "line": 208,
+        "line": 204,
         "section": "Data Construction: Building Alignment Signals",
         "subsection": "Negative Sampling and Hard Negatives",
         "subsubsection": "Representation-Level Constraints",
@@ -1269,7 +1269,7 @@
       "Cao, Meng"
     ],
     "year": "2024",
-    "venue": "European Conference on Computer Vision",
+    "venue": "Proc. Eur. Conf. Comput. Vis. (ECCV)",
     "entry_type": "inproceedings",
     "doi": "",
     "url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/05836.pdf",
@@ -1288,7 +1288,7 @@
     "body_locations": [
       {
         "source_file": "data.tex",
-        "line": 172,
+        "line": 170,
         "section": "Data Construction: Building Alignment Signals",
         "subsection": "Synthetic and Self-Supervised Alignment Data",
         "subsubsection": "Model-Refined Pseudo-Labels",
@@ -1316,7 +1316,7 @@
       "Hajishirzi, Hannaneh"
     ],
     "year": "2025",
-    "venue": "Findings of the Association for Computational Linguistics: NAACL 2025",
+    "venue": "Findings Assoc. Comput. Linguist.: NAACL 2025",
     "entry_type": "inproceedings",
     "doi": "10.18653/v1/2025.findings-naacl.96",
     "url": "https://doi.org/10.18653/v1/2025.findings-naacl.96",
@@ -1335,7 +1335,7 @@
     "body_locations": [
       {
         "source_file": "data.tex",
-        "line": 188,
+        "line": 184,
         "section": "Data Construction: Building Alignment Signals",
         "subsection": "Multimodal Preference Data Construction",
         "subsubsection": "Multi-Dimensional Rubrics",
@@ -1363,7 +1363,7 @@
       "Jianfeng Gao"
     ],
     "year": "2022",
-    "venue": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+    "venue": "Proc. IEEE/CVF Conf. Comput. Vis. Pattern Recognit. (CVPR)",
     "entry_type": "inproceedings",
     "doi": "",
     "url": "https://openaccess.thecvf.com/content/CVPR2022/papers/Li_Grounded_Language-Image_Pre-Training_CVPR_2022_paper.pdf",
@@ -1382,7 +1382,7 @@
     "body_locations": [
       {
         "source_file": "data.tex",
-        "line": 178,
+        "line": 176,
         "section": "Data Construction: Building Alignment Signals",
         "subsection": "Synthetic and Self-Supervised Alignment Data",
         "subsubsection": "Model-Generated Targeted Data",
@@ -1400,7 +1400,7 @@
       "Boyang Albert Li"
     ],
     "year": "2025",
-    "venue": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+    "venue": "Proc. IEEE/CVF Conf. Comput. Vis. Pattern Recognit. (CVPR)",
     "entry_type": "inproceedings",
     "doi": "",
     "url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Li_Enhancing_Vision-Language_Compositional_Understanding_with_Multimodal_Synthetic_Data_CVPR_2025_paper.pdf",
@@ -1419,7 +1419,7 @@
     "body_locations": [
       {
         "source_file": "data.tex",
-        "line": 180,
+        "line": 176,
         "section": "Data Construction: Building Alignment Signals",
         "subsection": "Synthetic and Self-Supervised Alignment Data",
         "subsubsection": "Model-Generated Targeted Data",
@@ -1441,7 +1441,7 @@
       "Nie, Liqiang"
     ],
     "year": "2025",
-    "venue": "Proceedings of the 33rd ACM International Conference on Multimedia",
+    "venue": "Proc. ACM Int. Conf. Multimedia",
     "entry_type": "inproceedings",
     "doi": "",
     "url": "https://arxiv.org/pdf/2503.14189",
@@ -1460,7 +1460,7 @@
     "body_locations": [
       {
         "source_file": "data.tex",
-        "line": 222,
+        "line": 218,
         "section": "Data Construction: Building Alignment Signals",
         "subsection": "Dataset Bias and Debiasing",
         "subsubsection": "Addressing Long-Tail, Safety, and Social Biases",
@@ -1498,7 +1498,7 @@
     "body_locations": [
       {
         "source_file": "data.tex",
-        "line": 202,
+        "line": 198,
         "section": "Data Construction: Building Alignment Signals",
         "subsection": "Negative Sampling and Hard Negatives",
         "subsubsection": "Lexical and Visual Perturbation",
@@ -1539,7 +1539,7 @@
     "body_locations": [
       {
         "source_file": "data.tex",
-        "line": 194,
+        "line": 190,
         "section": "Data Construction: Building Alignment Signals",
         "subsection": "Multimodal Preference Data Construction",
         "subsubsection": "Annotation Sources and Judge Reliability",
@@ -1561,7 +1561,7 @@
       "Wei Ping"
     ],
     "year": "2025",
-    "venue": "International Conference on Learning Representations",
+    "venue": "Int. Conf. Learn. Represent. (ICLR)",
     "entry_type": "inproceedings",
     "doi": "",
     "url": "https://proceedings.iclr.cc/paper_files/paper/2025/hash/6d5d6afa9957cfc9142ba60e78a467e9-Abstract-Conference.html",
@@ -1580,7 +1580,7 @@
     "body_locations": [
       {
         "source_file": "data.tex",
-        "line": 208,
+        "line": 204,
         "section": "Data Construction: Building Alignment Signals",
         "subsection": "Negative Sampling and Hard Negatives",
         "subsubsection": "Representation-Level Constraints",
@@ -1599,7 +1599,7 @@
       "Rui Xia"
     ],
     "year": "2022",
-    "venue": "Annual Meeting of the Association for Computational Linguistics",
+    "venue": "Proc. Annu. Meet. Assoc. Comput. Linguist. (ACL)",
     "entry_type": "inproceedings",
     "doi": "",
     "url": "https://aclanthology.org/2022.acl-long.152.pdf",
@@ -1619,7 +1619,7 @@
     "body_locations": [
       {
         "source_file": "data.tex",
-        "line": 161,
+        "line": 159,
         "section": "Data Construction: Building Alignment Signals",
         "subsection": "High-Quality Pairing and Annotation",
         "subsubsection": "Domain-Specialized Evidence",
@@ -1641,8 +1641,8 @@
       "Li Yi"
     ],
     "year": "2021",
-    "venue": "2021 IEEE/CVF International Conference on Computer Vision (ICCV)",
-    "entry_type": "article",
+    "venue": "Proc. IEEE/CVF Int. Conf. Comput. Vis. (ICCV)",
+    "entry_type": "inproceedings",
     "doi": "",
     "url": "https://openaccess.thecvf.com/content/ICCV2021/papers/Liu_Contrastive_Multimodal_Fusion_With_TupleInfoNCE_ICCV_2021_paper.pdf",
     "url_basis": "previous source-review record; not revalidated during repository export",
@@ -1662,7 +1662,7 @@
     "body_locations": [
       {
         "source_file": "RQ2.tex",
-        "line": 170,
+        "line": 156,
         "section": "Objective Functions: Optimizing Multimodal Alignment",
         "subsection": "Fine-Grained Structured Contrastive Loss",
         "subsubsection": "Structured Compositional Logic Constraint",
@@ -1670,7 +1670,7 @@
       },
       {
         "source_file": "data.tex",
-        "line": 205,
+        "line": 201,
         "section": "Data Construction: Building Alignment Signals",
         "subsection": "Negative Sampling and Hard Negatives",
         "subsubsection": "Compositional and Temporal Negatives",
@@ -1696,7 +1696,7 @@
       "Wang, Jiaqi"
     ],
     "year": "2025",
-    "venue": "International Conference on Learning Representations",
+    "venue": "Int. Conf. Learn. Represent. (ICLR)",
     "entry_type": "inproceedings",
     "doi": "",
     "url": "https://proceedings.iclr.cc/paper_files/paper/2025/hash/557a20663907ed637c2807f608d5bec2-Abstract-Conference.html",
@@ -1716,7 +1716,7 @@
     "body_locations": [
       {
         "source_file": "data.tex",
-        "line": 202,
+        "line": 198,
         "section": "Data Construction: Building Alignment Signals",
         "subsection": "Negative Sampling and Hard Negatives",
         "subsubsection": "Lexical and Visual Perturbation",
@@ -1736,7 +1736,7 @@
       "Linli Xu"
     ],
     "year": "2026",
-    "venue": "The Fourteenth International Conference on Learning Representations",
+    "venue": "Int. Conf. Learn. Represent. (ICLR)",
     "entry_type": "inproceedings",
     "doi": "",
     "url": "https://openreview.net/forum?id=FEMv4lHJ2C",
@@ -1756,7 +1756,7 @@
     "body_locations": [
       {
         "source_file": "data.tex",
-        "line": 202,
+        "line": 198,
         "section": "Data Construction: Building Alignment Signals",
         "subsection": "Negative Sampling and Hard Negatives",
         "subsubsection": "Lexical and Visual Perturbation",
@@ -1778,7 +1778,7 @@
       "Wensheng Zhang"
     ],
     "year": "2025",
-    "venue": "Advances in Neural Information Processing Systems",
+    "venue": "Adv. Neural Inf. Process. Syst.",
     "entry_type": "inproceedings",
     "doi": "10.52202/085713-4802",
     "url": "https://doi.org/10.52202/085713-4802",
@@ -1797,7 +1797,7 @@
     "body_locations": [
       {
         "source_file": "data.tex",
-        "line": 222,
+        "line": 218,
         "section": "Data Construction: Building Alignment Signals",
         "subsection": "Dataset Bias and Debiasing",
         "subsubsection": "Addressing Long-Tail, Safety, and Social Biases",
@@ -1818,7 +1818,7 @@
       "Ping Zhong"
     ],
     "year": "2025",
-    "venue": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+    "venue": "Proc. IEEE/CVF Conf. Comput. Vis. Pattern Recognit. (CVPR)",
     "entry_type": "inproceedings",
     "doi": "",
     "url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Liu_UCM-VeID_V2_A_Richer_Dataset_and_A_Pre-training_Method_for_CVPR_2025_paper.pdf",
@@ -1837,7 +1837,7 @@
     "body_locations": [
       {
         "source_file": "data.tex",
-        "line": 161,
+        "line": 159,
         "section": "Data Construction: Building Alignment Signals",
         "subsection": "High-Quality Pairing and Annotation",
         "subsubsection": "Domain-Specialized Evidence",
@@ -1848,7 +1848,7 @@
   },
   {
     "citation_key": "Lu2025AdaViPAM",
-    "name": "AdaViP",
+    "name": "AdViP",
     "title": "AdViP: Aligning Multi-modal LLMs via Adaptive Vision-enhanced Preference Optimization",
     "authors": [
       "Jinda Lu",
@@ -1860,7 +1860,7 @@
       "Xiangnan He"
     ],
     "year": "2026",
-    "venue": "International Journal of Computer Vision",
+    "venue": "Int. J. Comput. Vis.",
     "entry_type": "article",
     "doi": "10.1007/s11263-026-02840-0",
     "url": "https://doi.org/10.1007/s11263-026-02840-0",
@@ -1880,14 +1880,17 @@
     "body_locations": [
       {
         "source_file": "data.tex",
-        "line": 202,
+        "line": 198,
         "section": "Data Construction: Building Alignment Signals",
         "subsection": "Negative Sampling and Hard Negatives",
         "subsubsection": "Lexical and Visual Perturbation",
         "domain": "Data Construction"
       }
     ],
-    "status": "cited_in_current_body"
+    "status": "cited_in_current_body",
+    "aliases": [
+      "AdaViP (earlier preprint)"
+    ]
   },
   {
     "citation_key": "Luo2024ProbingVL",
@@ -1901,7 +1904,7 @@
       "Lee, Honglak"
     ],
     "year": "2025",
-    "venue": "Proceedings of the 42nd International Conference on Machine Learning",
+    "venue": "Proc. Int. Conf. Mach. Learn. (ICML)",
     "entry_type": "inproceedings",
     "doi": "",
     "url": "https://proceedings.mlr.press/v267/luo25b.html",
@@ -1920,7 +1923,7 @@
     "body_locations": [
       {
         "source_file": "data.tex",
-        "line": 202,
+        "line": 198,
         "section": "Data Construction: Building Alignment Signals",
         "subsection": "Negative Sampling and Hard Negatives",
         "subsubsection": "Lexical and Visual Perturbation",
@@ -1941,7 +1944,7 @@
       "Qi, Xiaojuan"
     ],
     "year": "2023",
-    "venue": "Advances in Neural Information Processing Systems 36",
+    "venue": "Adv. Neural Inf. Process. Syst.",
     "entry_type": "inproceedings",
     "doi": "10.52202/075280-3113",
     "url": "https://doi.org/10.52202/075280-3113",
@@ -1960,7 +1963,7 @@
     "body_locations": [
       {
         "source_file": "data.tex",
-        "line": 178,
+        "line": 176,
         "section": "Data Construction: Building Alignment Signals",
         "subsection": "Synthetic and Self-Supervised Alignment Data",
         "subsubsection": "Model-Generated Targeted Data",
@@ -1979,7 +1982,7 @@
       "Chai, J."
     ],
     "year": "2023",
-    "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    "venue": "Proc. Annu. Meet. Assoc. Comput. Linguist. (ACL)",
     "entry_type": "inproceedings",
     "doi": "10.18653/v1/2023.acl-long.31",
     "url": "https://doi.org/10.18653/v1/2023.acl-long.31",
@@ -2000,7 +2003,7 @@
     "body_locations": [
       {
         "source_file": "RQ2.tex",
-        "line": 228,
+        "line": 211,
         "section": "Objective Functions: Optimizing Multimodal Alignment",
         "subsection": "Constraint and Routing Regularization",
         "subsubsection": "Spatial and Topological Grounding",
@@ -2008,7 +2011,7 @@
       },
       {
         "source_file": "data.tex",
-        "line": 161,
+        "line": 159,
         "section": "Data Construction: Building Alignment Signals",
         "subsection": "High-Quality Pairing and Annotation",
         "subsubsection": "Domain-Specialized Evidence",
@@ -2030,7 +2033,7 @@
       "Kavita Bala"
     ],
     "year": "2024",
-    "venue": "International Conference on Learning Representations",
+    "venue": "Int. Conf. Learn. Represent. (ICLR)",
     "entry_type": "inproceedings",
     "doi": "",
     "url": "https://proceedings.iclr.cc/paper_files/paper/2024/hash/d6c53fe062716387ff0df73cc53de60c-Abstract-Conference.html",
@@ -2049,7 +2052,7 @@
     "body_locations": [
       {
         "source_file": "data.tex",
-        "line": 175,
+        "line": 173,
         "section": "Data Construction: Building Alignment Signals",
         "subsection": "Synthetic and Self-Supervised Alignment Data",
         "subsubsection": "Structure-Derived Self-Supervision",
@@ -2071,7 +2074,7 @@
       "K. Murphy"
     ],
     "year": "2016",
-    "venue": "Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition",
+    "venue": "Proc. IEEE/CVF Conf. Comput. Vis. Pattern Recognit. (CVPR)",
     "entry_type": "inproceedings",
     "doi": "",
     "url": "https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Mao_Generation_and_Comprehension_CVPR_2016_paper.pdf",
@@ -2092,7 +2095,7 @@
     "body_locations": [
       {
         "source_file": "data.tex",
-        "line": 152,
+        "line": 150,
         "section": "Data Construction: Building Alignment Signals",
         "subsection": "High-Quality Pairing and Annotation",
         "subsubsection": "Region-Level Grounding",
@@ -2100,7 +2103,7 @@
       },
       {
         "source_file": "evaluation.tex",
-        "line": 60,
+        "line": 58,
         "section": "Evaluation: How to Measure Alignment",
         "subsection": "Metrics and Evaluators for Alignment",
         "subsubsection": "Retrieval and Localization Metrics",
@@ -2122,7 +2125,7 @@
       "Andrew Zisserman"
     ],
     "year": "2020",
-    "venue": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+    "venue": "Proc. IEEE/CVF Conf. Comput. Vis. Pattern Recognit. (CVPR)",
     "entry_type": "inproceedings",
     "doi": "",
     "url": "https://openaccess.thecvf.com/content_CVPR_2020/papers/Miech_End-to-End_Learning_of_Visual_Representations_From_Uncurated_Instructional_Videos_CVPR_2020_paper.pdf",
@@ -2141,7 +2144,7 @@
     "body_locations": [
       {
         "source_file": "data.tex",
-        "line": 175,
+        "line": 173,
         "section": "Data Construction: Building Alignment Signals",
         "subsection": "Synthetic and Self-Supervised Alignment Data",
         "subsubsection": "Structure-Derived Self-Supervision",
@@ -2163,7 +2166,7 @@
       "Josef Sivic"
     ],
     "year": "2019",
-    "venue": "Proceedings of the IEEE/CVF International Conference on Computer Vision",
+    "venue": "Proc. IEEE/CVF Int. Conf. Comput. Vis. (ICCV)",
     "entry_type": "inproceedings",
     "doi": "",
     "url": "https://www.cs.toronto.edu/~makarand/papers/ICCV2019_HowTo100M.pdf",
@@ -2182,10 +2185,10 @@
     "body_locations": [
       {
         "source_file": "data.tex",
-        "line": 169,
+        "line": 167,
         "section": "Data Construction: Building Alignment Signals",
         "subsection": "Synthetic and Self-Supervised Alignment Data",
-        "subsubsection": "Naturally-Occurring Weak Supervision",
+        "subsubsection": "Naturally Occurring Weak Supervision",
         "domain": "Data Construction"
       }
     ],
@@ -2201,7 +2204,7 @@
       "Vasconcelos, N."
     ],
     "year": "2020",
-    "venue": "Advances in Neural Information Processing Systems",
+    "venue": "Adv. Neural Inf. Process. Syst.",
     "entry_type": "inproceedings",
     "doi": "",
     "url": "https://proceedings.neurips.cc/paper/2020/hash/328e5d4c166bb340b314d457a208dc83-Abstract.html",
@@ -2222,7 +2225,7 @@
     "body_locations": [
       {
         "source_file": "RQ2.tex",
-        "line": 173,
+        "line": 159,
         "section": "Objective Functions: Optimizing Multimodal Alignment",
         "subsection": "Fine-Grained Structured Contrastive Loss",
         "subsubsection": "Latent-Space Distribution Calibration",
@@ -2230,7 +2233,7 @@
       },
       {
         "source_file": "data.tex",
-        "line": 208,
+        "line": 204,
         "section": "Data Construction: Building Alignment Signals",
         "subsection": "Negative Sampling and Hard Negatives",
         "subsubsection": "Representation-Level Constraints",
@@ -2268,7 +2271,7 @@
     "body_locations": [
       {
         "source_file": "data.tex",
-        "line": 194,
+        "line": 190,
         "section": "Data Construction: Building Alignment Signals",
         "subsection": "Multimodal Preference Data Construction",
         "subsubsection": "Annotation Sources and Judge Reliability",
@@ -2284,11 +2287,11 @@
     "authors": [
       "Ouali, Yassine",
       "Bulat, Adrian",
-      "Martínez, Brais",
+      "Mart\u00ednez, Brais",
       "Tzimiropoulos, Georgios"
     ],
     "year": "2024",
-    "venue": "Computer Vision - ECCV 2024",
+    "venue": "Proc. Eur. Conf. Comput. Vis. (ECCV)",
     "entry_type": "inproceedings",
     "doi": "10.1007/978-3-031-73116-7_23",
     "url": "https://doi.org/10.1007/978-3-031-73116-7_23",
@@ -2308,7 +2311,7 @@
     "body_locations": [
       {
         "source_file": "data.tex",
-        "line": 202,
+        "line": 198,
         "section": "Data Construction: Building Alignment Signals",
         "subsection": "Negative Sampling and Hard Negatives",
         "subsubsection": "Lexical and Visual Perturbation",
@@ -2327,7 +2330,7 @@
       "Gunhee Kim"
     ],
     "year": "2025",
-    "venue": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+    "venue": "Proc. IEEE/CVF Conf. Comput. Vis. Pattern Recognit. (CVPR)",
     "entry_type": "inproceedings",
     "doi": "",
     "url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Park_HalLoc_Token-level_Localization_of_Hallucinations_for_Vision_Language_Models_CVPR_2025_paper.pdf",
@@ -2346,7 +2349,7 @@
     "body_locations": [
       {
         "source_file": "data.tex",
-        "line": 191,
+        "line": 187,
         "section": "Data Construction: Building Alignment Signals",
         "subsection": "Multimodal Preference Data Construction",
         "subsubsection": "Hallucination and Faithfulness Correction",
@@ -2368,7 +2371,7 @@
       "Svetlana Lazebnik"
     ],
     "year": "2017",
-    "venue": "International Journal of Computer Vision",
+    "venue": "Int. J. Comput. Vis.",
     "entry_type": "article",
     "doi": "",
     "url": "https://arxiv.org/pdf/1505.04870",
@@ -2389,7 +2392,7 @@
     "body_locations": [
       {
         "source_file": "data.tex",
-        "line": 152,
+        "line": 150,
         "section": "Data Construction: Building Alignment Signals",
         "subsection": "High-Quality Pairing and Annotation",
         "subsubsection": "Region-Level Grounding",
@@ -2397,7 +2400,7 @@
       },
       {
         "source_file": "evaluation.tex",
-        "line": 60,
+        "line": 58,
         "section": "Evaluation: How to Measure Alignment",
         "subsection": "Metrics and Evaluators for Alignment",
         "subsubsection": "Retrieval and Localization Metrics",
@@ -2418,7 +2421,7 @@
       "V. Ferrari"
     ],
     "year": "2020",
-    "venue": "Computer Vision-ECCV 2020",
+    "venue": "Proc. Eur. Conf. Comput. Vis. (ECCV)",
     "entry_type": "inproceedings",
     "doi": "",
     "url": "https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123500630.pdf",
@@ -2437,7 +2440,7 @@
     "body_locations": [
       {
         "source_file": "data.tex",
-        "line": 155,
+        "line": 153,
         "section": "Data Construction: Building Alignment Signals",
         "subsection": "High-Quality Pairing and Annotation",
         "subsubsection": "Process-Level Grounding",
@@ -2459,7 +2462,7 @@
       "Fu, Jianlong"
     ],
     "year": "2022",
-    "venue": "Advances in Neural Information Processing Systems 35",
+    "venue": "Adv. Neural Inf. Process. Syst.",
     "entry_type": "inproceedings",
     "doi": "10.52202/068431-2756",
     "url": "https://doi.org/10.52202/068431-2756",
@@ -2478,7 +2481,7 @@
     "body_locations": [
       {
         "source_file": "data.tex",
-        "line": 175,
+        "line": 173,
         "section": "Data Construction: Building Alignment Signals",
         "subsection": "Synthetic and Self-Supervised Alignment Data",
         "subsubsection": "Structure-Derived Self-Supervision",
@@ -2499,7 +2502,7 @@
       "Russell, Bryan C."
     ],
     "year": "2021",
-    "venue": "Advances in Neural Information Processing Systems",
+    "venue": "Adv. Neural Inf. Process. Syst.",
     "entry_type": "inproceedings",
     "doi": "",
     "url": "https://proceedings.neurips.cc/paper/2021/hash/792dd774336314c3c27a04bb260cf2cf-Abstract.html",
@@ -2518,7 +2521,7 @@
     "body_locations": [
       {
         "source_file": "data.tex",
-        "line": 175,
+        "line": 173,
         "section": "Data Construction: Building Alignment Signals",
         "subsection": "Synthetic and Self-Supervised Alignment Data",
         "subsubsection": "Structure-Derived Self-Supervision",
@@ -2541,7 +2544,7 @@
       "Lee, Roy Ka-Wei"
     ],
     "year": "2026",
-    "venue": "Proceedings of the 19th Conference of the European Chapter of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    "venue": "Proc. Conf. Eur. Chapter Assoc. Comput. Linguist. (EACL)",
     "entry_type": "inproceedings",
     "doi": "10.18653/v1/2026.eacl-long.215",
     "url": "https://doi.org/10.18653/v1/2026.eacl-long.215",
@@ -2561,7 +2564,7 @@
     "body_locations": [
       {
         "source_file": "data.tex",
-        "line": 222,
+        "line": 218,
         "section": "Data Construction: Building Alignment Signals",
         "subsection": "Dataset Bias and Debiasing",
         "subsubsection": "Addressing Long-Tail, Safety, and Social Biases",
@@ -2596,7 +2599,7 @@
       "Wang, Alex Jinpeng"
     ],
     "year": "2026",
-    "venue": "Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    "venue": "Proc. Annu. Meet. Assoc. Comput. Linguist. (ACL)",
     "entry_type": "inproceedings",
     "doi": "10.18653/v1/2026.acl-long.616",
     "url": "https://doi.org/10.18653/v1/2026.acl-long.616",
@@ -2616,7 +2619,7 @@
     "body_locations": [
       {
         "source_file": "data.tex",
-        "line": 222,
+        "line": 218,
         "section": "Data Construction: Building Alignment Signals",
         "subsection": "Dataset Bias and Debiasing",
         "subsubsection": "Addressing Long-Tail, Safety, and Social Biases",
@@ -2646,7 +2649,7 @@
       "Xie, Cihang"
     ],
     "year": "2025",
-    "venue": "Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing",
+    "venue": "Proc. Conf. Empirical Methods Nat. Lang. Process. (EMNLP)",
     "entry_type": "inproceedings",
     "doi": "10.18653/v1/2025.emnlp-main.344",
     "url": "https://doi.org/10.18653/v1/2025.emnlp-main.344",
@@ -2665,7 +2668,7 @@
     "body_locations": [
       {
         "source_file": "data.tex",
-        "line": 194,
+        "line": 190,
         "section": "Data Construction: Building Alignment Signals",
         "subsection": "Multimodal Preference Data Construction",
         "subsubsection": "Annotation Sources and Judge Reliability",
@@ -2687,7 +2690,7 @@
       "Daeyoung Kim"
     ],
     "year": "2026",
-    "venue": "International Conference on Learning Representations",
+    "venue": "Int. Conf. Learn. Represent. (ICLR)",
     "entry_type": "inproceedings",
     "doi": "",
     "url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/07956d40074d6523bad11112b3225c6e-Abstract-Conference.html",
@@ -2707,7 +2710,7 @@
     "body_locations": [
       {
         "source_file": "data.tex",
-        "line": 216,
+        "line": 212,
         "section": "Data Construction: Building Alignment Signals",
         "subsection": "Dataset Bias and Debiasing",
         "subsubsection": "Breaking Language Priors and Shortcut Learning",
@@ -2727,7 +2730,7 @@
       "Graham Neubig"
     ],
     "year": "2026",
-    "venue": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+    "venue": "Proc. IEEE/CVF Conf. Comput. Vis. Pattern Recognit. (CVPR)",
     "entry_type": "inproceedings",
     "doi": "",
     "url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Wada_ZINA_Multimodal_Fine-grained_Hallucination_Detection_and_Editing_CVPR_2026_paper.pdf",
@@ -2746,7 +2749,7 @@
     "body_locations": [
       {
         "source_file": "data.tex",
-        "line": 191,
+        "line": 187,
         "section": "Data Construction: Building Alignment Signals",
         "subsection": "Multimodal Preference Data Construction",
         "subsubsection": "Hallucination and Faithfulness Correction",
@@ -2769,7 +2772,7 @@
       "Caroline Uhler"
     ],
     "year": "2025",
-    "venue": "International Conference on Learning Representations",
+    "venue": "Int. Conf. Learn. Represent. (ICLR)",
     "entry_type": "inproceedings",
     "doi": "",
     "url": "https://openreview.net/forum?id=r7Xnetd0Pq",
@@ -2788,7 +2791,7 @@
     "body_locations": [
       {
         "source_file": "data.tex",
-        "line": 219,
+        "line": 215,
         "section": "Data Construction: Building Alignment Signals",
         "subsection": "Dataset Bias and Debiasing",
         "subsubsection": "Optimization and Gradient-Level Debiasing",
@@ -2807,7 +2810,7 @@
       "Yang Luo"
     ],
     "year": "2025",
-    "venue": "2025 IEEE/CVF International Conference on Computer Vision (ICCV)",
+    "venue": "Proc. IEEE/CVF Int. Conf. Comput. Vis. (ICCV)",
     "entry_type": "inproceedings",
     "doi": "10.1109/iccv51701.2025.00217",
     "url": "https://doi.org/10.1109/iccv51701.2025.00217",
@@ -2826,7 +2829,7 @@
     "body_locations": [
       {
         "source_file": "data.tex",
-        "line": 219,
+        "line": 215,
         "section": "Data Construction: Building Alignment Signals",
         "subsection": "Dataset Bias and Debiasing",
         "subsubsection": "Optimization and Gradient-Level Debiasing",
@@ -2846,7 +2849,7 @@
       "Noah Snavely"
     ],
     "year": "2021",
-    "venue": "Proceedings of the IEEE/CVF International Conference on Computer Vision",
+    "venue": "Proc. IEEE/CVF Int. Conf. Comput. Vis. (ICCV)",
     "entry_type": "inproceedings",
     "doi": "",
     "url": "https://openaccess.thecvf.com/content/ICCV2021/papers/Wu_Towers_of_Babel_Combining_Images_Language_and_3D_Geometry_for_ICCV_2021_paper.pdf",
@@ -2866,7 +2869,7 @@
     "body_locations": [
       {
         "source_file": "data.tex",
-        "line": 175,
+        "line": 173,
         "section": "Data Construction: Building Alignment Signals",
         "subsection": "Synthetic and Self-Supervised Alignment Data",
         "subsubsection": "Structure-Derived Self-Supervision",
@@ -2907,7 +2910,7 @@
     "body_locations": [
       {
         "source_file": "data.tex",
-        "line": 202,
+        "line": 198,
         "section": "Data Construction: Building Alignment Signals",
         "subsection": "Negative Sampling and Hard Negatives",
         "subsubsection": "Lexical and Visual Perturbation",
@@ -2932,7 +2935,7 @@
       "Zhengzhong Tu"
     ],
     "year": "2025",
-    "venue": "Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing",
+    "venue": "Proc. Conf. Empirical Methods Nat. Lang. Process. (EMNLP)",
     "entry_type": "inproceedings",
     "doi": "10.18653/v1/2025.emnlp-main.121",
     "url": "https://doi.org/10.18653/v1/2025.emnlp-main.121",
@@ -2951,7 +2954,7 @@
     "body_locations": [
       {
         "source_file": "data.tex",
-        "line": 202,
+        "line": 198,
         "section": "Data Construction: Building Alignment Signals",
         "subsection": "Negative Sampling and Hard Negatives",
         "subsubsection": "Lexical and Visual Perturbation",
@@ -2970,7 +2973,7 @@
       "Zhang, Shu",
       "Panagopoulou, Artemis",
       "Li, Junnan",
-      "Martı́n-Mart\\ń, Roberto",
+      "Mart\u0131\u0301n-Mart\\\u0144, Roberto",
       "Wu, Jiajun",
       "Xiong, Caiming",
       "Xu, Ran",
@@ -2978,7 +2981,7 @@
       "Savarese, Silvio"
     ],
     "year": "2024",
-    "venue": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+    "venue": "Proc. IEEE/CVF Conf. Comput. Vis. Pattern Recognit. (CVPR)",
     "entry_type": "inproceedings",
     "doi": "",
     "url": "https://openaccess.thecvf.com/content/CVPR2024/papers/Xue_ULIP-2_Towards_Scalable_Multimodal_Pre-training_for_3D_Understanding_CVPR_2024_paper.pdf",
@@ -2997,7 +3000,7 @@
     "body_locations": [
       {
         "source_file": "data.tex",
-        "line": 175,
+        "line": 173,
         "section": "Data Construction: Building Alignment Signals",
         "subsection": "Synthetic and Self-Supervised Alignment Data",
         "subsubsection": "Structure-Derived Self-Supervision",
@@ -3011,14 +3014,14 @@
     "name": "",
     "title": "Post-pre-training for Modality Alignment in Vision-Language Foundation Models",
     "authors": [
-      "Shin’ya Yamaguchi",
+      "Shin\u2019ya Yamaguchi",
       "Dewei Feng",
       "Sekitoshi Kanai",
       "Kazuki Adachi",
       "Daiki Chijiwa"
     ],
     "year": "2025",
-    "venue": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+    "venue": "Proc. IEEE/CVF Conf. Comput. Vis. Pattern Recognit. (CVPR)",
     "entry_type": "inproceedings",
     "doi": "",
     "url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Yamaguchi_Post-pre-training_for_Modality_Alignment_in_Vision-Language_Foundation_Models_CVPR_2025_paper.pdf",
@@ -3037,7 +3040,7 @@
     "body_locations": [
       {
         "source_file": "data.tex",
-        "line": 208,
+        "line": 204,
         "section": "Data Construction: Building Alignment Signals",
         "subsection": "Negative Sampling and Hard Negatives",
         "subsubsection": "Representation-Level Constraints",
@@ -3056,8 +3059,8 @@
       "Jianfeng Gao"
     ],
     "year": "2021",
-    "venue": "2021 IEEE/CVF International Conference on Computer Vision (ICCV)",
-    "entry_type": "article",
+    "venue": "Proc. IEEE/CVF Int. Conf. Comput. Vis. (ICCV)",
+    "entry_type": "inproceedings",
     "doi": "",
     "url": "https://openaccess.thecvf.com/content/ICCV2021/papers/Yang_TACo_Token-Aware_Cascade_Contrastive_Learning_for_Video-Text_Alignment_ICCV_2021_paper.pdf",
     "url_basis": "previous source-review record; not revalidated during repository export",
@@ -3077,7 +3080,7 @@
     "body_locations": [
       {
         "source_file": "RQ2.tex",
-        "line": 167,
+        "line": 153,
         "section": "Objective Functions: Optimizing Multimodal Alignment",
         "subsection": "Fine-Grained Structured Contrastive Loss",
         "subsubsection": "Precise Local Semantic Anchoring",
@@ -3085,7 +3088,7 @@
       },
       {
         "source_file": "data.tex",
-        "line": 205,
+        "line": 201,
         "section": "Data Construction: Building Alignment Signals",
         "subsection": "Negative Sampling and Hard Negatives",
         "subsubsection": "Compositional and Temporal Negatives",
@@ -3124,7 +3127,7 @@
     "body_locations": [
       {
         "source_file": "data.tex",
-        "line": 216,
+        "line": 212,
         "section": "Data Construction: Building Alignment Signals",
         "subsection": "Dataset Bias and Debiasing",
         "subsubsection": "Breaking Language Priors and Shortcut Learning",
@@ -3145,7 +3148,7 @@
       "Dongsheng Li"
     ],
     "year": "2025",
-    "venue": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+    "venue": "Proc. IEEE/CVF Conf. Comput. Vis. Pattern Recognit. (CVPR)",
     "entry_type": "inproceedings",
     "doi": "",
     "url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Yang_Mitigating_Hallucinations_in_Large_Vision-Language_Models_via_DPO_On-Policy_Data_CVPR_2025_paper.pdf",
@@ -3164,7 +3167,7 @@
     "body_locations": [
       {
         "source_file": "data.tex",
-        "line": 191,
+        "line": 187,
         "section": "Data Construction: Building Alignment Signals",
         "subsection": "Multimodal Preference Data Construction",
         "subsubsection": "Hallucination and Faithfulness Correction",
@@ -3205,7 +3208,7 @@
     "body_locations": [
       {
         "source_file": "data.tex",
-        "line": 194,
+        "line": 190,
         "section": "Data Construction: Building Alignment Signals",
         "subsection": "Multimodal Preference Data Construction",
         "subsubsection": "Annotation Sources and Judge Reliability",
@@ -3229,7 +3232,7 @@
       "Szpektor, Idan"
     ],
     "year": "2023",
-    "venue": "Advances in Neural Information Processing Systems 36",
+    "venue": "Adv. Neural Inf. Process. Syst.",
     "entry_type": "inproceedings",
     "doi": "10.52202/075280-0079",
     "url": "https://doi.org/10.52202/075280-0079",
@@ -3249,7 +3252,7 @@
     "body_locations": [
       {
         "source_file": "data.tex",
-        "line": 205,
+        "line": 201,
         "section": "Data Construction: Building Alignment Signals",
         "subsection": "Negative Sampling and Hard Negatives",
         "subsubsection": "Compositional and Temporal Negatives",
@@ -3274,7 +3277,7 @@
       "Li, Yongbin"
     ],
     "year": "2023",
-    "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    "venue": "Proc. Annu. Meet. Assoc. Comput. Linguist. (ACL)",
     "entry_type": "inproceedings",
     "doi": "10.18653/v1/2023.acl-long.438",
     "url": "https://doi.org/10.18653/v1/2023.acl-long.438",
@@ -3297,7 +3300,7 @@
     "body_locations": [
       {
         "source_file": "RQ2.tex",
-        "line": 225,
+        "line": 208,
         "section": "Objective Functions: Optimizing Multimodal Alignment",
         "subsection": "Constraint and Routing Regularization",
         "subsubsection": "Spatiotemporal Synchronization",
@@ -3305,7 +3308,7 @@
       },
       {
         "source_file": "data.tex",
-        "line": 158,
+        "line": 156,
         "section": "Data Construction: Building Alignment Signals",
         "subsection": "High-Quality Pairing and Annotation",
         "subsubsection": "Spatiotemporal and Embodied Grounding",
@@ -3345,7 +3348,7 @@
       "Sun, Maosong"
     ],
     "year": "2025",
-    "venue": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+    "venue": "Proc. IEEE/CVF Conf. Comput. Vis. Pattern Recognit. (CVPR)",
     "entry_type": "inproceedings",
     "doi": "",
     "url": "https://openaccess.thecvf.com/content/CVPR2025/html/Yu_RLAIF-V_Open-Source_AI_Feedback_Leads_to_Super_GPT-4V_Trustworthiness_CVPR_2025_paper.html",
@@ -3365,7 +3368,7 @@
     "body_locations": [
       {
         "source_file": "data.tex",
-        "line": 202,
+        "line": 198,
         "section": "Data Construction: Building Alignment Signals",
         "subsection": "Negative Sampling and Hard Negatives",
         "subsubsection": "Lexical and Visual Perturbation",
@@ -3387,7 +3390,7 @@
       "Elisa Ricci"
     ],
     "year": "2025",
-    "venue": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+    "venue": "Proc. IEEE/CVF Conf. Comput. Vis. Pattern Recognit. (CVPR)",
     "entry_type": "inproceedings",
     "doi": "",
     "url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Zanella_Can_Text-to-Video_Generation_help_Video-Language_Alignment_CVPR_2025_paper.pdf",
@@ -3406,7 +3409,7 @@
     "body_locations": [
       {
         "source_file": "data.tex",
-        "line": 205,
+        "line": 201,
         "section": "Data Construction: Building Alignment Signals",
         "subsection": "Negative Sampling and Hard Negatives",
         "subsubsection": "Compositional and Temporal Negatives",
@@ -3428,7 +3431,7 @@
       "Yeung, Serena"
     ],
     "year": "2023",
-    "venue": "International Conference on Learning Representations",
+    "venue": "Int. Conf. Learn. Represent. (ICLR)",
     "entry_type": "inproceedings",
     "doi": "",
     "url": "https://openreview.net/forum?id=D-zfUK7BR6c",
@@ -3447,7 +3450,7 @@
     "body_locations": [
       {
         "source_file": "data.tex",
-        "line": 216,
+        "line": 212,
         "section": "Data Construction: Building Alignment Signals",
         "subsection": "Dataset Bias and Debiasing",
         "subsubsection": "Breaking Language Priors and Shortcut Learning",
@@ -3472,7 +3475,7 @@
       "Tingwen Liu"
     ],
     "year": "2025",
-    "venue": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+    "venue": "Proc. IEEE/CVF Conf. Comput. Vis. Pattern Recognit. (CVPR)",
     "entry_type": "inproceedings",
     "doi": "",
     "url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Zhang_Debiasing_Multimodal_Large_Language_Models_via_Noise-Aware_Preference_Optimization_CVPR_2025_paper.pdf",
@@ -3491,7 +3494,7 @@
     "body_locations": [
       {
         "source_file": "data.tex",
-        "line": 216,
+        "line": 212,
         "section": "Data Construction: Building Alignment Signals",
         "subsection": "Dataset Bias and Debiasing",
         "subsubsection": "Breaking Language Priors and Shortcut Learning",
@@ -3513,7 +3516,7 @@
       "Xiaolin Fang"
     ],
     "year": "2025",
-    "venue": "Annual Meeting of the Association for Computational Linguistics",
+    "venue": "Proc. Annu. Meet. Assoc. Comput. Linguist. (ACL)",
     "entry_type": "inproceedings",
     "doi": "",
     "url": "https://aclanthology.org/2025.acl-long.1298.pdf",
@@ -3532,7 +3535,7 @@
     "body_locations": [
       {
         "source_file": "data.tex",
-        "line": 161,
+        "line": 159,
         "section": "Data Construction: Building Alignment Signals",
         "subsection": "High-Quality Pairing and Annotation",
         "subsubsection": "Domain-Specialized Evidence",
@@ -3553,7 +3556,7 @@
       "Sifeng He"
     ],
     "year": "2025",
-    "venue": "Advances in Neural Information Processing Systems",
+    "venue": "Adv. Neural Inf. Process. Syst.",
     "entry_type": "inproceedings",
     "doi": "10.52202/085713-2279",
     "url": "https://doi.org/10.52202/085713-2279",
@@ -3572,7 +3575,7 @@
     "body_locations": [
       {
         "source_file": "data.tex",
-        "line": 194,
+        "line": 190,
         "section": "Data Construction: Building Alignment Signals",
         "subsection": "Multimodal Preference Data Construction",
         "subsubsection": "Annotation Sources and Judge Reliability",
@@ -3593,7 +3596,7 @@
       "Marcus Rohrbach"
     ],
     "year": "2019",
-    "venue": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+    "venue": "Proc. IEEE/CVF Conf. Comput. Vis. Pattern Recognit. (CVPR)",
     "entry_type": "inproceedings",
     "doi": "",
     "url": "https://openaccess.thecvf.com/content_CVPR_2019/papers/Zhou_Grounded_Video_Description_CVPR_2019_paper.pdf",
@@ -3612,7 +3615,7 @@
     "body_locations": [
       {
         "source_file": "data.tex",
-        "line": 158,
+        "line": 156,
         "section": "Data Construction: Building Alignment Signals",
         "subsection": "High-Quality Pairing and Annotation",
         "subsubsection": "Spatiotemporal and Embodied Grounding",
@@ -3656,7 +3659,7 @@
     "body_locations": [
       {
         "source_file": "RQ2.tex",
-        "line": 262,
+        "line": 245,
         "section": "Objective Functions: Optimizing Multimodal Alignment",
         "subsection": "Instruction and Preference Alignment Objectives",
         "subsubsection": "Direct Preference Optimization",
@@ -3664,7 +3667,7 @@
       },
       {
         "source_file": "data.tex",
-        "line": 202,
+        "line": 198,
         "section": "Data Construction: Building Alignment Signals",
         "subsection": "Negative Sampling and Hard Negatives",
         "subsubsection": "Lexical and Visual Perturbation",
@@ -3672,7 +3675,7 @@
       },
       {
         "source_file": "RQ3.tex",
-        "line": 46,
+        "line": 41,
         "section": "Training: A Staged Process for Multimodal Alignment",
         "subsection": "Stage 3: Preference and Reward Optimization",
         "subsubsection": "Direct Preference Optimization",
@@ -3694,7 +3697,7 @@
       "Xuming Hu"
     ],
     "year": "2025",
-    "venue": "International Conference on Learning Representations",
+    "venue": "Int. Conf. Learn. Represent. (ICLR)",
     "entry_type": "inproceedings",
     "doi": "",
     "url": "https://proceedings.iclr.cc/paper_files/paper/2025/hash/86fe62e3b315d2578721562d9fd1a433-Abstract-Conference.html",
@@ -3713,7 +3716,7 @@
     "body_locations": [
       {
         "source_file": "data.tex",
-        "line": 216,
+        "line": 212,
         "section": "Data Construction: Building Alignment Signals",
         "subsection": "Dataset Bias and Debiasing",
         "subsubsection": "Breaking Language Priors and Shortcut Learning",
@@ -3734,7 +3737,7 @@
       "Fengyun Rao"
     ],
     "year": "2025",
-    "venue": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+    "venue": "Proc. IEEE/CVF Conf. Comput. Vis. Pattern Recognit. (CVPR)",
     "entry_type": "inproceedings",
     "doi": "",
     "url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Zhou_HarmonySet_A_Comprehensive_Dataset_for_Understanding_Video-Music_Semantic_Alignment_and_CVPR_2025_paper.pdf",
@@ -3755,7 +3758,7 @@
     "body_locations": [
       {
         "source_file": "data.tex",
-        "line": 158,
+        "line": 156,
         "section": "Data Construction: Building Alignment Signals",
         "subsection": "High-Quality Pairing and Annotation",
         "subsubsection": "Spatiotemporal and Embodied Grounding",
@@ -3785,7 +3788,7 @@
       "Huaxiu Yao"
     ],
     "year": "2025",
-    "venue": "Proceedings of the 42nd International Conference on Machine Learning",
+    "venue": "Proc. Int. Conf. Mach. Learn. (ICML)",
     "entry_type": "inproceedings",
     "doi": "",
     "url": "https://proceedings.mlr.press/v267/zhu25v.html",
@@ -3805,7 +3808,7 @@
     "body_locations": [
       {
         "source_file": "data.tex",
-        "line": 222,
+        "line": 218,
         "section": "Data Construction: Building Alignment Signals",
         "subsection": "Dataset Bias and Debiasing",
         "subsubsection": "Addressing Long-Tail, Safety, and Social Biases",
@@ -3832,7 +3835,7 @@
       "V.G. Honavar"
     ],
     "year": "2025",
-    "venue": "International Conference on Learning Representations",
+    "venue": "Int. Conf. Learn. Represent. (ICLR)",
     "entry_type": "inproceedings",
     "doi": "",
     "url": "https://proceedings.iclr.cc/paper_files/paper/2025/file/7f70331dbe58ad59d83941dfa7d975aa-Paper-Conference.pdf",
@@ -3851,7 +3854,7 @@
     "body_locations": [
       {
         "source_file": "data.tex",
-        "line": 194,
+        "line": 190,
         "section": "Data Construction: Building Alignment Signals",
         "subsection": "Multimodal Preference Data Construction",
         "subsubsection": "Annotation Sources and Judge Reliability",
@@ -3872,7 +3875,7 @@
       "Choi, Jonghyun"
     ],
     "year": "2024",
-    "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    "venue": "Proc. Annu. Meet. Assoc. Comput. Linguist. (ACL)",
     "entry_type": "inproceedings",
     "doi": "",
     "url": "https://aclanthology.org/2024.acl-long.52.pdf",
@@ -3895,7 +3898,7 @@
     "body_locations": [
       {
         "source_file": "RQ2.tex",
-        "line": 250,
+        "line": 233,
         "section": "Objective Functions: Optimizing Multimodal Alignment",
         "subsection": "Instruction and Preference Alignment Objectives",
         "subsubsection": "Reward Modeling and PPO",
@@ -3903,7 +3906,7 @@
       },
       {
         "source_file": "data.tex",
-        "line": 194,
+        "line": 190,
         "section": "Data Construction: Building Alignment Signals",
         "subsection": "Multimodal Preference Data Construction",
         "subsubsection": "Annotation Sources and Judge Reliability",
@@ -3911,7 +3914,7 @@
       },
       {
         "source_file": "RQ3.tex",
-        "line": 43,
+        "line": 38,
         "section": "Training: A Staged Process for Multimodal Alignment",
         "subsection": "Stage 3: Preference and Reward Optimization",
         "subsubsection": "Reward-Model-Based Optimization",
@@ -3938,7 +3941,7 @@
       "others"
     ],
     "year": "2022",
-    "venue": "Advances in Neural Information Processing Systems",
+    "venue": "Adv. Neural Inf. Process. Syst.",
     "entry_type": "inproceedings",
     "doi": "",
     "url": "https://proceedings.neurips.cc/paper_files/paper/2022/file/960a172bc7fbf0177ccccbb411a7d800-Paper-Conference.pdf",
@@ -3977,7 +3980,7 @@
       "Gould, Stephen"
     ],
     "year": "2016",
-    "venue": "European Conference on Computer Vision",
+    "venue": "Proc. Eur. Conf. Comput. Vis. (ECCV)",
     "entry_type": "inproceedings",
     "doi": "",
     "url": "https://link.springer.com/content/pdf/10.1007/978-3-319-46454-1_24",
@@ -3996,7 +3999,7 @@
     "body_locations": [
       {
         "source_file": "evaluation.tex",
-        "line": 63,
+        "line": 61,
         "section": "Evaluation: How to Measure Alignment",
         "subsection": "Metrics and Evaluators for Alignment",
         "subsubsection": "Reference-Based Generation Metrics",
@@ -4023,7 +4026,7 @@
       "others"
     ],
     "year": "2022",
-    "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    "venue": "Proc. Annu. Meet. Assoc. Comput. Linguist. (ACL)",
     "entry_type": "inproceedings",
     "doi": "",
     "url": "https://aclanthology.org/2022.acl-long.393.pdf",
@@ -4042,7 +4045,7 @@
     "body_locations": [
       {
         "source_file": "RQ2.tex",
-        "line": 40,
+        "line": 36,
         "section": "Architecture: Bridging Modalities",
         "subsection": "Discretization-based Alignment",
         "subsubsection": "Cross-Modal Codebook Construction",
@@ -4067,7 +4070,7 @@
       "Zamir, Amir"
     ],
     "year": "2024",
-    "venue": "Advances in Neural Information Processing Systems",
+    "venue": "Adv. Neural Inf. Process. Syst.",
     "entry_type": "inproceedings",
     "doi": "",
     "url": "https://arxiv.org/abs/2406.09406",
@@ -4088,7 +4091,7 @@
     "body_locations": [
       {
         "source_file": "RQ2.tex",
-        "line": 59,
+        "line": 53,
         "section": "Architecture: Bridging Modalities",
         "subsection": "Discretization-based Alignment",
         "subsubsection": "Unified Token-based Multimodal Modeling",
@@ -4096,7 +4099,7 @@
       },
       {
         "source_file": "RQ2.tex",
-        "line": 205,
+        "line": 188,
         "section": "Objective Functions: Optimizing Multimodal Alignment",
         "subsection": "Generative Implicit Alignment Loss",
         "subsubsection": "Cross-Modal Masked Reconstruction",
@@ -4138,7 +4141,7 @@
     "body_locations": [
       {
         "source_file": "introduction.tex",
-        "line": 163,
+        "line": 165,
         "section": "Introduction",
         "subsection": "Contributions and Organization",
         "subsubsection": "",
@@ -4217,7 +4220,7 @@
     "body_locations": [
       {
         "source_file": "RQ3.tex",
-        "line": 21,
+        "line": 20,
         "section": "Training: A Staged Process for Multimodal Alignment",
         "subsection": "Stage 1: Multimodal Pretraining",
         "subsubsection": "Data Composition and Transition Criteria",
@@ -4235,7 +4238,7 @@
       "Lavie, Alon"
     ],
     "year": "2005",
-    "venue": "Proceedings of the ACL Workshop on Intrinsic and Extrinsic Evaluation Measures for Machine Translation and/or Summarization",
+    "venue": "Proc. ACL Workshop Intrinsic and Extrinsic Evaluation Measures for Machine Translation and/or Summarization",
     "entry_type": "inproceedings",
     "doi": "",
     "url": "https://aclanthology.org/W05-0909.pdf",
@@ -4254,7 +4257,7 @@
     "body_locations": [
       {
         "source_file": "evaluation.tex",
-        "line": 63,
+        "line": 61,
         "section": "Evaluation: How to Measure Alignment",
         "subsection": "Metrics and Evaluators for Alignment",
         "subsubsection": "Reference-Based Generation Metrics",
@@ -4279,7 +4282,7 @@
       "Wei, Furu"
     ],
     "year": "2022",
-    "venue": "Advances in Neural Information Processing Systems",
+    "venue": "Adv. Neural Inf. Process. Syst.",
     "entry_type": "inproceedings",
     "doi": "",
     "url": "https://proceedings.neurips.cc/paper_files/paper/2022/hash/d46662aa53e78a62afd980a29e0c37ed-Abstract-Conference.html",
@@ -4298,7 +4301,7 @@
     "body_locations": [
       {
         "source_file": "RQ2.tex",
-        "line": 112,
+        "line": 98,
         "section": "Architecture: Bridging Modalities",
         "subsection": "Expert-based Alignment in MLLMs",
         "subsubsection": "Modality-Indexed Parameter Pathways",
@@ -4339,7 +4342,7 @@
     "body_locations": [
       {
         "source_file": "RQ2.tex",
-        "line": 82,
+        "line": 72,
         "section": "Architecture: Bridging Modalities",
         "subsection": "Structured Representation Alignment",
         "subsubsection": "Graph-based Multimodal Representation",
@@ -4363,7 +4366,7 @@
       "Cucchiara, Rita"
     ],
     "year": "2024",
-    "venue": "Findings of the Association for Computational Linguistics ACL 2024",
+    "venue": "Findings Assoc. Comput. Linguist.: ACL 2024",
     "entry_type": "inproceedings",
     "doi": "10.18653/v1/2024.findings-acl.807",
     "url": "https://doi.org/10.18653/v1/2024.findings-acl.807",
@@ -4385,7 +4388,7 @@
     "body_locations": [
       {
         "source_file": "introduction.tex",
-        "line": 163,
+        "line": 165,
         "section": "Introduction",
         "subsection": "Contributions and Organization",
         "subsubsection": "",
@@ -4411,7 +4414,7 @@
       "Lu, Tong"
     ],
     "year": "2027",
-    "venue": "Pattern Recognition - ICPR 2026",
+    "venue": "Pattern Recognition -- ICPR 2026",
     "entry_type": "inproceedings",
     "doi": "10.1007/978-3-032-31666-0_27",
     "url": "https://doi.org/10.1007/978-3-032-31666-0_27",
@@ -4430,7 +4433,7 @@
     "body_locations": [
       {
         "source_file": "RQ2.tex",
-        "line": 105,
+        "line": 91,
         "section": "Architecture: Bridging Modalities",
         "subsection": "Attention-based Alignment in MLLMs",
         "subsubsection": "Cross-Layer Feature Fusion",
@@ -4457,7 +4460,7 @@
       "Chen, Huajun"
     ],
     "year": "2023",
-    "venue": "Proceedings of the 31st ACM International Conference on Multimedia",
+    "venue": "Proc. ACM Int. Conf. Multimedia",
     "entry_type": "inproceedings",
     "doi": "10.1145/3581783.3611786",
     "url": "https://doi.org/10.1145/3581783.3611786",
@@ -4476,7 +4479,7 @@
     "body_locations": [
       {
         "source_file": "RQ2.tex",
-        "line": 75,
+        "line": 67,
         "section": "Architecture: Bridging Modalities",
         "subsection": "Structured Representation Alignment",
         "subsubsection": "",
@@ -4503,7 +4506,7 @@
       "others"
     ],
     "year": "2023",
-    "venue": "International Conference on Learning Representations",
+    "venue": "Int. Conf. Learn. Represent. (ICLR)",
     "entry_type": "inproceedings",
     "doi": "",
     "url": "https://openreview.net/forum?id=mWVoBz4W0u",
@@ -4522,7 +4525,7 @@
     "body_locations": [
       {
         "source_file": "RQ3.tex",
-        "line": 19,
+        "line": 18,
         "section": "Training: A Staged Process for Multimodal Alignment",
         "subsection": "Stage 1: Multimodal Pretraining",
         "subsubsection": "Data Composition and Transition Criteria",
@@ -4546,7 +4549,7 @@
       "Yang, Hongxia"
     ],
     "year": "2023",
-    "venue": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+    "venue": "Proc. IEEE/CVF Conf. Comput. Vis. Pattern Recognit. (CVPR)",
     "entry_type": "inproceedings",
     "doi": "",
     "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Chen_Revisiting_Multimodal_Representation_in_Contrastive_Learning_From_Patch_and_Token_CVPR_2023_paper.pdf",
@@ -4565,7 +4568,7 @@
     "body_locations": [
       {
         "source_file": "RQ2.tex",
-        "line": 40,
+        "line": 36,
         "section": "Architecture: Bridging Modalities",
         "subsection": "Discretization-based Alignment",
         "subsubsection": "Cross-Modal Codebook Construction",
@@ -4592,7 +4595,7 @@
       "others"
     ],
     "year": "2024",
-    "venue": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+    "venue": "Proc. IEEE/CVF Conf. Comput. Vis. Pattern Recognit. (CVPR)",
     "entry_type": "inproceedings",
     "doi": "",
     "url": "https://openaccess.thecvf.com/content/CVPR2024/papers/Chen_InternVL_Scaling_up_Vision_Foundation_Models_and_Aligning_for_Generic_CVPR_2024_paper.pdf",
@@ -4611,9 +4614,9 @@
     "body_locations": [
       {
         "source_file": "RQ3.tex",
-        "line": 31,
+        "line": 29,
         "section": "Training: A Staged Process for Multimodal Alignment",
-        "subsection": "Stage 2: Instruction Supervised Fine-Tuning",
+        "subsection": "Stage 2: Instruction-Supervised Fine-Tuning",
         "subsubsection": "Mixture Sampling During SFT",
         "domain": "Training"
       }
@@ -4653,7 +4656,7 @@
     "body_locations": [
       {
         "source_file": "data.tex",
-        "line": 219,
+        "line": 215,
         "section": "Data Construction: Building Alignment Signals",
         "subsection": "Dataset Bias and Debiasing",
         "subsubsection": "Optimization and Gradient-Level Debiasing",
@@ -4695,7 +4698,7 @@
     "body_locations": [
       {
         "source_file": "RQ2.tex",
-        "line": 82,
+        "line": 72,
         "section": "Architecture: Bridging Modalities",
         "subsection": "Structured Representation Alignment",
         "subsubsection": "Graph-based Multimodal Representation",
@@ -4714,7 +4717,7 @@
       "Eom, Chanho"
     ],
     "year": "2025",
-    "venue": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+    "venue": "Proc. IEEE/CVF Conf. Comput. Vis. Pattern Recognit. (CVPR)",
     "entry_type": "inproceedings",
     "doi": "",
     "url": "https://openaccess.thecvf.com/content/CVPR2025/html/Choi_GOAL_Global-local_Object_Alignment_Learning_CVPR_2025_paper.html",
@@ -4735,7 +4738,7 @@
     "body_locations": [
       {
         "source_file": "RQ2.tex",
-        "line": 167,
+        "line": 153,
         "section": "Objective Functions: Optimizing Multimodal Alignment",
         "subsection": "Fine-Grained Structured Contrastive Loss",
         "subsubsection": "Precise Local Semantic Anchoring",
@@ -4743,7 +4746,7 @@
       },
       {
         "source_file": "data.tex",
-        "line": 219,
+        "line": 215,
         "section": "Data Construction: Building Alignment Signals",
         "subsection": "Dataset Bias and Debiasing",
         "subsubsection": "Optimization and Gradient-Level Debiasing",
@@ -4763,7 +4766,7 @@
       "Comminiello, Danilo"
     ],
     "year": "2025",
-    "venue": "International Conference on Learning Representations",
+    "venue": "Int. Conf. Learn. Represent. (ICLR)",
     "entry_type": "inproceedings",
     "doi": "",
     "url": "https://proceedings.iclr.cc/paper_files/paper/2025/hash/67b24014e2eb342332d9c8f32fdaa9d1-Abstract-Conference.html",
@@ -4782,7 +4785,7 @@
     "body_locations": [
       {
         "source_file": "RQ2.tex",
-        "line": 193,
+        "line": 176,
         "section": "Objective Functions: Optimizing Multimodal Alignment",
         "subsection": "Topological and Distributional Metric Loss",
         "subsubsection": "High-Dimensional Geometric Metrics",
@@ -4809,7 +4812,7 @@
       "others"
     ],
     "year": "2026",
-    "venue": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+    "venue": "Proc. IEEE/CVF Conf. Comput. Vis. Pattern Recognit. (CVPR)",
     "entry_type": "inproceedings",
     "doi": "",
     "url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Clark_Molmo2_Open_Weights_and_Data_for_Vision-Language_Models_with_Video_CVPR_2026_paper.pdf",
@@ -4828,9 +4831,9 @@
     "body_locations": [
       {
         "source_file": "RQ3.tex",
-        "line": 31,
+        "line": 29,
         "section": "Training: A Staged Process for Multimodal Alignment",
-        "subsection": "Stage 2: Instruction Supervised Fine-Tuning",
+        "subsection": "Stage 2: Instruction-Supervised Fine-Tuning",
         "subsubsection": "Mixture Sampling During SFT",
         "domain": "Training"
       }
@@ -4853,7 +4856,7 @@
       "Hoi, Steven"
     ],
     "year": "2023",
-    "venue": "Advances in Neural Information Processing Systems",
+    "venue": "Adv. Neural Inf. Process. Syst.",
     "entry_type": "inproceedings",
     "doi": "",
     "url": "https://proceedings.neurips.cc/paper_files/paper/2023/hash/9a6a435e75419a836fe47ab6793623e6-Abstract-Conference.html",
@@ -4874,7 +4877,7 @@
     "body_locations": [
       {
         "source_file": "RQ2.tex",
-        "line": 242,
+        "line": 225,
         "section": "Objective Functions: Optimizing Multimodal Alignment",
         "subsection": "Instruction and Preference Alignment Objectives",
         "subsubsection": "Token-Level Supervised Fine-Tuning",
@@ -4882,9 +4885,9 @@
       },
       {
         "source_file": "RQ3.tex",
-        "line": 28,
+        "line": 26,
         "section": "Training: A Staged Process for Multimodal Alignment",
-        "subsection": "Stage 2: Instruction Supervised Fine-Tuning",
+        "subsection": "Stage 2: Instruction-Supervised Fine-Tuning",
         "subsubsection": "Trainable Parameters and Optimization Schedule",
         "domain": "Training"
       }
@@ -4909,7 +4912,7 @@
       "others"
     ],
     "year": "2025",
-    "venue": "2025 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+    "venue": "Proc. IEEE/CVF Conf. Comput. Vis. Pattern Recognit. (CVPR)",
     "entry_type": "inproceedings",
     "doi": "",
     "url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Deitke_Molmo_and_PixMo_Open_Weights_and_Open_Data_for_State-of-the-Art_CVPR_2025_paper.pdf",
@@ -4928,9 +4931,9 @@
     "body_locations": [
       {
         "source_file": "RQ3.tex",
-        "line": 31,
+        "line": 29,
         "section": "Training: A Staged Process for Multimodal Alignment",
-        "subsection": "Stage 2: Instruction Supervised Fine-Tuning",
+        "subsection": "Stage 2: Instruction-Supervised Fine-Tuning",
         "subsubsection": "Mixture Sampling During SFT",
         "domain": "Training"
       }
@@ -4951,7 +4954,7 @@
       "Li, Ge"
     ],
     "year": "2024",
-    "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+    "venue": "Findings Assoc. Comput. Linguist.: ACL 2024",
     "entry_type": "inproceedings",
     "doi": "",
     "url": "https://aclanthology.org/2024.findings-acl.716.pdf",
@@ -4992,7 +4995,7 @@
       "Huang, Xiao"
     ],
     "year": "2024",
-    "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    "venue": "Proc. Annu. Meet. Assoc. Comput. Linguist. (ACL)",
     "entry_type": "inproceedings",
     "doi": "",
     "url": "https://aclanthology.org/2024.acl-long.132.pdf",
@@ -5011,7 +5014,7 @@
     "body_locations": [
       {
         "source_file": "RQ2.tex",
-        "line": 80,
+        "line": 72,
         "section": "Architecture: Bridging Modalities",
         "subsection": "Structured Representation Alignment",
         "subsubsection": "Graph-based Multimodal Representation",
@@ -5033,7 +5036,7 @@
       "Zhang, Lei"
     ],
     "year": "2025",
-    "venue": "Advances in Neural Information Processing Systems",
+    "venue": "Adv. Neural Inf. Process. Syst.",
     "entry_type": "inproceedings",
     "doi": "",
     "url": "https://www.proceedings.com/content/085/085713-4099open.pdf",
@@ -5079,7 +5082,7 @@
       "others"
     ],
     "year": "2025",
-    "venue": "Proceedings of the IEEE/CVF International Conference on Computer Vision",
+    "venue": "Proc. IEEE/CVF Int. Conf. Comput. Vis. (ICCV)",
     "entry_type": "inproceedings",
     "doi": "",
     "url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Doveh_Teaching_VLMs_to_Localize_Specific_Objects_from_In-context_Examples_ICCV_2025_paper.pdf",
@@ -5098,7 +5101,7 @@
     "body_locations": [
       {
         "source_file": "RQ2.tex",
-        "line": 102,
+        "line": 88,
         "section": "Architecture: Bridging Modalities",
         "subsection": "Attention-based Alignment in MLLMs",
         "subsubsection": "Spatial Attention and Local Anchoring",
@@ -5118,7 +5121,7 @@
       "Henaff, Olivier J."
     ],
     "year": "2024",
-    "venue": "Advances in Neural Information Processing Systems",
+    "venue": "Adv. Neural Inf. Process. Syst.",
     "entry_type": "inproceedings",
     "doi": "10.52202/079017-4485",
     "url": "https://doi.org/10.52202/079017-4485",
@@ -5137,7 +5140,7 @@
     "body_locations": [
       {
         "source_file": "data.tex",
-        "line": 172,
+        "line": 170,
         "section": "Data Construction: Building Alignment Signals",
         "subsection": "Synthetic and Self-Supervised Alignment Data",
         "subsubsection": "Model-Refined Pseudo-Labels",
@@ -5164,7 +5167,7 @@
       "others"
     ],
     "year": "2025",
-    "venue": "Proceedings of the IEEE/CVF International Conference on Computer Vision",
+    "venue": "Proc. IEEE/CVF Int. Conf. Comput. Vis. (ICCV)",
     "entry_type": "inproceedings",
     "doi": "",
     "url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Fang_PUMA_Empowering_Unified_MLLM_with_Multi-granular_Visual_Generation_ICCV_2025_paper.pdf",
@@ -5183,7 +5186,7 @@
     "body_locations": [
       {
         "source_file": "RQ2.tex",
-        "line": 32,
+        "line": 30,
         "section": "Architecture: Bridging Modalities",
         "subsection": "Lightweight Bridging-module Alignment",
         "subsubsection": "Interface Extension for Complex Multimodal Scenarios",
@@ -5206,7 +5209,7 @@
       "Li, Tianrui"
     ],
     "year": "2026",
-    "venue": "Information Fusion",
+    "venue": "Inf. Fusion",
     "entry_type": "article",
     "doi": "10.1016/j.inffus.2026.104294",
     "url": "https://doi.org/10.1016/j.inffus.2026.104294",
@@ -5228,7 +5231,7 @@
     "body_locations": [
       {
         "source_file": "introduction.tex",
-        "line": 163,
+        "line": 165,
         "section": "Introduction",
         "subsection": "Contributions and Organization",
         "subsubsection": "",
@@ -5247,7 +5250,7 @@
       "Shazeer, Noam"
     ],
     "year": "2022",
-    "venue": "Journal of Machine Learning Research",
+    "venue": "J. Mach. Learn. Res.",
     "entry_type": "article",
     "doi": "",
     "url": "https://www.jmlr.org/papers/v23/21-0998.html",
@@ -5266,7 +5269,7 @@
     "body_locations": [
       {
         "source_file": "RQ2.tex",
-        "line": 231,
+        "line": 214,
         "section": "Objective Functions: Optimizing Multimodal Alignment",
         "subsection": "Constraint and Routing Regularization",
         "subsubsection": "Information-Flow and Routing Balance",
@@ -5290,7 +5293,7 @@
       "Dickerson, John P"
     ],
     "year": "2025",
-    "venue": "International Conference on Learning Representations",
+    "venue": "Int. Conf. Learn. Represent. (ICLR)",
     "entry_type": "inproceedings",
     "doi": "",
     "url": "https://proceedings.iclr.cc/paper_files/paper/2025/file/1eb36d07ebb13be16ddbda679a95018b-Paper-Conference.pdf",
@@ -5332,7 +5335,7 @@
       "Di Noia, Tommaso"
     ],
     "year": "2025",
-    "venue": "Proceedings of the Nineteenth ACM Conference on Recommender Systems",
+    "venue": "Proc. ACM Conf. Recommender Syst. (RecSys)",
     "entry_type": "inproceedings",
     "doi": "",
     "url": "https://github.com/nickolat/LLMRec_reproducibility",
@@ -5378,7 +5381,7 @@
       "others"
     ],
     "year": "2025",
-    "venue": "Advances in Neural Information Processing Systems",
+    "venue": "Adv. Neural Inf. Process. Syst.",
     "entry_type": "inproceedings",
     "doi": "10.52202/085713-4899",
     "url": "https://doi.org/10.52202/085713-4899",
@@ -5398,9 +5401,9 @@
     "body_locations": [
       {
         "source_file": "RQ3.tex",
-        "line": 36,
+        "line": 32,
         "section": "Training: A Staged Process for Multimodal Alignment",
-        "subsection": "Stage 2: Instruction Supervised Fine-Tuning",
+        "subsection": "Stage 2: Instruction-Supervised Fine-Tuning",
         "subsubsection": "Evidence-Grounded Instruction Targets",
         "domain": "Training"
       }
@@ -5421,7 +5424,7 @@
       "Ng, See-Kiong"
     ],
     "year": "2025",
-    "venue": "International Conference on Learning Representations",
+    "venue": "Int. Conf. Learn. Represent. (ICLR)",
     "entry_type": "inproceedings",
     "doi": "",
     "url": "https://proceedings.iclr.cc/paper_files/paper/2025/hash/e1c73e9595126794186536cfbbed012f-Abstract-Conference.html",
@@ -5441,7 +5444,7 @@
     "body_locations": [
       {
         "source_file": "data.tex",
-        "line": 191,
+        "line": 187,
         "section": "Data Construction: Building Alignment Signals",
         "subsection": "Multimodal Preference Data Construction",
         "subsubsection": "Hallucination and Faithfulness Correction",
@@ -5468,18 +5471,16 @@
       "others"
     ],
     "year": "2023",
-    "venue": "Advances in Neural Information Processing Systems",
+    "venue": "Adv. Neural Inf. Process. Syst.",
     "entry_type": "inproceedings",
     "doi": "",
     "url": "https://proceedings.neurips.cc/paper_files/paper/2023/hash/56332d41d55ad7ad8024aac625881be7-Abstract-Datasets_and_Benchmarks.html",
     "url_basis": "timeline source metadata",
     "domains": [
-      "Data Construction",
-      "Evaluation"
+      "Data Construction"
     ],
     "body_domains": [
-      "Data Construction",
-      "Evaluation"
+      "Data Construction"
     ],
     "timeline_domain": "Data Construction",
     "catalog_role": "chapter-discussed work",
@@ -5489,27 +5490,11 @@
     "body_locations": [
       {
         "source_file": "data.tex",
-        "line": 172,
+        "line": 170,
         "section": "Data Construction: Building Alignment Signals",
         "subsection": "Synthetic and Self-Supervised Alignment Data",
         "subsubsection": "Model-Refined Pseudo-Labels",
         "domain": "Data Construction"
-      },
-      {
-        "source_file": "data.tex",
-        "line": 226,
-        "section": "Data Construction: Building Alignment Signals",
-        "subsection": "Dataset Bias and Debiasing",
-        "subsubsection": "Addressing Long-Tail, Safety, and Social Biases",
-        "domain": "Data Construction"
-      },
-      {
-        "source_file": "evaluation.tex",
-        "line": 71,
-        "section": "Evaluation: How to Measure Alignment",
-        "subsection": "Controlled Protocols and Interpretation",
-        "subsubsection": "Connecting Alignment Claims to Evidence",
-        "domain": "Evaluation"
       }
     ],
     "status": "cited_in_current_body"
@@ -5520,7 +5505,7 @@
     "title": "Shortcut learning in deep neural networks",
     "authors": [
       "Geirhos, Robert",
-      "Jacobsen, Jörn-Henrik",
+      "Jacobsen, J\u00f6rn-Henrik",
       "Michaelis, Claudio",
       "Zemel, Richard",
       "Brendel, Wieland",
@@ -5528,7 +5513,7 @@
       "Wichmann, Felix A"
     ],
     "year": "2020",
-    "venue": "Nature Machine Intelligence",
+    "venue": "Nat. Mach. Intell.",
     "entry_type": "article",
     "doi": "",
     "url": "https://arxiv.org/pdf/2004.07780",
@@ -5567,19 +5552,17 @@
       "Yeung, Serena"
     ],
     "year": "2021",
-    "venue": "Proceedings of the IEEE/CVF International Conference on Computer Vision",
+    "venue": "Proc. IEEE/CVF Int. Conf. Comput. Vis. (ICCV)",
     "entry_type": "inproceedings",
     "doi": "",
     "url": "https://openaccess.thecvf.com/content/ICCV2021/papers/Huang_GLoRIA_A_Multimodal_Global-Local_Representation_Learning_Framework_for_Label-Efficient_Medical_ICCV_2021_paper.pdf",
     "url_basis": "timeline source metadata",
     "domains": [
       "Objective Functions",
-      "Evaluation",
       "Applications"
     ],
     "body_domains": [
       "Objective Functions",
-      "Evaluation",
       "Applications"
     ],
     "timeline_domain": "Applications",
@@ -5590,19 +5573,11 @@
     "body_locations": [
       {
         "source_file": "RQ2.tex",
-        "line": 167,
+        "line": 153,
         "section": "Objective Functions: Optimizing Multimodal Alignment",
         "subsection": "Fine-Grained Structured Contrastive Loss",
         "subsubsection": "Precise Local Semantic Anchoring",
         "domain": "Objective Functions"
-      },
-      {
-        "source_file": "evaluation.tex",
-        "line": 71,
-        "section": "Evaluation: How to Measure Alignment",
-        "subsection": "Controlled Protocols and Interpretation",
-        "subsubsection": "Connecting Alignment Claims to Evidence",
-        "domain": "Evaluation"
       },
       {
         "source_file": "Applications.tex",
@@ -5624,7 +5599,7 @@
       "Surdeanu, Mihai"
     ],
     "year": "2024",
-    "venue": "International Conference on Learning Representations",
+    "venue": "Int. Conf. Learn. Represent. (ICLR)",
     "entry_type": "inproceedings",
     "doi": "",
     "url": "https://proceedings.iclr.cc/paper_files/paper/2024/file/bc39a59c49b731c51398ad6b12f301d3-Paper-Conference.pdf",
@@ -5667,7 +5642,7 @@
       "Wang, Xiaoyun"
     ],
     "year": "2025",
-    "venue": "Proceedings of the AAAI Conference on Artificial Intelligence",
+    "venue": "Proc. AAAI Conf. Artif. Intell.",
     "entry_type": "inproceedings",
     "doi": "",
     "url": "https://ojs.aaai.org/index.php/AAAI/article/view/34568",
@@ -5716,7 +5691,7 @@
       "Fritz, Mario"
     ],
     "year": "2023",
-    "venue": "Proceedings of the 16th ACM Workshop on Artificial Intelligence and Security",
+    "venue": "Proc. 16th ACM Workshop Artif. Intell. Secur.",
     "entry_type": "inproceedings",
     "doi": "",
     "url": "https://arxiv.org/pdf/2302.12173",
@@ -5735,7 +5710,7 @@
     "body_locations": [
       {
         "source_file": "RQ3.tex",
-        "line": 55,
+        "line": 49,
         "section": "Training: A Staged Process for Multimodal Alignment",
         "subsection": "Inference-Time Intervention and Deployment Checks",
         "subsubsection": "",
@@ -5762,7 +5737,7 @@
       "others"
     ],
     "year": "2024",
-    "venue": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+    "venue": "Proc. IEEE/CVF Conf. Comput. Vis. Pattern Recognit. (CVPR)",
     "entry_type": "inproceedings",
     "doi": "",
     "url": "https://openaccess.thecvf.com/content/CVPR2024/html/Guan_HallusionBench_An_Advanced_Diagnostic_Suite_for_Entangled_Language_Hallucination_and_CVPR_2024_paper.html",
@@ -5814,7 +5789,7 @@
       "Huang, Gao"
     ],
     "year": "2024",
-    "venue": "European Conference on Computer Vision",
+    "venue": "Proc. Eur. Conf. Comput. Vis. (ECCV)",
     "entry_type": "inproceedings",
     "doi": "",
     "url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/11080_ECCV_2024_paper.php",
@@ -5855,7 +5830,7 @@
       "Tang, Xiaoying"
     ],
     "year": "2025",
-    "venue": "International Conference on Learning Representations",
+    "venue": "Int. Conf. Learn. Represent. (ICLR)",
     "entry_type": "inproceedings",
     "doi": "",
     "url": "https://proceedings.iclr.cc/paper_files/paper/2025/hash/df027cf11469e746ef94d583f9f5537f-Abstract-Conference.html",
@@ -5874,7 +5849,7 @@
     "body_locations": [
       {
         "source_file": "RQ2.tex",
-        "line": 91,
+        "line": 81,
         "section": "Architecture: Bridging Modalities",
         "subsection": "Structured Representation Alignment",
         "subsubsection": "Hierarchical and Sequential Multimodal Representation",
@@ -5896,7 +5871,7 @@
       "Wei, Donglai"
     ],
     "year": "2023",
-    "venue": "Proceedings of the IEEE/CVF International Conference on Computer Vision",
+    "venue": "Proc. IEEE/CVF Int. Conf. Comput. Vis. (ICCV)",
     "entry_type": "inproceedings",
     "doi": "",
     "url": "https://openaccess.thecvf.com/content/ICCV2023/papers/Gupta_CLIPTrans_Transferring_Visual_Knowledge_with_Pre-trained_Models_for_Multimodal_Machine_ICCV_2023_paper.pdf",
@@ -5933,7 +5908,7 @@
       "Kembhavi, Aniruddha"
     ],
     "year": "2023",
-    "venue": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+    "venue": "Proc. IEEE/CVF Conf. Comput. Vis. Pattern Recognit. (CVPR)",
     "entry_type": "inproceedings",
     "doi": "",
     "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Gupta_Visual_Programming_Compositional_Visual_Reasoning_Without_Training_CVPR_2023_paper.pdf",
@@ -5952,9 +5927,9 @@
     "body_locations": [
       {
         "source_file": "RQ3.tex",
-        "line": 34,
+        "line": 32,
         "section": "Training: A Staged Process for Multimodal Alignment",
-        "subsection": "Stage 2: Instruction Supervised Fine-Tuning",
+        "subsection": "Stage 2: Instruction-Supervised Fine-Tuning",
         "subsubsection": "Evidence-Grounded Instruction Targets",
         "domain": "Training"
       }
@@ -5977,7 +5952,7 @@
       "Yue, Xiangyu"
     ],
     "year": "2024",
-    "venue": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+    "venue": "Proc. IEEE/CVF Conf. Comput. Vis. Pattern Recognit. (CVPR)",
     "entry_type": "inproceedings",
     "doi": "",
     "url": "https://openaccess.thecvf.com/content/CVPR2024/html/Han_OneLLM_One_Framework_to_Align_All_Modalities_with_Language_CVPR_2024_paper.html",
@@ -5996,7 +5971,7 @@
     "body_locations": [
       {
         "source_file": "RQ2.tex",
-        "line": 115,
+        "line": 101,
         "section": "Architecture: Bridging Modalities",
         "subsection": "Expert-based Alignment in MLLMs",
         "subsubsection": "Adaptive Expert Routing",
@@ -6021,7 +5996,7 @@
       "Jiang, Lu"
     ],
     "year": "2025",
-    "venue": "Advances in Neural Information Processing Systems",
+    "venue": "Adv. Neural Inf. Process. Syst.",
     "entry_type": "inproceedings",
     "doi": "10.52202/085713-5294",
     "url": "https://doi.org/10.52202/085713-5294",
@@ -6040,7 +6015,7 @@
     "body_locations": [
       {
         "source_file": "RQ2.tex",
-        "line": 43,
+        "line": 39,
         "section": "Architecture: Bridging Modalities",
         "subsection": "Discretization-based Alignment",
         "subsubsection": "Vocabulary-Grounded Token Adaptation",
@@ -6059,7 +6034,7 @@
       "Jamnik, Mateja"
     ],
     "year": "2025",
-    "venue": "International Conference on Learning Representations",
+    "venue": "Int. Conf. Learn. Represent. (ICLR)",
     "entry_type": "inproceedings",
     "doi": "",
     "url": "https://proceedings.iclr.cc/paper_files/paper/2025/file/8064e4ebbcbe594628887b420956d8c3-Paper-Conference.pdf",
@@ -6098,7 +6073,7 @@
       "Zhang, Byoung-Tak"
     ],
     "year": "2022",
-    "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    "venue": "Proc. Annu. Meet. Assoc. Comput. Linguist. (ACL)",
     "entry_type": "inproceedings",
     "doi": "",
     "url": "https://aclanthology.org/2022.acl-long.29.pdf",
@@ -6117,7 +6092,7 @@
     "body_locations": [
       {
         "source_file": "RQ2.tex",
-        "line": 86,
+        "line": 76,
         "section": "Architecture: Bridging Modalities",
         "subsection": "Structured Representation Alignment",
         "subsubsection": "Hypergraph-based Multimodal Representation",
@@ -6136,7 +6111,7 @@
       "Tao, Dacheng"
     ],
     "year": "2026",
-    "venue": "ACM Computing Surveys",
+    "venue": "ACM Comput. Surv.",
     "entry_type": "article",
     "doi": "10.1145/3811409",
     "url": "https://doi.org/10.1145/3811409",
@@ -6157,7 +6132,7 @@
     "body_locations": [
       {
         "source_file": "introduction.tex",
-        "line": 163,
+        "line": 165,
         "section": "Introduction",
         "subsection": "Contributions and Organization",
         "subsubsection": "",
@@ -6178,7 +6153,7 @@
       "Krishna, Ranjay"
     ],
     "year": "2023",
-    "venue": "Advances in Neural Information Processing Systems",
+    "venue": "Adv. Neural Inf. Process. Syst.",
     "entry_type": "inproceedings",
     "doi": "",
     "url": "https://proceedings.neurips.cc/paper_files/paper/2023/file/63461de0b4cb760fc498e85b18a7fe81-Paper-Datasets_and_Benchmarks.pdf",
@@ -6219,7 +6194,7 @@
       "Fei-Fei, Li"
     ],
     "year": "2023",
-    "venue": "Proceedings of The 7th Conference on Robot Learning",
+    "venue": "Proc. Conf. Robot Learn. (CoRL)",
     "entry_type": "inproceedings",
     "doi": "",
     "url": "https://proceedings.mlr.press/v229/huang23b.html",
@@ -6240,7 +6215,7 @@
         "source_file": "Applications.tex",
         "line": 15,
         "section": "Applications: Alignment in Practice",
-        "subsection": "Embodied AI and Robotics (Perception-Action Alignment)",
+        "subsection": "Embodied AI and Robotics (Perception--Action Alignment)",
         "subsubsection": "",
         "domain": "Applications"
       }
@@ -6273,7 +6248,7 @@
     "body_locations": [
       {
         "source_file": "introduction.tex",
-        "line": 163,
+        "line": 165,
         "section": "Introduction",
         "subsection": "Contributions and Organization",
         "subsubsection": "",
@@ -6298,7 +6273,7 @@
       "Yu, Nenghai"
     ],
     "year": "2024",
-    "venue": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+    "venue": "Proc. IEEE/CVF Conf. Comput. Vis. Pattern Recognit. (CVPR)",
     "entry_type": "inproceedings",
     "doi": "",
     "url": "https://openaccess.thecvf.com/content/CVPR2024/html/Huang_OPERA_Alleviating_Hallucination_in_Multi-Modal_Large_Language_Models_via_Over-Trust_CVPR_2024_paper.html",
@@ -6317,7 +6292,7 @@
     "body_locations": [
       {
         "source_file": "RQ3.tex",
-        "line": 53,
+        "line": 47,
         "section": "Training: A Staged Process for Multimodal Alignment",
         "subsection": "Inference-Time Intervention and Deployment Checks",
         "subsubsection": "",
@@ -6337,7 +6312,7 @@
       "Gong, Neil"
     ],
     "year": "2024",
-    "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+    "venue": "Findings Assoc. Comput. Linguist.: ACL 2024",
     "entry_type": "inproceedings",
     "doi": "",
     "url": "https://aclanthology.org/2024.findings-acl.573.pdf",
@@ -6383,7 +6358,7 @@
       "Zhuang, Yueting"
     ],
     "year": "2025",
-    "venue": "Findings of the Association for Computational Linguistics: ACL 2025",
+    "venue": "Findings Assoc. Comput. Linguist.: ACL 2025",
     "entry_type": "inproceedings",
     "doi": "10.18653/v1/2025.findings-acl.458",
     "url": "https://doi.org/10.18653/v1/2025.findings-acl.458",
@@ -6402,7 +6377,7 @@
     "body_locations": [
       {
         "source_file": "data.tex",
-        "line": 172,
+        "line": 170,
         "section": "Data Construction: Building Alignment Signals",
         "subsection": "Synthetic and Self-Supervised Alignment Data",
         "subsubsection": "Model-Refined Pseudo-Labels",
@@ -6426,7 +6401,7 @@
       "Yu, Nenghai"
     ],
     "year": "2025",
-    "venue": "Proceedings of the IEEE/CVF International Conference on Computer Vision",
+    "venue": "Proc. IEEE/CVF Int. Conf. Comput. Vis. (ICCV)",
     "entry_type": "inproceedings",
     "doi": "",
     "url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Huang_Deciphering_Cross-Modal_Alignment_in_Large_Vision-Language_Models_via_Modality_Integration_ICCV_2025_paper.pdf",
@@ -6466,7 +6441,7 @@
       "Yang, Fu-En"
     ],
     "year": "2025",
-    "venue": "Advances in Neural Information Processing Systems",
+    "venue": "Adv. Neural Inf. Process. Syst.",
     "entry_type": "inproceedings",
     "doi": "10.52202/085713-2773",
     "url": "https://doi.org/10.52202/085713-2773",
@@ -6487,7 +6462,7 @@
         "source_file": "Applications.tex",
         "line": 21,
         "section": "Applications: Alignment in Practice",
-        "subsection": "Embodied AI and Robotics (Perception-Action Alignment)",
+        "subsection": "Embodied AI and Robotics (Perception--Action Alignment)",
         "subsubsection": "",
         "domain": "Applications"
       }
@@ -6509,7 +6484,7 @@
       "Liu, Tongliang"
     ],
     "year": "2025",
-    "venue": "Advances in Neural Information Processing Systems",
+    "venue": "Adv. Neural Inf. Process. Syst.",
     "entry_type": "inproceedings",
     "doi": "",
     "url": "https://www.proceedings.com/content/085/085713-1839open.pdf",
@@ -6528,7 +6503,7 @@
     "body_locations": [
       {
         "source_file": "RQ2.tex",
-        "line": 102,
+        "line": 88,
         "section": "Architecture: Bridging Modalities",
         "subsection": "Attention-based Alignment in MLLMs",
         "subsubsection": "Spatial Attention and Local Anchoring",
@@ -6550,7 +6525,7 @@
       "Wei, Hua"
     ],
     "year": "2025",
-    "venue": "Proceedings of the Thirty-Fourth International Joint Conference on Artificial Intelligence",
+    "venue": "Proc. Int. Joint Conf. Artif. Intell. (IJCAI)",
     "entry_type": "inproceedings",
     "doi": "10.24963/ijcai.2025/1068",
     "url": "https://doi.org/10.24963/ijcai.2025/1068",
@@ -6583,8 +6558,8 @@
     "name": "",
     "title": "Sample-efficient Integration of New Modalities into Large Language Models",
     "authors": [
-      "İnce, Osman Batur",
-      "Martins, André FT",
+      "\u0130nce, Osman Batur",
+      "Martins, Andr\u00e9 FT",
       "Mac Aodha, Oisin",
       "Ponti, Edoardo M"
     ],
@@ -6628,7 +6603,7 @@
       "Niebles, Juan Carlos"
     ],
     "year": "2020",
-    "venue": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+    "venue": "Proc. IEEE/CVF Conf. Comput. Vis. Pattern Recognit. (CVPR)",
     "entry_type": "inproceedings",
     "doi": "",
     "url": "https://openaccess.thecvf.com/content_CVPR_2020/html/Ji_Action_Genome_Actions_As_Compositions_of_Spatio-Temporal_Scene_Graphs_CVPR_2020_paper.html",
@@ -6648,7 +6623,7 @@
     "body_locations": [
       {
         "source_file": "RQ2.tex",
-        "line": 75,
+        "line": 67,
         "section": "Architecture: Bridging Modalities",
         "subsection": "Structured Representation Alignment",
         "subsubsection": "",
@@ -6674,7 +6649,7 @@
       "Duerig, Tom"
     ],
     "year": "2021",
-    "venue": "International Conference on Machine Learning",
+    "venue": "Proc. Int. Conf. Mach. Learn. (ICML)",
     "entry_type": "inproceedings",
     "doi": "",
     "url": "https://proceedings.mlr.press/v139/jia21b.html",
@@ -6695,15 +6670,15 @@
     "body_locations": [
       {
         "source_file": "data.tex",
-        "line": 169,
+        "line": 167,
         "section": "Data Construction: Building Alignment Signals",
         "subsection": "Synthetic and Self-Supervised Alignment Data",
-        "subsubsection": "Naturally-Occurring Weak Supervision",
+        "subsubsection": "Naturally Occurring Weak Supervision",
         "domain": "Data Construction"
       },
       {
         "source_file": "evaluation.tex",
-        "line": 60,
+        "line": 58,
         "section": "Evaluation: How to Measure Alignment",
         "subsection": "Metrics and Evaluators for Alignment",
         "subsubsection": "Retrieval and Localization Metrics",
@@ -6724,7 +6699,7 @@
       "Zhu, Zhihui"
     ],
     "year": "2025",
-    "venue": "Advances in Neural Information Processing Systems",
+    "venue": "Adv. Neural Inf. Process. Syst.",
     "entry_type": "inproceedings",
     "doi": "10.52202/085713-0032",
     "url": "https://doi.org/10.52202/085713-0032",
@@ -6743,7 +6718,7 @@
     "body_locations": [
       {
         "source_file": "RQ2.tex",
-        "line": 102,
+        "line": 88,
         "section": "Architecture: Bridging Modalities",
         "subsection": "Attention-based Alignment in MLLMs",
         "subsubsection": "Spatial Attention and Local Anchoring",
@@ -6763,7 +6738,7 @@
       "Zhang, Shaoting"
     ],
     "year": "2025",
-    "venue": "International Conference on Learning Representations",
+    "venue": "Int. Conf. Learn. Represent. (ICLR)",
     "entry_type": "inproceedings",
     "doi": "",
     "url": "https://proceedings.iclr.cc/paper_files/paper/2025/file/6111371a868af8dcfba0f96ad9e25ae3-Paper-Conference.pdf",
@@ -6803,7 +6778,7 @@
       "Yokota, Rio"
     ],
     "year": "2026",
-    "venue": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+    "venue": "Proc. IEEE/CVF Conf. Comput. Vis. Pattern Recognit. (CVPR)",
     "entry_type": "inproceedings",
     "doi": "",
     "url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Kawamura_PowerCLIP_Powerset_Alignment_for_Contrastive_Pre-Training_CVPR_2026_paper.pdf",
@@ -6822,7 +6797,7 @@
     "body_locations": [
       {
         "source_file": "RQ2.tex",
-        "line": 167,
+        "line": 153,
         "section": "Objective Functions: Optimizing Multimodal Alignment",
         "subsection": "Fine-Grained Structured Contrastive Loss",
         "subsubsection": "Precise Local Semantic Anchoring",
@@ -6845,7 +6820,7 @@
       "Zhou, S Kevin"
     ],
     "year": "2024",
-    "venue": "2024 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+    "venue": "Proc. IEEE/CVF Conf. Comput. Vis. Pattern Recognit. (CVPR)",
     "entry_type": "inproceedings",
     "doi": "",
     "url": "https://openaccess.thecvf.com/content/CVPR2024/html/Lai_CARZero_Cross-Attention_Alignment_for_Radiology_Zero-Shot_Classification_CVPR_2024_paper.html",
@@ -6888,7 +6863,7 @@
       "Su, Jinsong"
     ],
     "year": "2023",
-    "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    "venue": "Proc. Annu. Meet. Assoc. Comput. Linguist. (ACL)",
     "entry_type": "inproceedings",
     "doi": "",
     "url": "https://aclanthology.org/2023.acl-long.192.pdf",
@@ -6907,7 +6882,7 @@
     "body_locations": [
       {
         "source_file": "RQ2.tex",
-        "line": 43,
+        "line": 39,
         "section": "Architecture: Bridging Modalities",
         "subsection": "Discretization-based Alignment",
         "subsubsection": "Vocabulary-Grounded Token Adaptation",
@@ -6934,7 +6909,7 @@
       "others"
     ],
     "year": "2023",
-    "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    "venue": "Proc. Annu. Meet. Assoc. Comput. Linguist. (ACL)",
     "entry_type": "inproceedings",
     "doi": "",
     "url": "https://aclanthology.org/2023.acl-long.501.pdf",
@@ -6953,7 +6928,7 @@
     "body_locations": [
       {
         "source_file": "RQ2.tex",
-        "line": 170,
+        "line": 156,
         "section": "Objective Functions: Optimizing Multimodal Alignment",
         "subsection": "Fine-Grained Structured Contrastive Loss",
         "subsubsection": "Structured Compositional Logic Constraint",
@@ -6973,7 +6948,7 @@
       "Zhang, Min"
     ],
     "year": "2024",
-    "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    "venue": "Proc. Annu. Meet. Assoc. Comput. Linguist. (ACL)",
     "entry_type": "inproceedings",
     "doi": "",
     "url": "https://aclanthology.org/2024.acl-long.579.pdf",
@@ -6992,7 +6967,7 @@
     "body_locations": [
       {
         "source_file": "RQ2.tex",
-        "line": 80,
+        "line": 72,
         "section": "Architecture: Bridging Modalities",
         "subsection": "Structured Representation Alignment",
         "subsubsection": "Graph-based Multimodal Representation",
@@ -7012,7 +6987,7 @@
       "Ye, Jong Chul"
     ],
     "year": "2024",
-    "venue": "The Twelfth International Conference on Learning Representations",
+    "venue": "Int. Conf. Learn. Represent. (ICLR)",
     "entry_type": "inproceedings",
     "doi": "",
     "url": "https://openreview.net/pdf/495e4c5290e90fa4b234772ff8cd9a1d493a60a5.pdf",
@@ -7055,7 +7030,7 @@
       "Ji, Luo"
     ],
     "year": "2025",
-    "venue": "Proceedings of the 42nd International Conference on Machine Learning",
+    "venue": "Proc. Int. Conf. Mach. Learn. (ICML)",
     "entry_type": "inproceedings",
     "doi": "",
     "url": "https://proceedings.mlr.press/v267/lei25b.html",
@@ -7074,7 +7049,7 @@
     "body_locations": [
       {
         "source_file": "RQ2.tex",
-        "line": 115,
+        "line": 101,
         "section": "Architecture: Bridging Modalities",
         "subsection": "Expert-based Alignment in MLLMs",
         "subsubsection": "Adaptive Expert Routing",
@@ -7097,7 +7072,7 @@
       "Bing, Lidong"
     ],
     "year": "2024",
-    "venue": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+    "venue": "Proc. IEEE/CVF Conf. Comput. Vis. Pattern Recognit. (CVPR)",
     "entry_type": "inproceedings",
     "doi": "",
     "url": "https://openaccess.thecvf.com/content/CVPR2024/html/Leng_Mitigating_Object_Hallucinations_in_Large_Vision-Language_Models_through_Visual_Contrastive_CVPR_2024_paper.html",
@@ -7116,7 +7091,7 @@
     "body_locations": [
       {
         "source_file": "RQ3.tex",
-        "line": 53,
+        "line": 47,
         "section": "Training: A Staged Process for Multimodal Alignment",
         "subsection": "Inference-Time Intervention and Deployment Checks",
         "subsubsection": "",
@@ -7138,7 +7113,7 @@
       "Hoi, Steven Chu Hong"
     ],
     "year": "2021",
-    "venue": "Advances in Neural Information Processing Systems",
+    "venue": "Adv. Neural Inf. Process. Syst.",
     "entry_type": "inproceedings",
     "doi": "",
     "url": "https://proceedings.neurips.cc/paper_files/paper/2021/file/505259756244493872b7709a8a01b536-Paper.pdf",
@@ -7160,7 +7135,7 @@
     "body_locations": [
       {
         "source_file": "data.tex",
-        "line": 172,
+        "line": 170,
         "section": "Data Construction: Building Alignment Signals",
         "subsection": "Synthetic and Self-Supervised Alignment Data",
         "subsubsection": "Model-Refined Pseudo-Labels",
@@ -7168,7 +7143,7 @@
       },
       {
         "source_file": "RQ3.tex",
-        "line": 16,
+        "line": 15,
         "section": "Training: A Staged Process for Multimodal Alignment",
         "subsection": "Stage 1: Multimodal Pretraining",
         "subsubsection": "Objective Scheduling and Batch Construction",
@@ -7188,7 +7163,7 @@
       "Hoi, Steven"
     ],
     "year": "2022",
-    "venue": "International Conference on Machine Learning",
+    "venue": "Proc. Int. Conf. Mach. Learn. (ICML)",
     "entry_type": "inproceedings",
     "doi": "",
     "url": "https://proceedings.mlr.press/v162/li22n/li22n.pdf",
@@ -7211,7 +7186,7 @@
     "body_locations": [
       {
         "source_file": "RQ2.tex",
-        "line": 208,
+        "line": 191,
         "section": "Objective Functions: Optimizing Multimodal Alignment",
         "subsection": "Generative Implicit Alignment Loss",
         "subsubsection": "Autoregressive and Modality-Specific Generation",
@@ -7219,7 +7194,7 @@
       },
       {
         "source_file": "data.tex",
-        "line": 172,
+        "line": 170,
         "section": "Data Construction: Building Alignment Signals",
         "subsection": "Synthetic and Self-Supervised Alignment Data",
         "subsubsection": "Model-Refined Pseudo-Labels",
@@ -7227,7 +7202,7 @@
       },
       {
         "source_file": "RQ3.tex",
-        "line": 13,
+        "line": 12,
         "section": "Training: A Staged Process for Multimodal Alignment",
         "subsection": "Stage 1: Multimodal Pretraining",
         "subsubsection": "Frozen Versus Jointly Updated Components",
@@ -7235,7 +7210,7 @@
       },
       {
         "source_file": "RQ3.tex",
-        "line": 16,
+        "line": 15,
         "section": "Training: A Staged Process for Multimodal Alignment",
         "subsection": "Stage 1: Multimodal Pretraining",
         "subsubsection": "Objective Scheduling and Batch Construction",
@@ -7255,7 +7230,7 @@
       "Hoi, Steven"
     ],
     "year": "2023",
-    "venue": "International Conference on Machine Learning",
+    "venue": "Proc. Int. Conf. Mach. Learn. (ICML)",
     "entry_type": "inproceedings",
     "doi": "",
     "url": "https://proceedings.mlr.press/v202/li23q/li23q.pdf",
@@ -7284,7 +7259,7 @@
       },
       {
         "source_file": "RQ2.tex",
-        "line": 117,
+        "line": 103,
         "section": "Architecture: Bridging Modalities",
         "subsection": "Expert-based Alignment in MLLMs",
         "subsubsection": "Adaptive Expert Routing",
@@ -7292,7 +7267,7 @@
       },
       {
         "source_file": "RQ3.tex",
-        "line": 13,
+        "line": 12,
         "section": "Training: A Staged Process for Multimodal Alignment",
         "subsection": "Stage 1: Multimodal Pretraining",
         "subsubsection": "Frozen Versus Jointly Updated Components",
@@ -7314,7 +7289,7 @@
       "Wen, Ji-Rong"
     ],
     "year": "2023",
-    "venue": "Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing",
+    "venue": "Proc. Conf. Empirical Methods Nat. Lang. Process. (EMNLP)",
     "entry_type": "inproceedings",
     "doi": "",
     "url": "https://aclanthology.org/2023.emnlp-main.20/",
@@ -7343,9 +7318,9 @@
       },
       {
         "source_file": "RQ3.tex",
-        "line": 36,
+        "line": 32,
         "section": "Training: A Staged Process for Multimodal Alignment",
-        "subsection": "Stage 2: Instruction Supervised Fine-Tuning",
+        "subsection": "Stage 2: Instruction-Supervised Fine-Tuning",
         "subsubsection": "Evidence-Grounded Instruction Targets",
         "domain": "Training"
       },
@@ -7393,7 +7368,7 @@
       "Zhuang, Yueting"
     ],
     "year": "2024",
-    "venue": "International Conference on Learning Representations",
+    "venue": "Int. Conf. Learn. Represent. (ICLR)",
     "entry_type": "inproceedings",
     "doi": "",
     "url": "https://proceedings.iclr.cc/paper_files/paper/2024/hash/8cb5b08f912600de3de07c6503599ba8-Abstract-Conference.html",
@@ -7433,7 +7408,7 @@
       "Zhang, Zhilin"
     ],
     "year": "2024",
-    "venue": "Proceedings of the 47th international ACM SIGIR Conference on Research and Development in Information Retrieval",
+    "venue": "Proc. Int. ACM SIGIR Conf. Res. Develop. Inf. Retr.",
     "entry_type": "inproceedings",
     "doi": "",
     "url": "https://xmudm.github.io/files/Li24Who.pdf",
@@ -7470,7 +7445,7 @@
       "Tang, Hao"
     ],
     "year": "2026",
-    "venue": "International Journal of Computer Vision",
+    "venue": "Int. J. Comput. Vis.",
     "entry_type": "article",
     "doi": "10.1007/s11263-025-02667-1",
     "url": "https://doi.org/10.1007/s11263-025-02667-1",
@@ -7489,7 +7464,7 @@
     "body_locations": [
       {
         "source_file": "introduction.tex",
-        "line": 163,
+        "line": 165,
         "section": "Introduction",
         "subsection": "Contributions and Organization",
         "subsubsection": "",
@@ -7536,7 +7511,7 @@
     "body_locations": [
       {
         "source_file": "introduction.tex",
-        "line": 163,
+        "line": 165,
         "section": "Introduction",
         "subsection": "Contributions and Organization",
         "subsubsection": "",
@@ -7556,7 +7531,7 @@
       "Shi, Chuan"
     ],
     "year": "2025",
-    "venue": "Proceedings of the 31st ACM SIGKDD Conference on Knowledge Discovery and Data Mining V.2",
+    "venue": "Proc. ACM SIGKDD Conf. Knowl. Discov. Data Min. V.2",
     "entry_type": "inproceedings",
     "doi": "10.1145/3711896.3736834",
     "url": "https://doi.org/10.1145/3711896.3736834",
@@ -7575,7 +7550,7 @@
     "body_locations": [
       {
         "source_file": "RQ2.tex",
-        "line": 75,
+        "line": 67,
         "section": "Architecture: Bridging Modalities",
         "subsection": "Structured Representation Alignment",
         "subsubsection": "",
@@ -7594,7 +7569,7 @@
       "Jia, Jiaya"
     ],
     "year": "2024",
-    "venue": "European Conference on Computer Vision",
+    "venue": "Proc. Eur. Conf. Comput. Vis. (ECCV)",
     "entry_type": "inproceedings",
     "doi": "",
     "url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/06290.pdf",
@@ -7651,7 +7626,7 @@
     "body_locations": [
       {
         "source_file": "RQ2.tex",
-        "line": 91,
+        "line": 81,
         "section": "Architecture: Bridging Modalities",
         "subsection": "Structured Representation Alignment",
         "subsubsection": "Hierarchical and Sequential Multimodal Representation",
@@ -7675,7 +7650,7 @@
       "Liu, Si"
     ],
     "year": "2025",
-    "venue": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+    "venue": "Proc. IEEE/CVF Conf. Comput. Vis. Pattern Recognit. (CVPR)",
     "entry_type": "inproceedings",
     "doi": "",
     "url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Li_LLaVA-ST_A_Multimodal_Large_Language_Model_for_Fine-Grained_Spatial-Temporal_Understanding_CVPR_2025_paper.pdf",
@@ -7718,7 +7693,7 @@
       "Zhang, Lei"
     ],
     "year": "2025",
-    "venue": "International Journal of Computer Vision",
+    "venue": "Int. J. Comput. Vis.",
     "entry_type": "article",
     "doi": "",
     "url": "https://arxiv.org/pdf/2407.02392",
@@ -7756,7 +7731,7 @@
       "Fazli, Pooyan"
     ],
     "year": "2025",
-    "venue": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+    "venue": "Proc. IEEE/CVF Conf. Comput. Vis. Pattern Recognit. (CVPR)",
     "entry_type": "inproceedings",
     "doi": "",
     "url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Li_VidHalluc_Evaluating_Temporal_Hallucinations_in_Multimodal_Large_Language_Models_for_CVPR_2025_paper.pdf",
@@ -7811,7 +7786,7 @@
       "Liu, Qi"
     ],
     "year": "2025",
-    "venue": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+    "venue": "Proc. IEEE/CVF Conf. Comput. Vis. Pattern Recognit. (CVPR)",
     "entry_type": "inproceedings",
     "doi": "",
     "url": "https://openaccess.thecvf.com/content/CVPR2025/html/Li_VL-RewardBench_A_Challenging_Benchmark_for_Vision-Language_Generative_Reward_Models_CVPR_2025_paper.html",
@@ -7830,7 +7805,7 @@
     "body_locations": [
       {
         "source_file": "evaluation.tex",
-        "line": 66,
+        "line": 64,
         "section": "Evaluation: How to Measure Alignment",
         "subsection": "Metrics and Evaluators for Alignment",
         "subsubsection": "Multimodal Reward-Model Evaluation",
@@ -7854,7 +7829,7 @@
       "Xue, Xiangyang"
     ],
     "year": "2026",
-    "venue": "Pattern Recognition",
+    "venue": "Pattern Recognit.",
     "entry_type": "article",
     "doi": "",
     "url": "https://arxiv.org/pdf/2501.08443",
@@ -7873,7 +7848,7 @@
     "body_locations": [
       {
         "source_file": "RQ2.tex",
-        "line": 105,
+        "line": 91,
         "section": "Architecture: Bridging Modalities",
         "subsection": "Attention-based Alignment in MLLMs",
         "subsubsection": "Cross-Layer Feature Fusion",
@@ -7900,7 +7875,7 @@
       "others"
     ],
     "year": "2025",
-    "venue": "Advances in Neural Information Processing Systems",
+    "venue": "Adv. Neural Inf. Process. Syst.",
     "entry_type": "inproceedings",
     "doi": "",
     "url": "https://www.proceedings.com/content/085/085713-0981open.pdf",
@@ -7919,7 +7894,7 @@
     "body_locations": [
       {
         "source_file": "RQ2.tex",
-        "line": 86,
+        "line": 76,
         "section": "Architecture: Bridging Modalities",
         "subsection": "Structured Representation Alignment",
         "subsubsection": "Hypergraph-based Multimodal Representation",
@@ -7940,7 +7915,7 @@
       "Zou, James"
     ],
     "year": "2022",
-    "venue": "Advances in Neural Information Processing Systems",
+    "venue": "Adv. Neural Inf. Process. Syst.",
     "entry_type": "inproceedings",
     "doi": "10.52202/068431-1280",
     "url": "https://doi.org/10.52202/068431-1280",
@@ -7985,7 +7960,7 @@
       "others"
     ],
     "year": "2025",
-    "venue": "Transactions on Machine Learning Research",
+    "venue": "Trans. Mach. Learn. Res.",
     "entry_type": "article",
     "doi": "",
     "url": "https://openreview.net/forum?id=Nu6N69i8SB",
@@ -8006,7 +7981,7 @@
     "body_locations": [
       {
         "source_file": "RQ2.tex",
-        "line": 112,
+        "line": 98,
         "section": "Architecture: Bridging Modalities",
         "subsection": "Expert-based Alignment in MLLMs",
         "subsubsection": "Modality-Indexed Parameter Pathways",
@@ -8014,7 +7989,7 @@
       },
       {
         "source_file": "RQ2.tex",
-        "line": 208,
+        "line": 191,
         "section": "Objective Functions: Optimizing Multimodal Alignment",
         "subsection": "Generative Implicit Alignment Loss",
         "subsubsection": "Autoregressive and Modality-Specific Generation",
@@ -8037,7 +8012,7 @@
       "He, Yao"
     ],
     "year": "2025",
-    "venue": "Proceedings of the Computer Vision and Pattern Recognition Conference",
+    "venue": "Proc. IEEE/CVF Conf. Comput. Vis. Pattern Recognit. (CVPR)",
     "entry_type": "inproceedings",
     "doi": "",
     "url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Liang_Towards_Improved_Text-Aligned_Codebook_Learning_Multi-Hierarchical_Codebook-Text_Alignment_with_Long_CVPR_2025_paper.pdf",
@@ -8056,7 +8031,7 @@
     "body_locations": [
       {
         "source_file": "RQ2.tex",
-        "line": 43,
+        "line": 39,
         "section": "Architecture: Bridging Modalities",
         "subsection": "Discretization-based Alignment",
         "subsubsection": "Vocabulary-Grounded Token Adaptation",
@@ -8077,7 +8052,7 @@
       "Byrne, Bill"
     ],
     "year": "2023",
-    "venue": "Advances in Neural Information Processing Systems",
+    "venue": "Adv. Neural Inf. Process. Syst.",
     "entry_type": "inproceedings",
     "doi": "",
     "url": "https://proceedings.neurips.cc/paper_files/paper/2023/file/47393e8594c82ce8fd83adc672cf9872-Paper-Conference.pdf",
@@ -8096,7 +8071,7 @@
     "body_locations": [
       {
         "source_file": "RQ2.tex",
-        "line": 102,
+        "line": 88,
         "section": "Architecture: Bridging Modalities",
         "subsection": "Attention-based Alignment in MLLMs",
         "subsubsection": "Spatial Attention and Local Anchoring",
@@ -8120,7 +8095,7 @@
       "Shen, Xiaoyu"
     ],
     "year": "2025",
-    "venue": "Proceedings of the Computer Vision and Pattern Recognition Conference",
+    "venue": "Proc. IEEE/CVF Conf. Comput. Vis. Pattern Recognit. (CVPR)",
     "entry_type": "inproceedings",
     "doi": "",
     "url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Lin_Multi-Layer_Visual_Feature_Fusion_in_Multimodal_LLMs_Methods_Analysis_and_CVPR_2025_paper.pdf",
@@ -8139,7 +8114,7 @@
     "body_locations": [
       {
         "source_file": "RQ2.tex",
-        "line": 105,
+        "line": 91,
         "section": "Architecture: Bridging Modalities",
         "subsection": "Attention-based Alignment in MLLMs",
         "subsubsection": "Cross-Layer Feature Fusion",
@@ -8161,7 +8136,7 @@
       "Glass, James"
     ],
     "year": "2022",
-    "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    "venue": "Proc. Annu. Meet. Assoc. Comput. Linguist. (ACL)",
     "entry_type": "inproceedings",
     "doi": "",
     "url": "https://aclanthology.org/2022.acl-long.215.pdf",
@@ -8180,7 +8155,7 @@
     "body_locations": [
       {
         "source_file": "RQ2.tex",
-        "line": 40,
+        "line": 36,
         "section": "Architecture: Bridging Modalities",
         "subsection": "Discretization-based Alignment",
         "subsubsection": "Cross-Modal Codebook Construction",
@@ -8192,7 +8167,7 @@
   {
     "citation_key": "liu2022moleculestm",
     "name": "MoleculeSTM",
-    "title": "Multi-modal molecule structure– text model for text-based retrieval and editing",
+    "title": "Multi-modal molecule structure\u2013 text model for text-based retrieval and editing",
     "authors": [
       "Liu, Shengchao",
       "Nie, Weili",
@@ -8205,7 +8180,7 @@
       "Anandkumar, Animashree"
     ],
     "year": "2023",
-    "venue": "Nature Machine Intelligence",
+    "venue": "Nat. Mach. Intell.",
     "entry_type": "article",
     "doi": "10.1038/s42256-023-00759-6",
     "url": "https://doi.org/10.1038/s42256-023-00759-6",
@@ -8225,7 +8200,7 @@
     "body_locations": [
       {
         "source_file": "RQ2.tex",
-        "line": 75,
+        "line": 67,
         "section": "Architecture: Bridging Modalities",
         "subsection": "Structured Representation Alignment",
         "subsubsection": "",
@@ -8244,7 +8219,7 @@
       "Abbeel, Pieter"
     ],
     "year": "2023",
-    "venue": "Advances in Neural Information Processing Systems",
+    "venue": "Adv. Neural Inf. Process. Syst.",
     "entry_type": "inproceedings",
     "doi": "",
     "url": "https://proceedings.neurips.cc/paper_files/paper/2023/file/0df1738319f8c6e15b58cb16ea3cfa57-Paper-Conference.pdf",
@@ -8263,7 +8238,7 @@
     "body_locations": [
       {
         "source_file": "RQ2.tex",
-        "line": 43,
+        "line": 39,
         "section": "Architecture: Bridging Modalities",
         "subsection": "Discretization-based Alignment",
         "subsubsection": "Vocabulary-Grounded Token Adaptation",
@@ -8283,7 +8258,7 @@
       "Lee, Yong Jae"
     ],
     "year": "2023",
-    "venue": "Advances in Neural Information Processing Systems",
+    "venue": "Adv. Neural Inf. Process. Syst.",
     "entry_type": "inproceedings",
     "doi": "",
     "url": "https://proceedings.neurips.cc/paper_files/paper/2023/hash/6dcf277ea32ce3288914faf369fe6de0-Abstract-Conference.html",
@@ -8314,7 +8289,7 @@
       },
       {
         "source_file": "RQ2.tex",
-        "line": 242,
+        "line": 225,
         "section": "Objective Functions: Optimizing Multimodal Alignment",
         "subsection": "Instruction and Preference Alignment Objectives",
         "subsubsection": "Token-Level Supervised Fine-Tuning",
@@ -8322,9 +8297,9 @@
       },
       {
         "source_file": "RQ3.tex",
-        "line": 28,
+        "line": 26,
         "section": "Training: A Staged Process for Multimodal Alignment",
-        "subsection": "Stage 2: Instruction Supervised Fine-Tuning",
+        "subsection": "Stage 2: Instruction-Supervised Fine-Tuning",
         "subsubsection": "Trainable Parameters and Optimization Schedule",
         "domain": "Training"
       }
@@ -8341,7 +8316,7 @@
       "Collier, Nigel"
     ],
     "year": "2023",
-    "venue": "Transactions of the Association for Computational Linguistics",
+    "venue": "Trans. Assoc. Comput. Linguist.",
     "entry_type": "article",
     "doi": "10.1162/tacl_a_00566",
     "url": "https://doi.org/10.1162/tacl_a_00566",
@@ -8381,7 +8356,7 @@
       "Qiao, Yu"
     ],
     "year": "2024",
-    "venue": "Proceedings of the Thirty-Third International Joint Conference on Artificial Intelligence",
+    "venue": "Proc. Int. Joint Conf. Artif. Intell. (IJCAI)",
     "entry_type": "inproceedings",
     "doi": "10.24963/ijcai.2024/901",
     "url": "https://doi.org/10.24963/ijcai.2024/901",
@@ -8399,7 +8374,7 @@
     "body_locations": [
       {
         "source_file": "introduction.tex",
-        "line": 163,
+        "line": 165,
         "section": "Introduction",
         "subsection": "Contributions and Organization",
         "subsubsection": "",
@@ -8422,7 +8397,7 @@
       "Yang, Hongxia"
     ],
     "year": "2024",
-    "venue": "Advances in Neural Information Processing Systems",
+    "venue": "Adv. Neural Inf. Process. Syst.",
     "entry_type": "inproceedings",
     "doi": "",
     "url": "https://proceedings.neurips.cc/paper_files/paper/2024/file/1f84412e84da6440ca355d87184cb1b3-Paper-Conference.pdf",
@@ -8467,7 +8442,7 @@
       "Shi, Botian"
     ],
     "year": "2025",
-    "venue": "Proceedings of the IEEE/CVF International Conference on Computer Vision",
+    "venue": "Proc. IEEE/CVF Int. Conf. Comput. Vis. (ICCV)",
     "entry_type": "inproceedings",
     "doi": "",
     "url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Liu_Aligning_Vision_to_Language_Annotation-Free_Multimodal_Knowledge_Graph_Construction_for_ICCV_2025_paper.pdf",
@@ -8486,7 +8461,7 @@
     "body_locations": [
       {
         "source_file": "RQ2.tex",
-        "line": 80,
+        "line": 72,
         "section": "Architecture: Bridging Modalities",
         "subsection": "Structured Representation Alignment",
         "subsubsection": "Graph-based Multimodal Representation",
@@ -8510,7 +8485,7 @@
       "Wang, Jiaqi"
     ],
     "year": "2025",
-    "venue": "Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)",
+    "venue": "Proc. IEEE/CVF Int. Conf. Comput. Vis. (ICCV)",
     "entry_type": "inproceedings",
     "doi": "",
     "url": "https://openaccess.thecvf.com/content/ICCV2025/html/Liu_Visual-RFT_Visual_Reinforcement_Fine-Tuning_ICCV_2025_paper.html",
@@ -8531,7 +8506,7 @@
     "body_locations": [
       {
         "source_file": "RQ2.tex",
-        "line": 265,
+        "line": 248,
         "section": "Objective Functions: Optimizing Multimodal Alignment",
         "subsection": "Instruction and Preference Alignment Objectives",
         "subsubsection": "Verifiable Rewards and Group-Relative Optimization",
@@ -8539,7 +8514,7 @@
       },
       {
         "source_file": "RQ3.tex",
-        "line": 49,
+        "line": 44,
         "section": "Training: A Staged Process for Multimodal Alignment",
         "subsection": "Stage 3: Preference and Reward Optimization",
         "subsubsection": "Verifiable-Reward Fine-Tuning",
@@ -8562,7 +8537,7 @@
       "Chen, Chang Wen"
     ],
     "year": "2025",
-    "venue": "Advances in Neural Information Processing Systems",
+    "venue": "Adv. Neural Inf. Process. Syst.",
     "entry_type": "inproceedings",
     "doi": "",
     "url": "https://www.proceedings.com/content/085/085713-4203open.pdf",
@@ -8581,7 +8556,7 @@
     "body_locations": [
       {
         "source_file": "RQ2.tex",
-        "line": 102,
+        "line": 88,
         "section": "Architecture: Bridging Modalities",
         "subsection": "Attention-based Alignment in MLLMs",
         "subsubsection": "Spatial Attention and Local Anchoring",
@@ -8607,7 +8582,7 @@
       "Hu, Xuming"
     ],
     "year": "2026",
-    "venue": "Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    "venue": "Proc. Annu. Meet. Assoc. Comput. Linguist. (ACL)",
     "entry_type": "inproceedings",
     "doi": "10.18653/v1/2026.acl-long.1784",
     "url": "https://doi.org/10.18653/v1/2026.acl-long.1784",
@@ -8647,7 +8622,7 @@
       "Fu, Yun"
     ],
     "year": "2025",
-    "venue": "Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing",
+    "venue": "Proc. Conf. Empirical Methods Nat. Lang. Process. (EMNLP)",
     "entry_type": "inproceedings",
     "doi": "10.18653/v1/2025.emnlp-main.843",
     "url": "https://doi.org/10.18653/v1/2025.emnlp-main.843",
@@ -8669,7 +8644,7 @@
     "body_locations": [
       {
         "source_file": "introduction.tex",
-        "line": 163,
+        "line": 165,
         "section": "Introduction",
         "subsection": "Contributions and Organization",
         "subsubsection": "",
@@ -8691,7 +8666,7 @@
       "Ji, Rongrong"
     ],
     "year": "2023",
-    "venue": "Advances in Neural Information Processing Systems",
+    "venue": "Adv. Neural Inf. Process. Syst.",
     "entry_type": "inproceedings",
     "doi": "",
     "url": "https://proceedings.neurips.cc/paper_files/paper/2023/file/5e84e4413268b713f0d4a1b23a9dae57-Paper-Conference.pdf",
@@ -8737,7 +8712,7 @@
       "others"
     ],
     "year": "2025",
-    "venue": "Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing",
+    "venue": "Proc. Conf. Empirical Methods Nat. Lang. Process. (EMNLP)",
     "entry_type": "inproceedings",
     "doi": "",
     "url": "https://aclanthology.org/2025.emnlp-main.564.pdf",
@@ -8756,9 +8731,9 @@
     "body_locations": [
       {
         "source_file": "RQ3.tex",
-        "line": 34,
+        "line": 32,
         "section": "Training: A Staged Process for Multimodal Alignment",
-        "subsection": "Stage 2: Instruction Supervised Fine-Tuning",
+        "subsection": "Stage 2: Instruction-Supervised Fine-Tuning",
         "subsubsection": "Evidence-Grounded Instruction Targets",
         "domain": "Training"
       }
@@ -8797,7 +8772,7 @@
     "body_locations": [
       {
         "source_file": "RQ2.tex",
-        "line": 102,
+        "line": 88,
         "section": "Architecture: Bridging Modalities",
         "subsection": "Attention-based Alignment in MLLMs",
         "subsubsection": "Spatial Attention and Local Anchoring",
@@ -8820,11 +8795,11 @@
       "Suresh, Akshay Kalkunte",
       "Puri, Abhay",
       "Jian, Xiangru",
-      "Noël, Pierre-André",
+      "No\u00ebl, Pierre-Andr\u00e9",
       "others"
     ],
     "year": "2025",
-    "venue": "Advances in Neural Information Processing Systems",
+    "venue": "Adv. Neural Inf. Process. Syst.",
     "entry_type": "inproceedings",
     "doi": "10.52202/085713-4875",
     "url": "https://doi.org/10.52202/085713-4875",
@@ -8870,7 +8845,7 @@
       "others"
     ],
     "year": "2024",
-    "venue": "Computer Vision - ECCV 2024",
+    "venue": "Proc. Eur. Conf. Comput. Vis. (ECCV)",
     "entry_type": "inproceedings",
     "doi": "10.1007/978-3-031-73397-0_18",
     "url": "https://doi.org/10.1007/978-3-031-73397-0_18",
@@ -8889,7 +8864,7 @@
     "body_locations": [
       {
         "source_file": "RQ3.tex",
-        "line": 19,
+        "line": 18,
         "section": "Training: A Staged Process for Multimodal Alignment",
         "subsection": "Stage 1: Multimodal Pretraining",
         "subsubsection": "Data Composition and Transition Criteria",
@@ -8910,7 +8885,7 @@
       "Yu, Lequan"
     ],
     "year": "2022",
-    "venue": "Advances in Neural Information Processing Systems",
+    "venue": "Adv. Neural Inf. Process. Syst.",
     "entry_type": "inproceedings",
     "doi": "",
     "url": "https://proceedings.neurips.cc/paper_files/paper/2022/hash/d925bda407ada0df3190df323a212661-Abstract-Conference.html",
@@ -8952,7 +8927,7 @@
       "Zamir, Amir"
     ],
     "year": "2023",
-    "venue": "Advances in Neural Information Processing Systems",
+    "venue": "Adv. Neural Inf. Process. Syst.",
     "entry_type": "inproceedings",
     "doi": "",
     "url": "https://proceedings.neurips.cc/paper_files/paper/2023/file/b6446566965fa38e183650728ab70318-Paper-Conference.pdf",
@@ -8973,7 +8948,7 @@
     "body_locations": [
       {
         "source_file": "RQ2.tex",
-        "line": 59,
+        "line": 53,
         "section": "Architecture: Bridging Modalities",
         "subsection": "Discretization-based Alignment",
         "subsubsection": "Unified Token-based Multimodal Modeling",
@@ -8981,7 +8956,7 @@
       },
       {
         "source_file": "RQ2.tex",
-        "line": 205,
+        "line": 188,
         "section": "Objective Functions: Optimizing Multimodal Alignment",
         "subsection": "Generative Implicit Alignment Loss",
         "subsubsection": "Cross-Modal Masked Reconstruction",
@@ -9001,7 +8976,7 @@
       "Zhu, Qi"
     ],
     "year": "2025",
-    "venue": "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)",
+    "venue": "Proc. Annu. Meet. Assoc. Comput. Linguist. (ACL)",
     "entry_type": "inproceedings",
     "doi": "",
     "url": "https://aclanthology.org/2025.acl-short.56.pdf",
@@ -9056,7 +9031,7 @@
       "Lowe, Ryan"
     ],
     "year": "2022",
-    "venue": "Advances in Neural Information Processing Systems",
+    "venue": "Adv. Neural Inf. Process. Syst.",
     "entry_type": "inproceedings",
     "doi": "10.52202/068431-2011",
     "url": "https://doi.org/10.52202/068431-2011",
@@ -9075,7 +9050,7 @@
     "body_locations": [
       {
         "source_file": "RQ2.tex",
-        "line": 250,
+        "line": 233,
         "section": "Objective Functions: Optimizing Multimodal Alignment",
         "subsection": "Instruction and Preference Alignment Objectives",
         "subsubsection": "Reward Modeling and PPO",
@@ -9095,7 +9070,7 @@
       "Zhu, Wei-Jing"
     ],
     "year": "2002",
-    "venue": "Proceedings of the 40th Annual Meeting of the Association for Computational Linguistics",
+    "venue": "Proc. Annu. Meet. Assoc. Comput. Linguist. (ACL)",
     "entry_type": "inproceedings",
     "doi": "",
     "url": "https://aclanthology.org/P02-1040.pdf",
@@ -9114,7 +9089,7 @@
     "body_locations": [
       {
         "source_file": "evaluation.tex",
-        "line": 63,
+        "line": 61,
         "section": "Evaluation: How to Measure Alignment",
         "subsection": "Metrics and Evaluators for Alignment",
         "subsubsection": "Reference-Based Generation Metrics",
@@ -9136,7 +9111,7 @@
       "Gatt, Albert"
     ],
     "year": "2022",
-    "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    "venue": "Proc. Annu. Meet. Assoc. Comput. Linguist. (ACL)",
     "entry_type": "inproceedings",
     "doi": "",
     "url": "https://aclanthology.org/2022.acl-long.567.pdf",
@@ -9179,7 +9154,7 @@
       "Wei, Furu"
     ],
     "year": "2024",
-    "venue": "International Conference on Learning Representations",
+    "venue": "Int. Conf. Learn. Represent. (ICLR)",
     "entry_type": "inproceedings",
     "doi": "",
     "url": "https://openreview.net/forum?id=lLmqxkfSIw",
@@ -9198,7 +9173,7 @@
     "body_locations": [
       {
         "source_file": "data.tex",
-        "line": 178,
+        "line": 176,
         "section": "Data Construction: Building Alignment Signals",
         "subsection": "Synthetic and Self-Supervised Alignment Data",
         "subsubsection": "Model-Generated Targeted Data",
@@ -9227,7 +9202,7 @@
       "Pavone, Marco"
     ],
     "year": "2026",
-    "venue": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+    "venue": "Proc. IEEE/CVF Conf. Comput. Vis. Pattern Recognit. (CVPR)",
     "entry_type": "inproceedings",
     "doi": "",
     "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Peng_Counterfactual_VLA_Self-Reflective_Vision-Language-Action_Model_with_Adaptive_Reasoning_CVPR_2026_paper.html",
@@ -9260,14 +9235,14 @@
     "authors": [
       "Pielawski, Nicolas",
       "Wetzer, Elisabeth",
-      "Öfverstedt, Johan",
+      "\u00d6fverstedt, Johan",
       "Lu, Jiahao",
-      "Wählby, Carolina",
+      "W\u00e4hlby, Carolina",
       "Lindblad, Joakim",
       "Sladoje, Natasa"
     ],
     "year": "2020",
-    "venue": "Advances in Neural Information Processing Systems",
+    "venue": "Adv. Neural Inf. Process. Syst.",
     "entry_type": "inproceedings",
     "doi": "",
     "url": "https://proceedings.neurips.cc/paper_files/paper/2020/file/d6428eecbe0f7dff83fc607c5044b2b9-Paper.pdf",
@@ -9321,7 +9296,7 @@
       "Jin, Rong"
     ],
     "year": "2025",
-    "venue": "Proceedings of the 42nd International Conference on Machine Learning",
+    "venue": "Proc. Int. Conf. Mach. Learn. (ICML)",
     "entry_type": "inproceedings",
     "doi": "",
     "url": "https://proceedings.mlr.press/v267/zhang25cs.html",
@@ -9344,7 +9319,7 @@
     "body_locations": [
       {
         "source_file": "data.tex",
-        "line": 188,
+        "line": 184,
         "section": "Data Construction: Building Alignment Signals",
         "subsection": "Multimodal Preference Data Construction",
         "subsubsection": "Multi-Dimensional Rubrics",
@@ -9352,10 +9327,10 @@
       },
       {
         "source_file": "RQ3.tex",
-        "line": 46,
+        "line": 38,
         "section": "Training: A Staged Process for Multimodal Alignment",
         "subsection": "Stage 3: Preference and Reward Optimization",
-        "subsubsection": "Direct Preference Optimization",
+        "subsubsection": "Reward-Model-Based Optimization",
         "domain": "Training"
       },
       {
@@ -9368,7 +9343,7 @@
       },
       {
         "source_file": "evaluation.tex",
-        "line": 66,
+        "line": 64,
         "section": "Evaluation: How to Measure Alignment",
         "subsection": "Metrics and Evaluators for Alignment",
         "subsubsection": "Multimodal Reward-Model Evaluation",
@@ -9395,7 +9370,7 @@
       "Tang, Jie"
     ],
     "year": "2025",
-    "venue": "International Conference on Learning Representations",
+    "venue": "Int. Conf. Learn. Represent. (ICLR)",
     "entry_type": "inproceedings",
     "doi": "",
     "url": "https://proceedings.iclr.cc/paper_files/paper/2025/hash/1dcee1cd6890ab7fcdf173ec10526da9-Abstract-Conference.html",
@@ -9414,9 +9389,9 @@
     "body_locations": [
       {
         "source_file": "RQ3.tex",
-        "line": 34,
+        "line": 32,
         "section": "Training: A Staged Process for Multimodal Alignment",
-        "subsection": "Stage 2: Instruction Supervised Fine-Tuning",
+        "subsection": "Stage 2: Instruction-Supervised Fine-Tuning",
         "subsubsection": "Evidence-Grounded Instruction Targets",
         "domain": "Training"
       }
@@ -9436,7 +9411,7 @@
       "Mittal, Prateek"
     ],
     "year": "2024",
-    "venue": "AAAI",
+    "venue": "Proc. AAAI Conf. Artif. Intell.",
     "entry_type": "inproceedings",
     "doi": "",
     "url": "https://ojs.aaai.org/index.php/AAAI/article/view/30150",
@@ -9482,7 +9457,7 @@
       "others"
     ],
     "year": "2021",
-    "venue": "International Conference on Machine Learning",
+    "venue": "Proc. Int. Conf. Mach. Learn. (ICML)",
     "entry_type": "inproceedings",
     "doi": "",
     "url": "https://proceedings.mlr.press/v139/radford21a.html",
@@ -9507,7 +9482,7 @@
     "body_locations": [
       {
         "source_file": "RQ2.tex",
-        "line": 167,
+        "line": 153,
         "section": "Objective Functions: Optimizing Multimodal Alignment",
         "subsection": "Fine-Grained Structured Contrastive Loss",
         "subsubsection": "Precise Local Semantic Anchoring",
@@ -9515,15 +9490,15 @@
       },
       {
         "source_file": "data.tex",
-        "line": 169,
+        "line": 167,
         "section": "Data Construction: Building Alignment Signals",
         "subsection": "Synthetic and Self-Supervised Alignment Data",
-        "subsubsection": "Naturally-Occurring Weak Supervision",
+        "subsubsection": "Naturally Occurring Weak Supervision",
         "domain": "Data Construction"
       },
       {
         "source_file": "RQ3.tex",
-        "line": 16,
+        "line": 15,
         "section": "Training: A Staged Process for Multimodal Alignment",
         "subsection": "Stage 1: Multimodal Pretraining",
         "subsubsection": "Objective Scheduling and Batch Construction",
@@ -9531,18 +9506,10 @@
       },
       {
         "source_file": "evaluation.tex",
-        "line": 60,
+        "line": 58,
         "section": "Evaluation: How to Measure Alignment",
         "subsection": "Metrics and Evaluators for Alignment",
         "subsubsection": "Retrieval and Localization Metrics",
-        "domain": "Evaluation"
-      },
-      {
-        "source_file": "evaluation.tex",
-        "line": 71,
-        "section": "Evaluation: How to Measure Alignment",
-        "subsection": "Controlled Protocols and Interpretation",
-        "subsubsection": "Connecting Alignment Claims to Evidence",
         "domain": "Evaluation"
       }
     ],
@@ -9561,7 +9528,7 @@
       "Finn, Chelsea"
     ],
     "year": "2023",
-    "venue": "Advances in Neural Information Processing Systems",
+    "venue": "Adv. Neural Inf. Process. Syst.",
     "entry_type": "inproceedings",
     "doi": "10.52202/075280-2338",
     "url": "https://doi.org/10.52202/075280-2338",
@@ -9580,7 +9547,7 @@
     "body_locations": [
       {
         "source_file": "RQ2.tex",
-        "line": 253,
+        "line": 236,
         "section": "Objective Functions: Optimizing Multimodal Alignment",
         "subsection": "Instruction and Preference Alignment Objectives",
         "subsubsection": "Direct Preference Optimization",
@@ -9602,7 +9569,7 @@
       "Suenderhauf, Niko"
     ],
     "year": "2023",
-    "venue": "Proceedings of the 7th Conference on Robot Learning",
+    "venue": "Proc. Conf. Robot Learn. (CoRL)",
     "entry_type": "inproceedings",
     "doi": "",
     "url": "https://proceedings.mlr.press/v229/rana23a.html",
@@ -9622,7 +9589,7 @@
     "body_locations": [
       {
         "source_file": "RQ2.tex",
-        "line": 82,
+        "line": 72,
         "section": "Architecture: Bridging Modalities",
         "subsection": "Structured Representation Alignment",
         "subsubsection": "Graph-based Multimodal Representation",
@@ -9643,7 +9610,7 @@
       "Saenko, Kate"
     ],
     "year": "2018",
-    "venue": "Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing",
+    "venue": "Proc. Conf. Empirical Methods Nat. Lang. Process. (EMNLP)",
     "entry_type": "inproceedings",
     "doi": "",
     "url": "https://aclanthology.org/D18-1437.pdf",
@@ -9662,7 +9629,7 @@
     "body_locations": [
       {
         "source_file": "evaluation.tex",
-        "line": 63,
+        "line": 61,
         "section": "Evaluation: How to Measure Alignment",
         "subsection": "Metrics and Evaluators for Alignment",
         "subsubsection": "Reference-Based Generation Metrics",
@@ -9685,7 +9652,7 @@
       "Du, Mengnan"
     ],
     "year": "2025",
-    "venue": "Findings of the Association for Computational Linguistics: EMNLP 2025",
+    "venue": "Findings Assoc. Comput. Linguist.: EMNLP 2025",
     "entry_type": "inproceedings",
     "doi": "10.18653/v1/2025.findings-emnlp.90",
     "url": "https://doi.org/10.18653/v1/2025.findings-emnlp.90",
@@ -9706,7 +9673,7 @@
     "body_locations": [
       {
         "source_file": "introduction.tex",
-        "line": 163,
+        "line": 165,
         "section": "Introduction",
         "subsection": "Contributions and Organization",
         "subsubsection": "",
@@ -9733,7 +9700,7 @@
       "Khan, Salman"
     ],
     "year": "2025",
-    "venue": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+    "venue": "Proc. IEEE/CVF Conf. Comput. Vis. Pattern Recognit. (CVPR)",
     "entry_type": "inproceedings",
     "doi": "",
     "url": "https://openaccess.thecvf.com/content/CVPR2025/html/Soni_EarthDial_Turning_Multi-sensory_Earth_Observations_to_Interactive_Dialogues_CVPR_2025_paper.html",
@@ -9792,7 +9759,7 @@
     "body_locations": [
       {
         "source_file": "RQ3.tex",
-        "line": 16,
+        "line": 15,
         "section": "Training: A Staged Process for Multimodal Alignment",
         "subsection": "Stage 1: Multimodal Pretraining",
         "subsubsection": "Objective Scheduling and Batch Construction",
@@ -9819,7 +9786,7 @@
       "others"
     ],
     "year": "2024",
-    "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+    "venue": "Findings Assoc. Comput. Linguist.: ACL 2024",
     "entry_type": "inproceedings",
     "doi": "",
     "url": "https://aclanthology.org/2024.findings-acl.775.pdf",
@@ -9840,9 +9807,9 @@
     "body_locations": [
       {
         "source_file": "RQ3.tex",
-        "line": 36,
+        "line": 32,
         "section": "Training: A Staged Process for Multimodal Alignment",
-        "subsection": "Stage 2: Instruction Supervised Fine-Tuning",
+        "subsection": "Stage 2: Instruction-Supervised Fine-Tuning",
         "subsubsection": "Evidence-Grounded Instruction Targets",
         "domain": "Training"
       },
@@ -9875,7 +9842,7 @@
       "others"
     ],
     "year": "2025",
-    "venue": "Proceedings of the 42nd International Conference on Machine Learning",
+    "venue": "Proc. Int. Conf. Mach. Learn. (ICML)",
     "entry_type": "inproceedings",
     "doi": "",
     "url": "https://proceedings.mlr.press/v267/sun25ad.html",
@@ -9895,7 +9862,7 @@
     "body_locations": [
       {
         "source_file": "RQ2.tex",
-        "line": 115,
+        "line": 101,
         "section": "Architecture: Bridging Modalities",
         "subsection": "Expert-based Alignment in MLLMs",
         "subsubsection": "Adaptive Expert Routing",
@@ -9916,7 +9883,7 @@
       "Zeng, Lingfang"
     ],
     "year": "2025",
-    "venue": "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics",
+    "venue": "Proc. Annu. Meet. Assoc. Comput. Linguist. (ACL)",
     "entry_type": "inproceedings",
     "doi": "10.18653/v1/2025.acl-long.967",
     "url": "https://doi.org/10.18653/v1/2025.acl-long.967",
@@ -9935,7 +9902,7 @@
     "body_locations": [
       {
         "source_file": "RQ2.tex",
-        "line": 187,
+        "line": 173,
         "section": "Objective Functions: Optimizing Multimodal Alignment",
         "subsection": "Topological and Distributional Metric Loss",
         "subsubsection": "Optimal-Transport Soft Matching",
@@ -9949,12 +9916,12 @@
     "name": "",
     "title": "ViperGPT: Visual Inference via Python Execution for Reasoning",
     "authors": [
-      "Surís, D\\d́ac",
+      "Sur\u00eds, D\\d\u0301ac",
       "Menon, Sachit",
       "Vondrick, Carl"
     ],
     "year": "2023",
-    "venue": "Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)",
+    "venue": "Proc. IEEE/CVF Int. Conf. Comput. Vis. (ICCV)",
     "entry_type": "inproceedings",
     "doi": "",
     "url": "https://openaccess.thecvf.com/content/ICCV2023/papers/Suris_ViperGPT_Visual_Inference_via_Python_Execution_for_Reasoning_ICCV_2023_paper.pdf",
@@ -9973,9 +9940,9 @@
     "body_locations": [
       {
         "source_file": "RQ3.tex",
-        "line": 34,
+        "line": 32,
         "section": "Training: A Staged Process for Multimodal Alignment",
-        "subsection": "Stage 2: Instruction Supervised Fine-Tuning",
+        "subsection": "Stage 2: Instruction-Supervised Fine-Tuning",
         "subsubsection": "Evidence-Grounded Instruction Targets",
         "domain": "Training"
       }
@@ -9996,7 +9963,7 @@
       "Ross, Candace"
     ],
     "year": "2022",
-    "venue": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+    "venue": "Proc. IEEE/CVF Conf. Comput. Vis. Pattern Recognit. (CVPR)",
     "entry_type": "inproceedings",
     "doi": "",
     "url": "https://openaccess.thecvf.com/content/CVPR2022/html/Thrush_Winoground_Probing_Vision_and_Language_Models_for_Visio-Linguistic_Compositionality_CVPR_2022_paper.html",
@@ -10061,9 +10028,9 @@
     "body_locations": [
       {
         "source_file": "RQ3.tex",
-        "line": 31,
+        "line": 29,
         "section": "Training: A Staged Process for Multimodal Alignment",
-        "subsection": "Stage 2: Instruction Supervised Fine-Tuning",
+        "subsection": "Stage 2: Instruction-Supervised Fine-Tuning",
         "subsubsection": "Mixture Sampling During SFT",
         "domain": "Training"
       }
@@ -10080,7 +10047,7 @@
       "Parikh, Devi"
     ],
     "year": "2015",
-    "venue": "Proceedings of the IEEE conference on computer vision and pattern recognition",
+    "venue": "Proc. IEEE/CVF Conf. Comput. Vis. Pattern Recognit. (CVPR)",
     "entry_type": "inproceedings",
     "doi": "",
     "url": "https://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Vedantam_CIDEr_Consensus-Based_Image_2015_CVPR_paper.pdf",
@@ -10099,7 +10066,7 @@
     "body_locations": [
       {
         "source_file": "evaluation.tex",
-        "line": 63,
+        "line": 61,
         "section": "Evaluation: How to Measure Alignment",
         "subsection": "Metrics and Evaluators for Alignment",
         "subsubsection": "Reference-Based Generation Metrics",
@@ -10120,7 +10087,7 @@
       "Bansal, Mohit"
     ],
     "year": "2023",
-    "venue": "Proceedings of the IEEE/CVF International Conference on Computer Vision",
+    "venue": "Proc. IEEE/CVF Int. Conf. Comput. Vis. (ICCV)",
     "entry_type": "inproceedings",
     "doi": "",
     "url": "https://arxiv.org/abs/2309.10091",
@@ -10139,7 +10106,7 @@
     "body_locations": [
       {
         "source_file": "RQ2.tex",
-        "line": 167,
+        "line": 153,
         "section": "Objective Functions: Optimizing Multimodal Alignment",
         "subsection": "Fine-Grained Structured Contrastive Loss",
         "subsubsection": "Precise Local Semantic Anchoring",
@@ -10163,7 +10130,7 @@
       "Huang, Xuan-Jing"
     ],
     "year": "2025",
-    "venue": "Findings of the Association for Computational Linguistics: NAACL 2025",
+    "venue": "Findings Assoc. Comput. Linguist.: NAACL 2025",
     "entry_type": "inproceedings",
     "doi": "",
     "url": "https://aclanthology.org/2025.findings-naacl.198/",
@@ -10211,7 +10178,7 @@
       "Deng, Zhidong"
     ],
     "year": "2025",
-    "venue": "ICASSP 2025 - 2025 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+    "venue": "Proc. IEEE Int. Conf. Acoust., Speech Signal Process. (ICASSP)",
     "entry_type": "inproceedings",
     "doi": "10.1109/icassp49660.2025.10887586",
     "url": "https://doi.org/10.1109/icassp49660.2025.10887586",
@@ -10230,7 +10197,7 @@
     "body_locations": [
       {
         "source_file": "RQ2.tex",
-        "line": 75,
+        "line": 67,
         "section": "Architecture: Bridging Modalities",
         "subsection": "Structured Representation Alignment",
         "subsubsection": "",
@@ -10253,7 +10220,7 @@
       "Chen, Muhao"
     ],
     "year": "2024",
-    "venue": "Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing",
+    "venue": "Proc. Conf. Empirical Methods Nat. Lang. Process. (EMNLP)",
     "entry_type": "inproceedings",
     "doi": "10.18653/v1/2024.emnlp-main.460",
     "url": "https://doi.org/10.18653/v1/2024.emnlp-main.460",
@@ -10276,7 +10243,7 @@
     "body_locations": [
       {
         "source_file": "RQ2.tex",
-        "line": 262,
+        "line": 245,
         "section": "Objective Functions: Optimizing Multimodal Alignment",
         "subsection": "Instruction and Preference Alignment Objectives",
         "subsubsection": "Direct Preference Optimization",
@@ -10284,7 +10251,7 @@
       },
       {
         "source_file": "RQ3.tex",
-        "line": 46,
+        "line": 41,
         "section": "Training: A Staged Process for Multimodal Alignment",
         "subsection": "Stage 3: Preference and Reward Optimization",
         "subsubsection": "Direct Preference Optimization",
@@ -10292,7 +10259,7 @@
       },
       {
         "source_file": "evaluation.tex",
-        "line": 74,
+        "line": 69,
         "section": "Evaluation: How to Measure Alignment",
         "subsection": "Controlled Protocols and Interpretation",
         "subsubsection": "Connecting Alignment Claims to Evidence",
@@ -10338,7 +10305,7 @@
     "body_locations": [
       {
         "source_file": "RQ2.tex",
-        "line": 115,
+        "line": 101,
         "section": "Architecture: Bridging Modalities",
         "subsection": "Expert-based Alignment in MLLMs",
         "subsubsection": "Adaptive Expert Routing",
@@ -10346,7 +10313,7 @@
       },
       {
         "source_file": "RQ2.tex",
-        "line": 208,
+        "line": 191,
         "section": "Objective Functions: Optimizing Multimodal Alignment",
         "subsection": "Generative Implicit Alignment Loss",
         "subsubsection": "Autoregressive and Modality-Specific Generation",
@@ -10354,7 +10321,7 @@
       },
       {
         "source_file": "RQ2.tex",
-        "line": 231,
+        "line": 214,
         "section": "Objective Functions: Optimizing Multimodal Alignment",
         "subsection": "Constraint and Routing Regularization",
         "subsubsection": "Information-Flow and Routing Balance",
@@ -10377,7 +10344,7 @@
       "Bansal, Mohit"
     ],
     "year": "2025",
-    "venue": "Proceedings of the Computer Vision and Pattern Recognition Conference",
+    "venue": "Proc. IEEE/CVF Conf. Comput. Vis. Pattern Recognit. (CVPR)",
     "entry_type": "inproceedings",
     "doi": "",
     "url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Wang_VideoTree_Adaptive_Tree-based_Video_Representation_for_LLM_Reasoning_on_Long_CVPR_2025_paper.pdf",
@@ -10396,7 +10363,7 @@
     "body_locations": [
       {
         "source_file": "RQ2.tex",
-        "line": 91,
+        "line": 81,
         "section": "Architecture: Bridging Modalities",
         "subsection": "Structured Representation Alignment",
         "subsubsection": "Hierarchical and Sequential Multimodal Representation",
@@ -10418,7 +10385,7 @@
       "Hong, Richang"
     ],
     "year": "2026",
-    "venue": "Proceedings of the 49th International ACM SIGIR Conference on Research and Development in Information Retrieval",
+    "venue": "Proc. Int. ACM SIGIR Conf. Res. Develop. Inf. Retr.",
     "entry_type": "inproceedings",
     "doi": "",
     "url": "https://doi.org/10.1145/3805712.3809590",
@@ -10459,7 +10426,7 @@
       "Howe, Bill"
     ],
     "year": "2024",
-    "venue": "NeurIPS 2024 Workshop on Behavioral Machine Learning",
+    "venue": "NeurIPS 2024 Workshop Behavioral Machine Learning",
     "entry_type": "inproceedings",
     "doi": "",
     "url": "https://openreview.net/pdf/ced3034c177afd1d348c3c00da27ad205b65e8dc.pdf",
@@ -10498,7 +10465,7 @@
       "Zhao, Zhou"
     ],
     "year": "2023",
-    "venue": "Advances in Neural Information Processing Systems",
+    "venue": "Adv. Neural Inf. Process. Syst.",
     "entry_type": "inproceedings",
     "doi": "",
     "url": "https://proceedings.neurips.cc/paper_files/paper/2023/file/c89f09849eb5af489abb122394ff0f0b-Paper-Conference.pdf",
@@ -10517,7 +10484,7 @@
     "body_locations": [
       {
         "source_file": "RQ2.tex",
-        "line": 40,
+        "line": 36,
         "section": "Architecture: Bridging Modalities",
         "subsection": "Discretization-based Alignment",
         "subsubsection": "Cross-Modal Codebook Construction",
@@ -10536,7 +10503,7 @@
       "Mostafavi, Ali"
     ],
     "year": "2026",
-    "venue": "Computer-Aided Civil and Infrastructure Engineering",
+    "venue": "Comput.-Aided Civ. Infrastruct. Eng.",
     "entry_type": "article",
     "doi": "10.1016/j.cacaie.2026.100096",
     "url": "https://doi.org/10.1016/j.cacaie.2026.100096",
@@ -10581,7 +10548,7 @@
       "Feichtenhofer, Christoph"
     ],
     "year": "2024",
-    "venue": "International Conference on Learning Representations",
+    "venue": "Int. Conf. Learn. Represent. (ICLR)",
     "entry_type": "inproceedings",
     "doi": "",
     "url": "https://openreview.net/forum?id=5BCFlnfE1g",
@@ -10600,7 +10567,7 @@
     "body_locations": [
       {
         "source_file": "data.tex",
-        "line": 172,
+        "line": 170,
         "section": "Data Construction: Building Alignment Signals",
         "subsection": "Synthetic and Self-Supervised Alignment Data",
         "subsubsection": "Model-Refined Pseudo-Labels",
@@ -10621,7 +10588,7 @@
       "Xueqi Cheng"
     ],
     "year": "2025",
-    "venue": "The Thirteenth International Conference on Learning Representations",
+    "venue": "Int. Conf. Learn. Represent. (ICLR)",
     "entry_type": "inproceedings",
     "doi": "",
     "url": "https://openreview.net/forum?id=45rvZkJbuX",
@@ -10666,7 +10633,7 @@
       "Luo, Ping"
     ],
     "year": "2025",
-    "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+    "venue": "IEEE Trans. Pattern Anal. Mach. Intell.",
     "entry_type": "article",
     "doi": "",
     "url": "https://xplorestaging.ieee.org/ielx8/34/10873290/10769058.pdf?arnumber=10769058",
@@ -10708,7 +10675,7 @@
       "Xu, Linli"
     ],
     "year": "2024",
-    "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    "venue": "Proc. Annu. Meet. Assoc. Comput. Linguist. (ACL)",
     "entry_type": "inproceedings",
     "doi": "",
     "url": "https://aclanthology.org/2024.acl-long.801.pdf",
@@ -10751,7 +10718,7 @@
       "Meng, Helen"
     ],
     "year": "2024",
-    "venue": "Advances in Neural Information Processing Systems",
+    "venue": "Adv. Neural Inf. Process. Syst.",
     "entry_type": "inproceedings",
     "doi": "",
     "url": "https://proceedings.neurips.cc/paper_files/paper/2024/file/6801fa3fd290229efc490ee0cf1c5687-Paper-Conference.pdf",
@@ -10770,7 +10737,7 @@
     "body_locations": [
       {
         "source_file": "RQ2.tex",
-        "line": 43,
+        "line": 39,
         "section": "Architecture: Bridging Modalities",
         "subsection": "Discretization-based Alignment",
         "subsubsection": "Vocabulary-Grounded Token Adaptation",
@@ -10796,7 +10763,7 @@
       "Wang, Jingdong"
     ],
     "year": "2024",
-    "venue": "Advances in Neural Information Processing Systems",
+    "venue": "Adv. Neural Inf. Process. Syst.",
     "entry_type": "inproceedings",
     "doi": "",
     "url": "https://proceedings.neurips.cc/paper_files/paper/2024/file/3a10c46572628d58cb44fb705f25cbbf-Paper-Conference.pdf",
@@ -10815,7 +10782,7 @@
     "body_locations": [
       {
         "source_file": "RQ2.tex",
-        "line": 105,
+        "line": 91,
         "section": "Architecture: Bridging Modalities",
         "subsection": "Attention-based Alignment in MLLMs",
         "subsubsection": "Cross-Layer Feature Fusion",
@@ -10853,7 +10820,7 @@
     "body_locations": [
       {
         "source_file": "evaluation.tex",
-        "line": 66,
+        "line": 64,
         "section": "Evaluation: How to Measure Alignment",
         "subsection": "Metrics and Evaluators for Alignment",
         "subsubsection": "Multimodal Reward-Model Evaluation",
@@ -10876,7 +10843,7 @@
       "Chen, Enhong"
     ],
     "year": "2024",
-    "venue": "National Science Review",
+    "venue": "Natl. Sci. Rev.",
     "entry_type": "article",
     "doi": "10.1093/nsr/nwae403",
     "url": "https://doi.org/10.1093/nsr/nwae403",
@@ -10898,7 +10865,7 @@
     "body_locations": [
       {
         "source_file": "introduction.tex",
-        "line": 163,
+        "line": 165,
         "section": "Introduction",
         "subsection": "Contributions and Organization",
         "subsubsection": "",
@@ -10924,7 +10891,7 @@
       "Chen, Enhong"
     ],
     "year": "2024",
-    "venue": "Science China Information Sciences",
+    "venue": "Sci. China Inf. Sci.",
     "entry_type": "article",
     "doi": "10.1007/s11432-024-4251-x",
     "url": "https://doi.org/10.1007/s11432-024-4251-x",
@@ -10943,7 +10910,7 @@
     "body_locations": [
       {
         "source_file": "RQ3.tex",
-        "line": 53,
+        "line": 47,
         "section": "Training: A Staged Process for Multimodal Alignment",
         "subsection": "Inference-Time Intervention and Deployment Checks",
         "subsubsection": "",
@@ -10965,7 +10932,7 @@
       "Wu, Yonghui"
     ],
     "year": "2022",
-    "venue": "Transactions on Machine Learning Research",
+    "venue": "Trans. Mach. Learn. Res.",
     "entry_type": "article",
     "doi": "",
     "url": "https://openreview.net/forum?id=Ee277P3AYC",
@@ -10984,7 +10951,7 @@
     "body_locations": [
       {
         "source_file": "RQ3.tex",
-        "line": 19,
+        "line": 18,
         "section": "Training: A Staged Process for Multimodal Alignment",
         "subsection": "Stage 1: Multimodal Pretraining",
         "subsubsection": "Data Composition and Transition Criteria",
@@ -11011,20 +10978,18 @@
       "others"
     ],
     "year": "2024",
-    "venue": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+    "venue": "Proc. IEEE/CVF Conf. Comput. Vis. Pattern Recognit. (CVPR)",
     "entry_type": "inproceedings",
     "doi": "",
     "url": "https://openaccess.thecvf.com/content/CVPR2024/papers/Yu_RLHF-V_Towards_Trustworthy_MLLMs_via_Behavior_Alignment_from_Fine-grained_Correctional_CVPR_2024_paper.pdf",
     "url_basis": "timeline source metadata",
     "domains": [
       "Data Construction",
-      "Training",
-      "Evaluation"
+      "Training"
     ],
     "body_domains": [
       "Data Construction",
-      "Training",
-      "Evaluation"
+      "Training"
     ],
     "timeline_domain": "Training",
     "catalog_role": "chapter-discussed work",
@@ -11034,7 +10999,7 @@
     "body_locations": [
       {
         "source_file": "data.tex",
-        "line": 191,
+        "line": 187,
         "section": "Data Construction: Building Alignment Signals",
         "subsection": "Multimodal Preference Data Construction",
         "subsubsection": "Hallucination and Faithfulness Correction",
@@ -11042,19 +11007,11 @@
       },
       {
         "source_file": "RQ3.tex",
-        "line": 46,
+        "line": 41,
         "section": "Training: A Staged Process for Multimodal Alignment",
         "subsection": "Stage 3: Preference and Reward Optimization",
         "subsubsection": "Direct Preference Optimization",
         "domain": "Training"
-      },
-      {
-        "source_file": "evaluation.tex",
-        "line": 71,
-        "section": "Evaluation: How to Measure Alignment",
-        "subsection": "Controlled Protocols and Interpretation",
-        "subsubsection": "Connecting Alignment Claims to Evidence",
-        "domain": "Evaluation"
       }
     ],
     "status": "cited_in_current_body"
@@ -11104,7 +11061,7 @@
     "body_locations": [
       {
         "source_file": "introduction.tex",
-        "line": 163,
+        "line": 165,
         "section": "Introduction",
         "subsection": "Contributions and Organization",
         "subsubsection": "",
@@ -11125,7 +11082,7 @@
       "Li, Qing"
     ],
     "year": "2026",
-    "venue": "Proceedings of the 49th International ACM SIGIR Conference on Research and Development in Information Retrieval",
+    "venue": "Proc. Int. ACM SIGIR Conf. Res. Develop. Inf. Retr.",
     "entry_type": "inproceedings",
     "doi": "10.1145/3805712.3809680",
     "url": "https://doi.org/10.1145/3805712.3809680",
@@ -11144,7 +11101,7 @@
     "body_locations": [
       {
         "source_file": "RQ2.tex",
-        "line": 80,
+        "line": 72,
         "section": "Architecture: Bridging Modalities",
         "subsection": "Structured Representation Alignment",
         "subsubsection": "Graph-based Multimodal Representation",
@@ -11165,7 +11122,7 @@
       "Zou, James"
     ],
     "year": "2023",
-    "venue": "International Conference on Learning Representations",
+    "venue": "Int. Conf. Learn. Represent. (ICLR)",
     "entry_type": "inproceedings",
     "doi": "",
     "url": "https://openreview.net/forum?id=KRLU9Cqqe7",
@@ -11208,7 +11165,7 @@
       "Choi, Yejin"
     ],
     "year": "2021",
-    "venue": "Advances in Neural Information Processing Systems",
+    "venue": "Adv. Neural Inf. Process. Syst.",
     "entry_type": "inproceedings",
     "doi": "",
     "url": "https://proceedings.neurips.cc/paper_files/paper/2021/file/c6d4eb15f1e84a36eff58eca3627c82e-Paper.pdf",
@@ -11230,7 +11187,7 @@
     "body_locations": [
       {
         "source_file": "RQ2.tex",
-        "line": 213,
+        "line": 196,
         "section": "Objective Functions: Optimizing Multimodal Alignment",
         "subsection": "Generative Implicit Alignment Loss",
         "subsubsection": "Self-Guided Proxy Supervision",
@@ -11238,7 +11195,7 @@
       },
       {
         "source_file": "data.tex",
-        "line": 219,
+        "line": 215,
         "section": "Data Construction: Building Alignment Signals",
         "subsection": "Dataset Bias and Debiasing",
         "subsubsection": "Optimization and Gradient-Level Debiasing",
@@ -11256,7 +11213,7 @@
       "Yudin, Dmitry"
     ],
     "year": "2025",
-    "venue": "Proceedings of the IEEE/CVF International Conference on Computer Vision",
+    "venue": "Proc. IEEE/CVF Int. Conf. Comput. Vis. (ICCV)",
     "entry_type": "inproceedings",
     "doi": "",
     "url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Zemskova_3DGraphLLM_Combining_Semantic_Graphs_and_Large_Language_Models_for_3D_ICCV_2025_paper.pdf",
@@ -11275,7 +11232,7 @@
     "body_locations": [
       {
         "source_file": "RQ2.tex",
-        "line": 82,
+        "line": 72,
         "section": "Architecture: Bridging Modalities",
         "subsection": "Structured Representation Alignment",
         "subsubsection": "Graph-based Multimodal Representation",
@@ -11295,7 +11252,7 @@
       "Beyer, Lucas"
     ],
     "year": "2023",
-    "venue": "2023 IEEE/CVF International Conference on Computer Vision (ICCV)",
+    "venue": "Proc. IEEE/CVF Int. Conf. Comput. Vis. (ICCV)",
     "entry_type": "inproceedings",
     "doi": "10.1109/iccv51070.2023.01100",
     "url": "https://doi.org/10.1109/iccv51070.2023.01100",
@@ -11315,7 +11272,7 @@
     "body_locations": [
       {
         "source_file": "RQ3.tex",
-        "line": 16,
+        "line": 15,
         "section": "Training: A Staged Process for Multimodal Alignment",
         "subsection": "Stage 1: Multimodal Pretraining",
         "subsubsection": "Objective Scheduling and Batch Construction",
@@ -11342,7 +11299,7 @@
       "others"
     ],
     "year": "2024",
-    "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    "venue": "Proc. Annu. Meet. Assoc. Comput. Linguist. (ACL)",
     "entry_type": "inproceedings",
     "doi": "",
     "url": "https://aclanthology.org/2024.acl-long.521.pdf",
@@ -11361,7 +11318,7 @@
     "body_locations": [
       {
         "source_file": "RQ2.tex",
-        "line": 57,
+        "line": 53,
         "section": "Architecture: Bridging Modalities",
         "subsection": "Discretization-based Alignment",
         "subsubsection": "Unified Token-based Multimodal Modeling",
@@ -11396,7 +11353,7 @@
       "others"
     ],
     "year": "2024",
-    "venue": "Advances in Neural Information Processing Systems",
+    "venue": "Adv. Neural Inf. Process. Syst.",
     "entry_type": "inproceedings",
     "doi": "",
     "url": "https://proceedings.neurips.cc/paper_files/paper/2024/file/586640cda3db2dc77349013dcefee456-Paper-Datasets_and_Benchmarks_Track.pdf",
@@ -11417,7 +11374,7 @@
     "body_locations": [
       {
         "source_file": "RQ3.tex",
-        "line": 55,
+        "line": 49,
         "section": "Training: A Staged Process for Multimodal Alignment",
         "subsection": "Inference-Time Intervention and Deployment Checks",
         "subsubsection": "",
@@ -11451,7 +11408,7 @@
       "Huang, Minlie"
     ],
     "year": "2024",
-    "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    "venue": "Proc. Annu. Meet. Assoc. Comput. Linguist. (ACL)",
     "entry_type": "inproceedings",
     "doi": "",
     "url": "https://aclanthology.org/2024.acl-long.830.pdf",
@@ -11470,7 +11427,7 @@
     "body_locations": [
       {
         "source_file": "data.tex",
-        "line": 188,
+        "line": 184,
         "section": "Data Construction: Building Alignment Signals",
         "subsection": "Multimodal Preference Data Construction",
         "subsubsection": "Multi-Dimensional Rubrics",
@@ -11489,7 +11446,7 @@
       "Agrawal, Aishwarya"
     ],
     "year": "2025",
-    "venue": "Proceedings of the Computer Vision and Pattern Recognition Conference",
+    "venue": "Proc. IEEE/CVF Conf. Comput. Vis. Pattern Recognit. (CVPR)",
     "entry_type": "inproceedings",
     "doi": "",
     "url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Zhang_Assessing_and_Learning_Alignment_of_Unimodal_Vision_and_Language_Models_CVPR_2025_paper.pdf",
@@ -11535,7 +11492,7 @@
       "others"
     ],
     "year": "2025",
-    "venue": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+    "venue": "Proc. IEEE/CVF Conf. Comput. Vis. Pattern Recognit. (CVPR)",
     "entry_type": "inproceedings",
     "doi": "",
     "url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Zhang_Q-Eval-100K_Evaluating_Visual_Quality_and_Alignment_Level_for_Text-to-Vision_Content_CVPR_2025_paper.pdf",
@@ -11554,7 +11511,7 @@
     "body_locations": [
       {
         "source_file": "data.tex",
-        "line": 188,
+        "line": 184,
         "section": "Data Construction: Building Alignment Signals",
         "subsection": "Multimodal Preference Data Construction",
         "subsubsection": "Multi-Dimensional Rubrics",
@@ -11577,7 +11534,7 @@
       "Yang, Yaodong"
     ],
     "year": "2025",
-    "venue": "Advances in Neural Information Processing Systems",
+    "venue": "Adv. Neural Inf. Process. Syst.",
     "entry_type": "inproceedings",
     "doi": "10.52202/085713-5128",
     "url": "https://doi.org/10.52202/085713-5128",
@@ -11598,7 +11555,7 @@
         "source_file": "Applications.tex",
         "line": 21,
         "section": "Applications: Alignment in Practice",
-        "subsection": "Embodied AI and Robotics (Perception-Action Alignment)",
+        "subsection": "Embodied AI and Robotics (Perception--Action Alignment)",
         "subsubsection": "",
         "domain": "Applications"
       }
@@ -11616,7 +11573,7 @@
       "Yue, Xiangyu"
     ],
     "year": "2025",
-    "venue": "Proceedings of the IEEE/CVF International Conference on Computer Vision",
+    "venue": "Proc. IEEE/CVF Int. Conf. Comput. Vis. (ICCV)",
     "entry_type": "inproceedings",
     "doi": "",
     "url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Zhang_Scaling_Omni-modal_Pretraining_with_Multimodal_Context_Advancing_Universal_Representation_Learning_ICCV_2025_paper.pdf",
@@ -11635,7 +11592,7 @@
     "body_locations": [
       {
         "source_file": "RQ2.tex",
-        "line": 210,
+        "line": 193,
         "section": "Objective Functions: Optimizing Multimodal Alignment",
         "subsection": "Generative Implicit Alignment Loss",
         "subsubsection": "Autoregressive and Modality-Specific Generation",
@@ -11676,7 +11633,7 @@
     "body_locations": [
       {
         "source_file": "RQ2.tex",
-        "line": 105,
+        "line": 91,
         "section": "Architecture: Bridging Modalities",
         "subsection": "Attention-based Alignment in MLLMs",
         "subsubsection": "Cross-Layer Feature Fusion",
@@ -11698,7 +11655,7 @@
       "He, Conghui"
     ],
     "year": "2025",
-    "venue": "2025 IEEE International Conference on Multimedia and Expo (ICME)",
+    "venue": "Proc. ACM Int. Conf. Multimedia",
     "entry_type": "inproceedings",
     "doi": "10.1109/icme59968.2025.11209377",
     "url": "https://doi.org/10.1109/icme59968.2025.11209377",
@@ -11721,7 +11678,7 @@
     "body_locations": [
       {
         "source_file": "RQ2.tex",
-        "line": 262,
+        "line": 245,
         "section": "Objective Functions: Optimizing Multimodal Alignment",
         "subsection": "Instruction and Preference Alignment Objectives",
         "subsubsection": "Direct Preference Optimization",
@@ -11729,7 +11686,7 @@
       },
       {
         "source_file": "data.tex",
-        "line": 191,
+        "line": 187,
         "section": "Data Construction: Building Alignment Signals",
         "subsection": "Multimodal Preference Data Construction",
         "subsubsection": "Hallucination and Faithfulness Correction",
@@ -11737,7 +11694,7 @@
       },
       {
         "source_file": "RQ3.tex",
-        "line": 46,
+        "line": 41,
         "section": "Training: A Staged Process for Multimodal Alignment",
         "subsection": "Stage 3: Preference and Reward Optimization",
         "subsubsection": "Direct Preference Optimization",
@@ -11758,7 +11715,7 @@
       "Wu, Xiao-Ming"
     ],
     "year": "2024",
-    "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    "venue": "Proc. Annu. Meet. Assoc. Comput. Linguist. (ACL)",
     "entry_type": "inproceedings",
     "doi": "",
     "url": "https://aclanthology.org/2024.acl-long.74.pdf",
@@ -11777,7 +11734,7 @@
     "body_locations": [
       {
         "source_file": "RQ2.tex",
-        "line": 32,
+        "line": 30,
         "section": "Architecture: Bridging Modalities",
         "subsection": "Lightweight Bridging-module Alignment",
         "subsubsection": "Interface Extension for Complex Multimodal Scenarios",
@@ -11806,7 +11763,7 @@
       "Chen, Kai"
     ],
     "year": "2025",
-    "venue": "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics",
+    "venue": "Proc. Annu. Meet. Assoc. Comput. Linguist. (ACL)",
     "entry_type": "inproceedings",
     "doi": "10.18653/v1/2025.acl-long.906",
     "url": "https://doi.org/10.18653/v1/2025.acl-long.906",
@@ -11827,7 +11784,7 @@
     "body_locations": [
       {
         "source_file": "data.tex",
-        "line": 188,
+        "line": 184,
         "section": "Data Construction: Building Alignment Signals",
         "subsection": "Multimodal Preference Data Construction",
         "subsubsection": "Multi-Dimensional Rubrics",
@@ -11835,9 +11792,9 @@
       },
       {
         "source_file": "RQ3.tex",
-        "line": 31,
+        "line": 29,
         "section": "Training: A Staged Process for Multimodal Alignment",
-        "subsection": "Stage 2: Instruction Supervised Fine-Tuning",
+        "subsection": "Stage 2: Instruction-Supervised Fine-Tuning",
         "subsubsection": "Mixture Sampling During SFT",
         "domain": "Training"
       }
@@ -11872,7 +11829,7 @@
     "body_locations": [
       {
         "source_file": "data.tex",
-        "line": 202,
+        "line": 198,
         "section": "Data Construction: Building Alignment Signals",
         "subsection": "Negative Sampling and Hard Negatives",
         "subsubsection": "Lexical and Visual Perturbation",
@@ -11894,7 +11851,7 @@
       "Ren, Guanghui"
     ],
     "year": "2026",
-    "venue": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+    "venue": "Proc. IEEE/CVF Conf. Comput. Vis. Pattern Recognit. (CVPR)",
     "entry_type": "inproceedings",
     "doi": "",
     "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Zhong_ACoT-VLA_Action_Chain-of-Thought_for_Vision-Language-Action_Models_CVPR_2026_paper.html",
@@ -11915,7 +11872,7 @@
         "source_file": "Applications.tex",
         "line": 18,
         "section": "Applications: Alignment in Practice",
-        "subsection": "Embodied AI and Robotics (Perception-Action Alignment)",
+        "subsection": "Embodied AI and Robotics (Perception--Action Alignment)",
         "subsubsection": "",
         "domain": "Applications"
       }
@@ -11934,7 +11891,7 @@
       "Shao, Ling"
     ],
     "year": "2021",
-    "venue": "2021 IEEE/CVF International Conference on Computer Vision (ICCV)",
+    "venue": "Proc. IEEE/CVF Int. Conf. Comput. Vis. (ICCV)",
     "entry_type": "inproceedings",
     "doi": "",
     "url": "https://openaccess.thecvf.com/content/ICCV2021/papers/Zhou_Visual-Textual_Attentive_Semantic_Consistency_for_Medical_Report_Generation_ICCV_2021_paper.pdf",
@@ -11971,7 +11928,7 @@
       "Shen, Zhiqi"
     ],
     "year": "2023",
-    "venue": "Proceedings of the 31st ACM International Conference on Multimedia",
+    "venue": "Proc. ACM Int. Conf. Multimedia",
     "entry_type": "inproceedings",
     "doi": "10.1145/3581783.3611943",
     "url": "https://doi.org/10.1145/3581783.3611943",
@@ -11991,7 +11948,7 @@
     "body_locations": [
       {
         "source_file": "RQ2.tex",
-        "line": 75,
+        "line": 67,
         "section": "Architecture: Bridging Modalities",
         "subsection": "Structured Representation Alignment",
         "subsubsection": "",
@@ -12013,7 +11970,7 @@
       "Wang, Wenguan"
     ],
     "year": "2025",
-    "venue": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+    "venue": "Proc. IEEE/CVF Conf. Comput. Vis. Pattern Recognit. (CVPR)",
     "entry_type": "inproceedings",
     "doi": "",
     "url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Zhou_UNIALIGN_Scaling_Multimodal_Alignment_within_One_Unified_Model_CVPR_2025_paper.pdf",
@@ -12032,7 +11989,7 @@
     "body_locations": [
       {
         "source_file": "RQ2.tex",
-        "line": 115,
+        "line": 101,
         "section": "Architecture: Bridging Modalities",
         "subsection": "Expert-based Alignment in MLLMs",
         "subsubsection": "Adaptive Expert Routing",
@@ -12057,7 +12014,7 @@
       "Zhang, Hanwang"
     ],
     "year": "2025",
-    "venue": "Proceedings of the IEEE/CVF International Conference on Computer Vision",
+    "venue": "Proc. IEEE/CVF Int. Conf. Comput. Vis. (ICCV)",
     "entry_type": "inproceedings",
     "doi": "",
     "url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Zhu_Dynamic_Multimodal_Prototype_Learning_in_Vision-Language_Models_ICCV_2025_paper.pdf",
@@ -12076,7 +12033,7 @@
     "body_locations": [
       {
         "source_file": "RQ2.tex",
-        "line": 187,
+        "line": 173,
         "section": "Objective Functions: Optimizing Multimodal Alignment",
         "subsection": "Topological and Distributional Metric Loss",
         "subsubsection": "Optimal-Transport Soft Matching",
@@ -12146,7 +12103,7 @@
       "Han, Kehang"
     ],
     "year": "2023",
-    "venue": "Proceedings of The 7th Conference on Robot Learning",
+    "venue": "Proc. Conf. Robot Learn. (CoRL)",
     "entry_type": "inproceedings",
     "doi": "",
     "url": "https://proceedings.mlr.press/v229/zitkovich23a.html",
@@ -12167,7 +12124,7 @@
         "source_file": "Applications.tex",
         "line": 18,
         "section": "Applications: Alignment in Practice",
-        "subsection": "Embodied AI and Robotics (Perception-Action Alignment)",
+        "subsection": "Embodied AI and Robotics (Perception--Action Alignment)",
         "subsubsection": "",
         "domain": "Applications"
       }
@@ -12186,7 +12143,7 @@
       "Hospedales, Timothy"
     ],
     "year": "2024",
-    "venue": "Proceedings of the 41st International Conference on Machine Learning",
+    "venue": "Proc. Int. Conf. Mach. Learn. (ICML)",
     "entry_type": "inproceedings",
     "doi": "",
     "url": "https://proceedings.mlr.press/v235/zong24a.html",
@@ -12211,7 +12168,7 @@
     "body_locations": [
       {
         "source_file": "data.tex",
-        "line": 222,
+        "line": 218,
         "section": "Data Construction: Building Alignment Signals",
         "subsection": "Dataset Bias and Debiasing",
         "subsubsection": "Addressing Long-Tail, Safety, and Social Biases",
@@ -12227,7 +12184,7 @@
       },
       {
         "source_file": "RQ3.tex",
-        "line": 55,
+        "line": 49,
         "section": "Training: A Staged Process for Multimodal Alignment",
         "subsection": "Inference-Time Intervention and Deployment Checks",
         "subsubsection": "",
@@ -12235,7 +12192,7 @@
       },
       {
         "source_file": "evaluation.tex",
-        "line": 74,
+        "line": 71,
         "section": "Evaluation: How to Measure Alignment",
         "subsection": "Controlled Protocols and Interpretation",
         "subsubsection": "Connecting Alignment Claims to Evidence",
@@ -12261,7 +12218,7 @@
       "Yin, Zhaozheng"
     ],
     "year": "2025",
-    "venue": "2025 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+    "venue": "Proc. IEEE/CVF Conf. Comput. Vis. Pattern Recognit. (CVPR)",
     "entry_type": "inproceedings",
     "doi": "",
     "url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Zou_Alignment_Mining_and_Fusion_Representation_Alignment_with_Hard_Negative_Mining_CVPR_2025_paper.pdf",
@@ -12282,7 +12239,7 @@
     "body_locations": [
       {
         "source_file": "data.tex",
-        "line": 208,
+        "line": 204,
         "section": "Data Construction: Building Alignment Signals",
         "subsection": "Negative Sampling and Hard Negatives",
         "subsubsection": "Representation-Level Constraints",

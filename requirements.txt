@@ -3,3 +3,4 @@ reportlab>=4.0,<5
 pypdf>=5,<7
 pypdfium2>=4,<6
 Pillow>=10,<13
+python-pptx>=1,<2

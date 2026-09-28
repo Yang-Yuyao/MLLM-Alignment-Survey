@@ -47,5 +47,15 @@
       "shu2025alignmentexplainability",
       "yu2025preferencesurvey"
     ]
+  },
+  {
+    "table": "S4",
+    "slug": "reported-evidence",
+    "rows": 5,
+    "citation_keys": [
+      "mckinzie2024mm1",
+      "wang2024mdpo",
+      "zong2024vlguard"
+    ]
   }
 ]

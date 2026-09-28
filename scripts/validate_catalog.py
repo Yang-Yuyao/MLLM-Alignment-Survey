@@ -50,9 +50,16 @@ def main():
     timeline_ids = {p['citation_key'] for p in timeline}
     assert len(timeline_ids) == len(timeline) == manifest['timeline_paper_count'] == 163
     assert timeline_ids <= ids
-    for table in load('supplement/tables/index.json'):
+    milestones = load('figures/timeline/milestones-content.json')
+    milestone_ids = {p['citation_key'] for p in milestones}
+    assert len(milestone_ids) == len(milestones) == manifest['manuscript_timeline_paper_count'] == 70
+    assert milestone_ids <= timeline_ids
+    tables = load('supplement/tables/index.json')
+    assert len(tables) == 4
+    for table in tables:
         assert set(table['citation_keys']) <= ids, table['table']
-        assert table['rows'] == 7
+        with (ROOT / 'supplement/tables' / (table['slug'] + '.csv')).open(newline='') as f:
+            assert len(list(csv.DictReader(f))) == table['rows']
     cite = re.compile(r'\\cite\w*\*?(?:\[[^\]]*\])*\{([^}]*)\}')
     for tex in (ROOT / 'supplement').rglob('*.tex'):
         citations = {k.strip() for m in cite.finditer(tex.read_text()) for k in m[1].split(',')}
@@ -72,15 +79,16 @@ def main():
     assert set(snapshots[-1]['citation_keys']) == ids
     assert snapshots[-1]['commit'] == manifest['manuscript_commit']
     layout_root = ROOT / 'figures/timeline'
-    layout = load('figures/timeline/layout.json')
-    assert (layout_root / layout['background']).is_file()
-    for item in layout['items']:
-        if item['type'] == 'image':
-            assert not Path(item['file']).is_absolute()
-            assert (layout_root / item['file']).is_file(), item['file']
-        assert item['x'] >= 0 and item['y'] >= 0, item.get('name')
-        assert item['x'] + item['w'] <= layout['W'] + 1, item.get('name')
-        assert item['y'] + item['h'] <= layout['H'] + 1, item.get('name')
+    for filename in ['layout.json', 'milestones-layout.json']:
+        layout = load('figures/timeline/' + filename)
+        assert (layout_root / layout['background']).is_file()
+        for item in layout['items']:
+            if item['type'] == 'image':
+                assert not Path(item['file']).is_absolute()
+                assert (layout_root / item['file']).is_file(), item['file']
+            assert item['x'] >= 0 and item['y'] >= 0, item.get('name')
+            assert item['x'] + item['w'] <= layout['W'] + 1, item.get('name')
+            assert item['y'] + item['h'] <= layout['H'] + 1, item.get('name')
     for entry in load('figures/timeline/logos.json'):
         assert (layout_root / entry['render_asset']).is_file()
         if entry.get('original_asset'):
@@ -88,10 +96,11 @@ def main():
     for name, digest in manifest['figure_hashes'].items():
         assert hashlib.sha256((ROOT / name).read_bytes()).hexdigest() == digest, name
     Image.MAX_IMAGE_PIXELS = 200_000_000
-    with Image.open(ROOT / 'figures/figure-3-timeline-16000.png') as im:
-        assert im.width == 16000
-    assert len(PdfReader(ROOT / 'figures/figure-3-timeline.pdf').pages) == 1
-    assert len(PdfReader(ROOT / 'supplement/supplement.pdf').pages) == 4
+    for variant in ['timeline', 'milestones']:
+        with Image.open(ROOT / f'figures/figure-3-{variant}-16000.png') as im:
+            assert im.width == 16000
+        assert len(PdfReader(ROOT / f'figures/figure-3-{variant}.pdf').pages) == 1
+    assert len(PdfReader(ROOT / 'supplement/supplement.pdf').pages) == manifest['supplement_page_count'] == 5
     for path in ROOT.rglob('*'):
         if not path.is_file() or any(p in {'.git', 'build', '__pycache__', '.venv'} for p in path.relative_to(ROOT).parts):
             continue
@@ -108,13 +117,14 @@ def main():
                     continue
                 target = unquote(target.split('#')[0])
                 assert (path.parent / target).exists(), (path, target)
-    with zipfile.ZipFile(layout_root / 'timeline.pptx') as z:
-        assert z.testzip() is None
-        assert len([n for n in z.namelist() if re.fullmatch(r'ppt/slides/slide\d+\.xml', n)]) == 1
-        for name in z.namelist():
-            if name.endswith('.xml'):
-                assert b'/Users/' not in z.read(name), name
-    print(f'PASS: {len(papers)} current records; {len(timeline)} timeline records; 3 supplementary tables; 3 figures.')
+    for variant in ['timeline', 'milestones']:
+        with zipfile.ZipFile(layout_root / (variant + '.pptx')) as z:
+            assert z.testzip() is None
+            assert len([n for n in z.namelist() if re.fullmatch(r'ppt/slides/slide\d+\.xml', n)]) == 1
+            for name in z.namelist():
+                if name.endswith('.xml'):
+                    assert b'/Users/' not in z.read(name), name
+    print(f'PASS: {len(papers)} current records; {len(timeline)} full timeline records; {len(milestones)} printed milestones; {len(tables)} supplementary tables; 3 figures.')
     print(f'PASS: {len(archive)} archived records; {len(snapshots)} history snapshots; all packaged links and assets resolve.')
     print('Boundary: URL reachability, scientific claims, and logo permissions are not certified by these structural checks.')
 

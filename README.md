@@ -6,9 +6,9 @@
 
 This repository accompanies *Alignment in Multimodal Large Language Models: A Survey*, being prepared for TPAMI submission. It connects what methods optimize, where their supervision comes from, how they are trained, and what evidence supports their alignment claims.
 
-**275 body-cited papers | 6 research domains | 3 manuscript figures | 163 timeline entries**
+**275 body-cited papers | 6 research domains | 3 manuscript figures | 70 printed milestones | 163 full timeline entries**
 
-Manuscript snapshot: **26 September 2026**. This is a private working companion, not an accepted publication or an IEEE-endorsed resource.
+Manuscript snapshot: **28 September 2026**. This is a public working companion, not an accepted publication or an IEEE-endorsed resource. Publication and logo permissions are not implied by public access.
 
 ## Contents
 
@@ -60,20 +60,22 @@ Domain pages group papers by publication year, newest first, and retain method n
 | [Objective Functions](catalog/domains/objective-functions.md) | What is optimized? | 35 | 27 |
 | [Data Construction](catalog/domains/data-construction.md) | Where does supervision come from? | 110 | 32 |
 | [Training](catalog/domains/training.md) | Which components are updated, and when? | 37 | 22 |
-| [Evaluation](catalog/domains/evaluation.md) | What evidence supports an alignment claim? | 41 | 24 |
+| [Evaluation](catalog/domains/evaluation.md) | What evidence supports an alignment claim? | 38 | 24 |
 | [Applications](catalog/domains/applications.md) | Which constraints change across application settings? | 27 | 27 |
 
 Chapter counts overlap. A work can be discussed for its loss in Objectives, its supervision in Data, and its update procedure in Training. Timeline membership is a separate visual assignment, not proof of discussion in that chapter. [Classification policy](catalog/classification-policy.md).
 
 ## Timeline and Editable Sources
 
-![From Foundations to Applications: timeline of representative work](figures/figure-3-timeline-preview.png)
+![From Foundations to Applications: selected milestones](figures/figure-3-milestones-preview.png)
 
-*Figure 3. A timeline of 163 representative works across six domains. Colors identify organizing categories; placement depicts historical development, not a hierarchy or performance ranking. The earliest bucket includes work published before 2021.*
+*Figure 3. Selected milestones across six domains. The 70-entry manuscript version improves readability at print size; the full 163-entry timeline remains available below. Colors identify primary roles rather than exclusive categories or a performance ranking. The earliest bucket includes work published before 2021.*
 
-[PDF](figures/figure-3-timeline.pdf) · [16,000-pixel PNG](figures/figure-3-timeline-16000.png) · [Editable PPTX](figures/timeline/timeline.pptx) · [Layout, assets, and renderer](figures/timeline/README.md)
+[Manuscript PDF](figures/figure-3-milestones.pdf) · [16,000-pixel PNG](figures/figure-3-milestones-16000.png) · [Editable PPTX](figures/timeline/milestones.pptx)
 
-The river background is raster artwork; text and foreground elements remain individually editable in the PPTX. Institutional attribution and logo reuse permission are separate issues. See [rights and attribution](RIGHTS.md) before public release.
+[Full 163-entry PDF](figures/figure-3-timeline.pdf) · [Full PNG](figures/figure-3-timeline-16000.png) · [Full PPTX](figures/timeline/timeline.pptx) · [Layout, assets, and renderer](figures/timeline/README.md)
+
+The river background is raster artwork; text and foreground elements remain individually editable in the PPTX. Institutional attribution and logo reuse permission are separate issues. See [rights and attribution](RIGHTS.md) before reusing the assets.
 
 ## Supplementary Comparisons
 
@@ -84,6 +86,7 @@ These tables compare assumptions and evidence, not leaderboard scores or new exp
 | Architectural interventions | Selection mechanisms, supervision assumptions, and appropriate controls | [Read](supplement/tables/architecture-comparison.md) · [CSV](supplement/tables/architecture-comparison.csv) |
 | Operational diagnostic matrix | Evidence failures, constraint violations, and reasoning-capability errors | [Read](supplement/tables/diagnostic-matrix.md) · [CSV](supplement/tables/diagnostic-matrix.csv) |
 | Related-survey coverage | Version-specific source locations supporting comparison with earlier reviews | [Read](supplement/tables/related-survey-coverage.md) · [CSV](supplement/tables/related-survey-coverage.csv) |
+| Reported evidence and limits | Within-study contrasts, source locations, and limits on inference | [Read](supplement/tables/reported-evidence.md) · [CSV](supplement/tables/reported-evidence.csv) |
 
 The [supplement directory](supplement/README.md) also contains the compiled PDF, LaTeX sources, and six active main-text table sources.
 
